@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-description: "DeepSeek Harness (dsh) 精选 skills：🔥 Top 10 与完整列表（203 条）。"
+description: "DeepSeek Harness (dsh) 精选 skills：🔥 Top 10 与完整列表（210 条）。"
 keywords: "deepseek harness, dsh, skills, plugin, awesome"
 ---
 # Skills
@@ -20,25 +20,30 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
 | 1 | [archify](resources/archify.md) | ⭐36,264 | Agent 技能：生成漂亮、可验证的架构图、流程图、时序图、数据流与生命周期图——自包含、可审查。 | ✅ 活跃 |
-| 2 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
-| 3 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ 活跃 |
-| 4 | [easyeda-agent](resources/easyeda-agent.md) | ⭐274 | EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC. | ✅ 活跃 |
-| 5 | [dsh-evolve-modes](resources/dsh-evolve-modes.md) | ⭐206 | 让 Agent 的工作方式可组合、可审查、可持续改进，最终实现 Agent Self Evoling。 DeepSeek Harness Web plugin with composable task controls and isolated, human-reviewed self-evolution. | ✅ 活跃 |
-| 6 | [dsh-taskboard](resources/dsh-taskboard.md) | ⭐195 | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime. | ✅ 活跃 |
-| 7 | [deepseek-harness-genui](resources/deepseek-harness-genui.md) | ⭐107 | Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn | ✅ 活跃 |
-| 8 | [dsh-skill-viewer](resources/dsh-skill-viewer.md) | ⭐88 | DSH Web 技能设置区：热启停、删除与新增。 | ✅ 活跃 |
-| 9 | [dsh-reverse-skill](resources/dsh-reverse-skill.md) | ⭐58 | Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack. | ✅ 活跃 |
-| 10 | [dsh-save-money](resources/dsh-save-money.md) | ⭐35 | Save-money plugin for DSH (DeepSeek Harness) — define your own "pause / resume" time windows; at pause time running long tasks are paused (not stopped) automatically, and they resume when the window ends. | ✅ 活跃 |
+| 2 | [awesome-gpt-image-2](resources/awesome-gpt-image-2.md) | ⭐31,449 | GPT Image 的提示词即代码库：530+ 逆向工程案例、20+ 工业级模板与可复用 Skills。 | ✅ 活跃 |
+| 3 | [Distilly](resources/distilly.md) | ⭐24,650 | 把人的思维方式蒸馏为可复用 Skills，适用于任意 Agent 或 Bot。 | ✅ 活跃 |
+| 4 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
+| 5 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ 活跃 |
+| 6 | [Vibe-Skills](resources/vibe-skills.md) | ⭐3,260 | 面向 AI Agent 的智能 Skill 路由与工作流编排，在 SkillsBench 上有基准表现。 | ✅ 活跃 |
+| 7 | [J-Space Cognition Suite](resources/j-space-cognition-suite.md) | ⭐3,011 | 基于 Anthropic J-space 全局工作空间研究的认知增强 Skills，用于推理时控制。 | ✅ 活跃 |
+| 8 | [BrowserSkill](resources/browser-skill.md) | ⭐1,955 | 让 AI Agent 直接使用你已登录的真实浏览器而不打断工作：CLI + 浏览器扩展。 | ✅ 活跃 |
+| 9 | [vox-director](resources/vox-director.md) | ⭐1,862 | 把一个主题变成完整的 Vox 风格纸拼贴讲解/广告视频，端到端自动化。 | ✅ 活跃 |
+| 10 | [last30days-skill-cn](resources/last30days-skill-cn.md) | ⭐1,778 | AI Agent 技能：自动搜索中国 8 大主流平台最近 30 天内容，生成有据可查的研究报告。 | ✅ 活跃 |
 
-## 完整列表（203）
+## 完整列表（210）
 
 
-**学习（188）**
+**学习（193）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
+| [awesome-gpt-image-2](resources/awesome-gpt-image-2.md) | ⭐31,449 | GPT Image 的提示词即代码库：530+ 逆向工程案例、20+ 工业级模板与可复用 Skills。 | ✅ 活跃 |
+| [Distilly](resources/distilly.md) | ⭐24,650 | 把人的思维方式蒸馏为可复用 Skills，适用于任意 Agent 或 Bot。 | ✅ 活跃 |
 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ 活跃 |
+| [Vibe-Skills](resources/vibe-skills.md) | ⭐3,260 | 面向 AI Agent 的智能 Skill 路由与工作流编排，在 SkillsBench 上有基准表现。 | ✅ 活跃 |
+| [J-Space Cognition Suite](resources/j-space-cognition-suite.md) | ⭐3,011 | 基于 Anthropic J-space 全局工作空间研究的认知增强 Skills，用于推理时控制。 | ✅ 活跃 |
+| [vox-director](resources/vox-director.md) | ⭐1,862 | 把一个主题变成完整的 Vox 风格纸拼贴讲解/广告视频，端到端自动化。 | ✅ 活跃 |
 | [easyeda-agent](resources/easyeda-agent.md) | ⭐274 | EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC. | ✅ 活跃 |
 | [dsh-evolve-modes](resources/dsh-evolve-modes.md) | ⭐206 | 让 Agent 的工作方式可组合、可审查、可持续改进，最终实现 Agent Self Evoling。 DeepSeek Harness Web plugin with composable task controls and isolated, human-reviewed self-evolution. | ✅ 活跃 |
 | [dsh-taskboard](resources/dsh-taskboard.md) | ⭐195 | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime. | ✅ 活跃 |
@@ -239,10 +244,11 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | [mattpocock-skills-dsh](resources/mattpocock-skills-dsh.md) | ⭐2 | Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DSH 移植。 | ✅ 活跃 |
 | [mattpocock-skills-dsh-zh](resources/mattpocock-skills-dsh-zh.md) | ⭐1 | Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。 | ✅ 活跃 |
 
-**研究（5）**
+**研究（6）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
+| [last30days-skill-cn](resources/last30days-skill-cn.md) | ⭐1,778 | AI Agent 技能：自动搜索中国 8 大主流平台最近 30 天内容，生成有据可查的研究报告。 | ✅ 活跃 |
 | [dsh-book2skill](resources/dsh-book2skill.md) | ⭐4 | 书转技能插件：获取→解析→理解→生成→安装的五阶段长任务。 | ✅ 活跃 |
 | [dsh-web-novel-research](resources/dsh-web-novel-research.md) | ⭐3 | 中文网文情节查证技能：免费镜像站流程，GBK 解码与跨卷重复章节消歧。 | ✅ 活跃 |
 | [dsh-news-briefing](resources/dsh-news-briefing.md) | – | 新闻简报技能：多维故事评分、反标题党规则、内容优先级与中文编辑风格。 | ✅ 活跃 |
@@ -260,3 +266,9 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [dsh-skill-pack-security](resources/dsh-skill-pack-security.md) | ⭐2 | 安全审计技能包：5 个 Agent 技能，覆盖密钥扫描、依赖审计等。 | ✅ 活跃 |
+
+**浏览器控制（1）**
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [BrowserSkill](resources/browser-skill.md) | ⭐1,955 | 让 AI Agent 直接使用你已登录的真实浏览器而不打断工作：CLI + 浏览器扩展。 | ✅ 活跃 |

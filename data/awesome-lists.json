@@ -4170,5 +4170,21 @@
     "stars": 1,
     "_source_description": "DeepSeek Harness community plugin registry: browse, publish, and auto-discover dsh-plugin repos.",
     "_updated": "2026-09-12"
+  },
+  {
+    "id": "anbeime-skill",
+    "name": "anbeime/skill",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/anbeime/skill",
+    "description": "Chinese skills store: curated original skill packs plus an auto-crawled index of GitHub skills by category, update time and stars.",
+    "description_zh": "技能 Skills 商店：精选原创技能包，并按分类、更新时间与 Star 自动抓取整理 GitHub Skills 索引。",
+    "capabilities": [
+      "search",
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6584
   }
 ]

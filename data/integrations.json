@@ -11363,5 +11363,156 @@
       "jujutsu",
       "mcp"
     ]
+  },
+  {
+    "id": "reactive-resume",
+    "name": "Reactive Resume",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/reactive-resume/reactive-resume",
+    "description": "Open-source, privacy-first resume builder; ships an MCP server and agent skills that can be driven from DeepSeek Harness.",
+    "description_zh": "开源、注重隐私的简历构建器，提供 MCP 服务器与 Agent Skills，可从 DeepSeek Harness 调用。",
+    "capabilities": [
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 42520,
+    "license": "MIT"
+  },
+  {
+    "id": "openviking",
+    "name": "OpenViking",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/volcengine/OpenViking",
+    "description": "Self-evolving context database for AI agents that unifies agent memory, knowledge RAG and skills.",
+    "description_zh": "面向 AI Agent 的自进化上下文数据库，统一 Agent 记忆、知识 RAG 与技能。",
+    "capabilities": [
+      "memory",
+      "context",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 36784,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "nocobase",
+    "name": "NocoBase",
+    "type": "integration",
+    "category": "workflow",
+    "repository": "https://github.com/nocobase/nocobase",
+    "description": "Open-source AI + no-code platform for building business systems, with AI agents and workflow automation.",
+    "description_zh": "开源 AI + 无代码平台，用于快速构建业务系统，内置 AI Agent 与工作流自动化。",
+    "capabilities": [
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24175
+  },
+  {
+    "id": "weknora",
+    "name": "WeKnora",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/Tencent/WeKnora",
+    "description": "Open-source LLM knowledge platform: turn documents into a queryable RAG, an autonomous reasoning agent and a self-maintaining wiki.",
+    "description_zh": "开源 LLM 知识平台：把文档转化为可查询 RAG、自主推理 Agent 与自维护 wiki。",
+    "capabilities": [
+      "memory",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 22553
+  },
+  {
+    "id": "everos",
+    "name": "EverOS",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/EverMind-AI/EverOS",
+    "description": "Portable memory layer for AI agents: local-first, Markdown-native, user-owned and self-evolving across apps and tools.",
+    "description_zh": "面向 AI Agent 的可移植记忆层：本地优先、Markdown 原生、用户自持，跨应用自进化。",
+    "capabilities": [
+      "memory",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12898,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "honcho",
+    "name": "Honcho",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/plastic-labs/honcho",
+    "description": "Memory library for building stateful agents, with context engineering and continual learning.",
+    "description_zh": "用于构建有状态 Agent 的记忆库，支持上下文工程与持续学习。",
+    "capabilities": [
+      "memory",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7129,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "openpencil",
+    "name": "OpenPencil",
+    "type": "integration",
+    "category": "ui",
+    "repository": "https://github.com/ZSeven-W/openpencil",
+    "description": "Open-source AI-native vector design tool with concurrent agent teams, design-as-code and MCP support.",
+    "description_zh": "开源 AI 原生矢量设计工具，支持并发 Agent Teams、Design-as-Code 与 MCP。",
+    "capabilities": [
+      "ui",
+      "multi-agent",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5909,
+    "license": "MIT"
+  },
+  {
+    "id": "mirage",
+    "name": "Mirage",
+    "type": "integration",
+    "category": "terminal",
+    "repository": "https://github.com/strukto-ai/mirage",
+    "description": "Virtual terminal and virtual filesystem for AI agents, with a sandboxed bash tool.",
+    "description_zh": "面向 AI Agent 的虚拟终端与虚拟文件系统，提供沙箱化 bash 工具。",
+    "capabilities": [
+      "terminal",
+      "files"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3624,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "reme",
+    "name": "ReMe",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/agentscope-ai/ReMe",
+    "description": "Memory management kit for agents: remember, refine and reuse memory across sessions.",
+    "description_zh": "面向 Agent 的记忆管理套件：跨会话记住、提炼并复用记忆。",
+    "capabilities": [
+      "memory",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3448,
+    "license": "Apache-2.0"
   }
 ]

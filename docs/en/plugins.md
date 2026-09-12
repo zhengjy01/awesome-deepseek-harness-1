@@ -1,6 +1,6 @@
 ---
 title: "Plugins"
-description: "Top 10 and full list of 2824 curated plugins for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 2825 curated plugins for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 ---
 # Plugins
@@ -28,9 +28,9 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | 7 | [dashi-taskboard](resources/dashi-taskboard.md) | ⭐2,813 | Modern, flexibly embeddable task board supporting Codex and DeepSeek Harness: manage tasks across sessions in one panel. | ✅ active |
 | 8 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐2,552 | Workbench-style sidebar: file viewer/editor, terminal, Git, subagents and plugin-extensible tabs. | ✅ active |
 | 9 | [memsearch](resources/memsearch.md) | ⭐2,538 | Persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus. / 面向所有 AI Agent（如 Claude Code、Codex、DSH）的持久化统一记忆层，基于 Markdown 与 Milvus。 | ✅ active |
-| 10 | [dsh-market](resources/dsh-market.md) | ⭐1,582 | Visual plugin market inside DeepSeek Harness: browse, search and one-click install. | ✅ active |
+| 10 | [DeepSeek Balance Whale Widget](resources/deepseek-balance-whale-widget.md) | ⭐2,233 | DSH floating whale-girl widget that watches your DeepSeek account balance: draggable with snap, flip and rolling-number animations. | ✅ active |
 
-## Complete list (2824)
+## Complete list (2825)
 
 
 **Vision & multimodal (1024)**
@@ -2179,7 +2179,7 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-update-radar](resources/dsh-update-radar.md) | – | Update radar for DSH: checks installed plugins against git upstreams. | ✅ active |
 | [dsh-wps](resources/dsh-wps.md) | – | WPS / Kingsoft cloud-docs integration for DSH: official SkillHub MCP, custom browser authorization, cloud-drive ops + text/sheet/presentation/PDF content under mcp__wps__*. | ✅ active |
 
-**UI & experience (364)**
+**UI & experience (365)**
 
 *🖥️ Sidebars & panels (90)*
 
@@ -2368,10 +2368,11 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [my-skin-for-deepseek-harness](resources/my-skin-for-deepseek-harness.md) | ⭐1 | DeepSeek Harness 皮肤扩展插件 Skin plugin | ✅ active |
 | [dsh-plugin](resources/dsh-plugin-6.md) | – | DeepSeek Harness 插件集合｜齐天大圣双主题皮肤，支持亮暗模式、响应式布局与热插拔 | ✅ active |
 | [dsh-weather-plugin](resources/dsh-weather-plugin.md) | – | DSH plugin: weather tool + immersive weather theming + FishLogo whale pet (theme/ambient/sound/HUD) | ✅ active |
-*Other (76)*
+*Other (77)*
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
+| [DeepSeek Balance Whale Widget](resources/deepseek-balance-whale-widget.md) | ⭐2,233 | DSH floating whale-girl widget that watches your DeepSeek account balance: draggable with snap, flip and rolling-number animations. | ✅ active |
 | [dsh-undo-savepoint](resources/dsh-undo-savepoint.md) | ⭐134 | DSH crash-rescue plugin: undo config & plugin-code changes, secret-safe snapshots, one-click SAFE MODE, plus offline CLI/GUI that work even when DSH won't boot. | ✅ active |
 | [dsh-agy-link](resources/dsh-agy-link.md) | ⭐36 | Google Antigravity (agy CLI) models for DeepSeek Harness — streaming chat, thinking, tool activity, usage, in-GUI Google OAuth login | ✅ active |
 | [dsh-omi-voice](resources/dsh-omi-voice.md) | ⭐34 | Immersive voice reading plugin: in-chat read/pause/resume with Doubao TTS natural voices (BYOK), reads only the final answer, filters code/tables/graphics. | ✅ active |

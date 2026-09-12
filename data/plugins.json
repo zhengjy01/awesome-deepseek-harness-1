@@ -64433,5 +64433,22 @@
     "stars": 0,
     "install": "dsh plugin --profile web add github:wqy-cell/dsh-task-flow",
     "license": "MIT"
+  },
+  {
+    "id": "deepseek-balance-whale-widget",
+    "name": "DeepSeek Balance Whale Widget",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+    "description": "DSH floating whale-girl widget that watches your DeepSeek account balance: draggable with snap, flip and rolling-number animations.",
+    "description_zh": "DSH 悬浮鲸鱼娘余额挂件：帮你盯着 DeepSeek 账户余额，支持拖拽吸附、左吸附翻转与数字滚动动画。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2233,
+    "license": "MIT",
+    "install": "See the repository README for the one-command install into your DSH profile."
   }
 ]

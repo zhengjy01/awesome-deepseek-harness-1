@@ -1,6 +1,6 @@
 ---
 title: "Plugins"
-description: "DeepSeek Harness (dsh) 精选 plugins：🔥 Top 10 与完整列表（2824 条）。"
+description: "DeepSeek Harness (dsh) 精选 plugins：🔥 Top 10 与完整列表（2825 条）。"
 keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 ---
 # Plugins
@@ -28,9 +28,9 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | 7 | [dashi-taskboard](resources/dashi-taskboard.md) | ⭐2,813 | 现代化可灵活嵌入的任务面板，支持 Codex 与 DeepSeek Harness，一个面板统一管理跨会话任务。 | ✅ 活跃 |
 | 8 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐2,552 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 | ✅ 活跃 |
 | 9 | [memsearch](resources/memsearch.md) | ⭐2,538 | 面向所有 AI Agent（如 Claude Code、Codex、DSH）的持久化统一记忆层，基于 Markdown 与 Milvus 构建。 | ✅ 活跃 |
-| 10 | [dsh-market](resources/dsh-market.md) | ⭐1,582 | DSH 内置可视化插件市场：浏览、搜索、一键安装。 | ✅ 活跃 |
+| 10 | [DeepSeek Balance Whale Widget](resources/deepseek-balance-whale-widget.md) | ⭐2,233 | DSH 悬浮鲸鱼娘余额挂件：帮你盯着 DeepSeek 账户余额，支持拖拽吸附、左吸附翻转与数字滚动动画。 | ✅ 活跃 |
 
-## 完整列表（2824）
+## 完整列表（2825）
 
 
 **视觉与多模态（1024）**
@@ -2179,7 +2179,7 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-update-radar](resources/dsh-update-radar.md) | – | Update radar for DSH: checks installed plugins against git upstreams. | ✅ 活跃 |
 | [dsh-wps](resources/dsh-wps.md) | – | WPS / 金山文档云文档集成插件：官方 SkillHub MCP，自定义浏览器授权，云盘操作 + 文字/表格/演示/PDF 内容读写，工具以 mcp__wps__* 在会话中可用。 | ✅ 活跃 |
 
-**界面与体验（364）**
+**界面与体验（365）**
 
 *🖥️ 侧边栏与面板（90）*
 
@@ -2368,10 +2368,11 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [my-skin-for-deepseek-harness](resources/my-skin-for-deepseek-harness.md) | ⭐1 | DeepSeek Harness 皮肤扩展插件 Skin plugin | ✅ 活跃 |
 | [dsh-plugin](resources/dsh-plugin-6.md) | – | DeepSeek Harness 插件集合｜齐天大圣双主题皮肤，支持亮暗模式、响应式布局与热插拔 | ✅ 活跃 |
 | [dsh-weather-plugin](resources/dsh-weather-plugin.md) | – | DSH plugin: weather tool + immersive weather theming + FishLogo whale pet (theme/ambient/sound/HUD) | ✅ 活跃 |
-*其他（76）*
+*其他（77）*
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
+| [DeepSeek Balance Whale Widget](resources/deepseek-balance-whale-widget.md) | ⭐2,233 | DSH 悬浮鲸鱼娘余额挂件：帮你盯着 DeepSeek 账户余额，支持拖拽吸附、左吸附翻转与数字滚动动画。 | ✅ 活跃 |
 | [dsh-undo-savepoint](resources/dsh-undo-savepoint.md) | ⭐134 | DSH crash-rescue plugin: undo config & plugin-code changes, secret-safe snapshots, one-click SAFE MODE, plus offline CLI/GUI that work even when DSH won't boot. | ✅ 活跃 |
 | [dsh-agy-link](resources/dsh-agy-link.md) | ⭐36 | Google Antigravity (agy CLI) models for DeepSeek Harness — streaming chat, thinking, tool activity, usage, in-GUI Google OAuth login | ✅ 活跃 |
 | [dsh-omi-voice](resources/dsh-omi-voice.md) | ⭐34 | 沉浸式听朗读插件：对话内点读/暂停/继续，豆包 TTS 自然音色（BYOK），只读最终回答并过滤代码/表格/图形。 | ✅ 活跃 |

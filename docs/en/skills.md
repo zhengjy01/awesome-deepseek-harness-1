@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-description: "Top 10 and full list of 203 curated skills for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 210 curated skills for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, skills, plugin, awesome"
 ---
 # Skills
@@ -20,25 +20,30 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
 | 1 | [archify](resources/archify.md) | ⭐36,264 | Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams — self-contained and reviewable. | ✅ active |
-| 2 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ active |
-| 3 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ active |
-| 4 | [easyeda-agent](resources/easyeda-agent.md) | ⭐274 | EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC. | ✅ active |
-| 5 | [dsh-evolve-modes](resources/dsh-evolve-modes.md) | ⭐206 | 让 Agent 的工作方式可组合、可审查、可持续改进，最终实现 Agent Self Evoling。 DeepSeek Harness Web plugin with composable task controls and isolated, human-reviewed self-evolution. | ✅ active |
-| 6 | [dsh-taskboard](resources/dsh-taskboard.md) | ⭐195 | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime. | ✅ active |
-| 7 | [deepseek-harness-genui](resources/deepseek-harness-genui.md) | ⭐107 | Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn | ✅ active |
-| 8 | [dsh-skill-viewer](resources/dsh-skill-viewer.md) | ⭐88 | DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add. | ✅ active |
-| 9 | [dsh-reverse-skill](resources/dsh-reverse-skill.md) | ⭐58 | Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack. | ✅ active |
-| 10 | [dsh-save-money](resources/dsh-save-money.md) | ⭐35 | Save-money plugin for DSH (DeepSeek Harness) — define your own "pause / resume" time windows; at pause time running long tasks are paused (not stopped) automatically, and they resume when the window ends. | ✅ active |
+| 2 | [awesome-gpt-image-2](resources/awesome-gpt-image-2.md) | ⭐31,449 | Prompt-as-code library for GPT Image: 530+ reverse-engineered cases, 20+ industrial templates and reusable skills. | ✅ active |
+| 3 | [Distilly](resources/distilly.md) | ⭐24,650 | Distills how people think into reusable skills for any agent or bot. | ✅ active |
+| 4 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ active |
+| 5 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ active |
+| 6 | [Vibe-Skills](resources/vibe-skills.md) | ⭐3,260 | Intelligent skill routing and workflow orchestration for AI agents, benchmarked on SkillsBench. | ✅ active |
+| 7 | [J-Space Cognition Suite](resources/j-space-cognition-suite.md) | ⭐3,011 | Cognitive-enhancement skills based on Anthropic's J-space global workspace research, for inference-time control. | ✅ active |
+| 8 | [BrowserSkill](resources/browser-skill.md) | ⭐1,955 | Let AI agents use your real, logged-in browser without interrupting your work: CLI plus extension. | ✅ active |
+| 9 | [vox-director](resources/vox-director.md) | ⭐1,862 | Turn one topic into a finished Vox-style paper-collage explainer/ad video, automated end to end. | ✅ active |
+| 10 | [last30days-skill-cn](resources/last30days-skill-cn.md) | ⭐1,778 | Agent skill that searches 8 major Chinese platforms for the last 30 days of content and produces a sourced research report. | ✅ active |
 
-## Complete list (203)
+## Complete list (210)
 
 
-**Learning (188)**
+**Learning (193)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
+| [awesome-gpt-image-2](resources/awesome-gpt-image-2.md) | ⭐31,449 | Prompt-as-code library for GPT Image: 530+ reverse-engineered cases, 20+ industrial templates and reusable skills. | ✅ active |
+| [Distilly](resources/distilly.md) | ⭐24,650 | Distills how people think into reusable skills for any agent or bot. | ✅ active |
 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ active |
 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ active |
+| [Vibe-Skills](resources/vibe-skills.md) | ⭐3,260 | Intelligent skill routing and workflow orchestration for AI agents, benchmarked on SkillsBench. | ✅ active |
+| [J-Space Cognition Suite](resources/j-space-cognition-suite.md) | ⭐3,011 | Cognitive-enhancement skills based on Anthropic's J-space global workspace research, for inference-time control. | ✅ active |
+| [vox-director](resources/vox-director.md) | ⭐1,862 | Turn one topic into a finished Vox-style paper-collage explainer/ad video, automated end to end. | ✅ active |
 | [easyeda-agent](resources/easyeda-agent.md) | ⭐274 | EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC. | ✅ active |
 | [dsh-evolve-modes](resources/dsh-evolve-modes.md) | ⭐206 | 让 Agent 的工作方式可组合、可审查、可持续改进，最终实现 Agent Self Evoling。 DeepSeek Harness Web plugin with composable task controls and isolated, human-reviewed self-evolution. | ✅ active |
 | [dsh-taskboard](resources/dsh-taskboard.md) | ⭐195 | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime. | ✅ active |
@@ -239,10 +244,11 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | [mattpocock-skills-dsh](resources/mattpocock-skills-dsh.md) | ⭐2 | Matt Pocock full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH. | ✅ active |
 | [mattpocock-skills-dsh-zh](resources/mattpocock-skills-dsh-zh.md) | ⭐1 | Matt Pocock's 25 skills fully translated to Chinese (technical terms kept in English with glosses). | ✅ active |
 
-**Research (5)**
+**Research (6)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
+| [last30days-skill-cn](resources/last30days-skill-cn.md) | ⭐1,778 | Agent skill that searches 8 major Chinese platforms for the last 30 days of content and produces a sourced research report. | ✅ active |
 | [dsh-book2skill](resources/dsh-book2skill.md) | ⭐4 | Book-to-skill plugin: a 5-stage long task that fetches, parses, understands, generates and installs a skill. | ✅ active |
 | [dsh-web-novel-research](resources/dsh-web-novel-research.md) | ⭐3 | Chinese web-novel plot lookup skill: free mirror-site workflow with GBK decoding and duplicate-chapter disambiguation. | ✅ active |
 | [dsh-news-briefing](resources/dsh-news-briefing.md) | – | News briefing skill: multi-dimensional story scoring, anti-clickbait rules, content prioritization and Chinese editorial style. | ✅ active |
@@ -260,3 +266,9 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | Project | Stars | Description | Status |
 |---|---|---|---|
 | [dsh-skill-pack-security](resources/dsh-skill-pack-security.md) | ⭐2 | Security-audit skill pack: 5 agent skills covering secret scan, dependency audit and more. | ✅ active |
+
+**Browser control (1)**
+
+| Project | Stars | Description | Status |
+|---|---|---|---|
+| [BrowserSkill](resources/browser-skill.md) | ⭐1,955 | Let AI agents use your real, logged-in browser without interrupting your work: CLI plus extension. | ✅ active |

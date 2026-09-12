@@ -250,5 +250,71 @@
     "stars": 28,
     "_source_description": "Auto-evolving LLM Agent Harness - Benchmark-driven evolution via Claude Code + self_evolution.md guide",
     "_updated": "2026-05-26"
+  },
+  {
+    "id": "yao",
+    "name": "Yao",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/YaoApp/yao",
+    "description": "Self-hosted agent harness and workspace: tasks on a board across desktop, mobile, browser or API, with DSH support.",
+    "description_zh": "自托管 Agent Harness 与工作空间：看板任务可在桌面、移动端、浏览器或 API 访问，支持 DSH。",
+    "capabilities": [
+      "harness",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7929
+  },
+  {
+    "id": "ouroboros",
+    "name": "Ouroboros",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/Q00/ouroboros",
+    "description": "Agent OS with an interview-gated, staged evaluation and budgeted evolution loop; MCP server with 14 runtime integrations.",
+    "description_zh": "Agent OS：面试门控、分阶段评估与预算化进化循环；MCP 服务器支持 14 种运行时。",
+    "capabilities": [
+      "harness",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5812,
+    "license": "MIT"
+  },
+  {
+    "id": "ipollowork",
+    "name": "iPolloWork",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/Devin-AXIS/iPolloWork",
+    "description": "Enterprise-grade, local-first agent workbench unifying Codex, DeepSeek Harness and OpenCode with shared plugins and skills.",
+    "description_zh": "企业级本地优先 Agent 工作台，统一 Codex、DeepSeek Harness 与 OpenCode，共享插件与 Skills。",
+    "capabilities": [
+      "harness",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5863
+  },
+  {
+    "id": "openbitfun",
+    "name": "OpenBitFun",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/GCWing/OpenBitFun",
+    "description": "OpenBitFun combines a high-performance Rust agent runtime with a polished desktop application for open-ended agentic work.",
+    "description_zh": "OpenBitFun 将高性能 Rust Agent 运行时与精致桌面应用结合，支持开放式 Agent 工作。",
+    "capabilities": [
+      "harness",
+      "desktop"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2123,
+    "license": "MIT"
   }
 ]

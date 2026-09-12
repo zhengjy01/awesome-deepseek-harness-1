@@ -1,6 +1,6 @@
 ---
 title: "MCP & Integrations"
-description: "DeepSeek Harness (dsh) 精选 mcp & integrations：🔥 Top 10 与完整列表（493 条）。"
+description: "DeepSeek Harness (dsh) 精选 mcp & integrations：🔥 Top 10 与完整列表（502 条）。"
 keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 ---
 # MCP & Integrations
@@ -19,24 +19,25 @@ keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
-| 1 | [Coding Tools MCP](resources/coding-tools-mcp.md) | ⭐846 | 面向编码的 MCP 工具集：让任何 AI Agent 获得编码能力。 | ✅ 活跃 |
-| 2 | [memtrace-public](resources/memtrace-public.md) | ⭐459 | Structural memory for AI coding agents. Bi-temporal graph, MCP-native, zero LLM calls. Cursor · Claude Code · Codex · DeepSeek Harness · Hermes · VS Code · Windsurf. | ✅ 活跃 |
-| 3 | [dsh-ios](resources/dsh-ios.md) | ⭐273 | DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text or list rows, plus a streaming sidebar panel you can tap and drag on. | ✅ 活跃 |
-| 4 | [dsh-popout-sidebar](resources/dsh-popout-sidebar.md) | ⭐209 | A sidebar can pop out a separate browser tab (drag it to another monitor) | ✅ 活跃 |
-| 5 | [dsh-plugin-bridge](resources/dsh-plugin-bridge.md) | ⭐163 | DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched. | ✅ 活跃 |
-| 6 | [dsh-bridge](resources/dsh-bridge.md) | ⭐145 | 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安全认证、后台防篡改与容灾保命体系 | ✅ 活跃 |
-| 7 | [deepseek-harness-for-vscode](resources/deepseek-harness-for-vscode.md) | ⭐144 | deepseek-harness for vscode .A native VS Code coding-agent extension for DeepSeek Harness. Streamlined workbench with session   management, streaming Markdown, slash commands, plugin center, and zero-deployment runtime — no WebUI   served, no Harness setup | ✅ 活跃 |
-| 8 | [dsh-openpencil](resources/dsh-openpencil.md) | ⭐135 | OpenPencil 设计预览与编辑集成。 | ✅ 活跃 |
-| 9 | [dsh-super-injector](resources/dsh-super-injector.md) | ⭐133 | 上下文注入增强插件（cordis）。 | ✅ 活跃 |
-| 10 | [dsh-crew](resources/dsh-crew-1.md) | ⭐119 | DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends the text-only harness vision and image generation. | ✅ 活跃 |
+| 1 | [Reactive Resume](resources/reactive-resume.md) | ⭐42,520 | 开源、注重隐私的简历构建器，提供 MCP 服务器与 Agent Skills，可从 DeepSeek Harness 调用。 | ✅ 活跃 |
+| 2 | [OpenViking](resources/openviking.md) | ⭐36,784 | 面向 AI Agent 的自进化上下文数据库，统一 Agent 记忆、知识 RAG 与技能。 | ✅ 活跃 |
+| 3 | [NocoBase](resources/nocobase.md) | ⭐24,175 | 开源 AI + 无代码平台，用于快速构建业务系统，内置 AI Agent 与工作流自动化。 | ✅ 活跃 |
+| 4 | [WeKnora](resources/weknora.md) | ⭐22,553 | 开源 LLM 知识平台：把文档转化为可查询 RAG、自主推理 Agent 与自维护 wiki。 | ✅ 活跃 |
+| 5 | [EverOS](resources/everos.md) | ⭐12,898 | 面向 AI Agent 的可移植记忆层：本地优先、Markdown 原生、用户自持，跨应用自进化。 | ✅ 活跃 |
+| 6 | [Honcho](resources/honcho.md) | ⭐7,129 | 用于构建有状态 Agent 的记忆库，支持上下文工程与持续学习。 | ✅ 活跃 |
+| 7 | [OpenPencil](resources/openpencil.md) | ⭐5,909 | 开源 AI 原生矢量设计工具，支持并发 Agent Teams、Design-as-Code 与 MCP。 | ✅ 活跃 |
+| 8 | [Mirage](resources/mirage.md) | ⭐3,624 | 面向 AI Agent 的虚拟终端与虚拟文件系统，提供沙箱化 bash 工具。 | ✅ 活跃 |
+| 9 | [ReMe](resources/reme.md) | ⭐3,448 | 面向 Agent 的记忆管理套件：跨会话记住、提炼并复用记忆。 | ✅ 活跃 |
+| 10 | [Coding Tools MCP](resources/coding-tools-mcp.md) | ⭐846 | 面向编码的 MCP 工具集：让任何 AI Agent 获得编码能力。 | ✅ 活跃 |
 
-## 完整列表（493）
+## 完整列表（502）
 
 
-**MCP（121）**
+**MCP（122）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
+| [Reactive Resume](resources/reactive-resume.md) | ⭐42,520 | 开源、注重隐私的简历构建器，提供 MCP 服务器与 Agent Skills，可从 DeepSeek Harness 调用。 | ✅ 活跃 |
 | [Coding Tools MCP](resources/coding-tools-mcp.md) | ⭐846 | 面向编码的 MCP 工具集：让任何 AI Agent 获得编码能力。 | ✅ 活跃 |
 | [memtrace-public](resources/memtrace-public.md) | ⭐459 | Structural memory for AI coding agents. Bi-temporal graph, MCP-native, zero LLM calls. Cursor · Claude Code · Codex · DeepSeek Harness · Hermes · VS Code · Windsurf. | ✅ 活跃 |
 | [dsh-skill-mcp-panel](resources/dsh-skill-mcp-panel.md) | ⭐111 | DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具） | ✅ 活跃 |
@@ -572,8 +573,36 @@ keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 | [dsh-plugin-web-notify](resources/dsh-plugin-web-notify.md) | – | Browser notifications for the DeepSeek Harness Web GUI. | ✅ 活跃 |
 | [dsh-ui-zoom](resources/dsh-ui-zoom.md) | – | Масштабирование всего UI DeepSeek Harness как в браузере: Ctrl +/−/0, Ctrl+колесо, виджет с процентом. Browser-style UI zoom. | ✅ 活跃 |
 
+**记忆与上下文（5）**
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [OpenViking](resources/openviking.md) | ⭐36,784 | 面向 AI Agent 的自进化上下文数据库，统一 Agent 记忆、知识 RAG 与技能。 | ✅ 活跃 |
+| [WeKnora](resources/weknora.md) | ⭐22,553 | 开源 LLM 知识平台：把文档转化为可查询 RAG、自主推理 Agent 与自维护 wiki。 | ✅ 活跃 |
+| [EverOS](resources/everos.md) | ⭐12,898 | 面向 AI Agent 的可移植记忆层：本地优先、Markdown 原生、用户自持，跨应用自进化。 | ✅ 活跃 |
+| [Honcho](resources/honcho.md) | ⭐7,129 | 用于构建有状态 Agent 的记忆库，支持上下文工程与持续学习。 | ✅ 活跃 |
+| [ReMe](resources/reme.md) | ⭐3,448 | 面向 Agent 的记忆管理套件：跨会话记住、提炼并复用记忆。 | ✅ 活跃 |
+
 **ACP（1）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [deepseek-harness-acp](resources/deepseek-harness-acp.md) | ⭐12 | DeepSeek Harness 的 ACP 服务器实现：复用凭据与会话，将完整 DSH Agent 暴露给 ACP 客户端。 | ✅ 活跃 |
+
+**工作流（1）**
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [NocoBase](resources/nocobase.md) | ⭐24,175 | 开源 AI + 无代码平台，用于快速构建业务系统，内置 AI Agent 与工作流自动化。 | ✅ 活跃 |
+
+**界面与体验（1）**
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [OpenPencil](resources/openpencil.md) | ⭐5,909 | 开源 AI 原生矢量设计工具，支持并发 Agent Teams、Design-as-Code 与 MCP。 | ✅ 活跃 |
+
+**终端（1）**
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [Mirage](resources/mirage.md) | ⭐3,624 | 面向 AI Agent 的虚拟终端与虚拟文件系统，提供沙箱化 bash 工具。 | ✅ 活跃 |

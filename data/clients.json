@@ -9272,5 +9272,22 @@
     "stars": 54,
     "install": "Download the macOS installer or experimental Windows x64 installer from https://github.com/SuperJJ007/papermachine/releases/latest; first launch installs Python and R, and model calls require your own DeepSeek API key.",
     "license": "MIT"
+  },
+  {
+    "id": "picgo",
+    "name": "PicGo",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/Molunerfinn/PicGo",
+    "description": "Cross-platform image uploader desktop app supporting 60+ image hosts; usable alongside a DeepSeek Harness workflow.",
+    "description_zh": "跨平台图片上传桌面应用，支持 60+ 图床，可配合 DeepSeek Harness 工作流使用。",
+    "capabilities": [
+      "desktop",
+      "files"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 27181,
+    "license": "MIT"
   }
 ]

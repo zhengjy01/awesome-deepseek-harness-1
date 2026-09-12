@@ -1,6 +1,6 @@
 ---
 title: "MCP & Integrations"
-description: "Top 10 and full list of 493 curated mcp & integrations for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 502 curated mcp & integrations for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 ---
 # MCP & Integrations
@@ -19,24 +19,25 @@ keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
-| 1 | [Coding Tools MCP](resources/coding-tools-mcp.md) | ⭐846 | Coding-oriented MCP tool collection that appears in the emerging DSH ecosystem: give any AI agent the ability to code. | ✅ active |
-| 2 | [memtrace-public](resources/memtrace-public.md) | ⭐459 | Structural memory for AI coding agents. Bi-temporal graph, MCP-native, zero LLM calls. Cursor · Claude Code · Codex · DeepSeek Harness · Hermes · VS Code · Windsurf. | ✅ active |
-| 3 | [dsh-ios](resources/dsh-ios.md) | ⭐273 | DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text or list rows, plus a streaming sidebar panel you can tap and drag on. | ✅ active |
-| 4 | [dsh-popout-sidebar](resources/dsh-popout-sidebar.md) | ⭐209 | A sidebar can pop out a separate browser tab (drag it to another monitor) | ✅ active |
-| 5 | [dsh-plugin-bridge](resources/dsh-plugin-bridge.md) | ⭐163 | DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched. | ✅ active |
-| 6 | [dsh-bridge](resources/dsh-bridge.md) | ⭐145 | 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安全认证、后台防篡改与容灾保命体系 | ✅ active |
-| 7 | [deepseek-harness-for-vscode](resources/deepseek-harness-for-vscode.md) | ⭐144 | deepseek-harness for vscode .A native VS Code coding-agent extension for DeepSeek Harness. Streamlined workbench with session   management, streaming Markdown, slash commands, plugin center, and zero-deployment runtime — no WebUI   served, no Harness setup | ✅ active |
-| 8 | [dsh-openpencil](resources/dsh-openpencil.md) | ⭐135 | OpenPencil design preview and editing integration. | ✅ active |
-| 9 | [dsh-super-injector](resources/dsh-super-injector.md) | ⭐133 | Super-injector plugin (cordis) for context injection. | ✅ active |
-| 10 | [dsh-crew](resources/dsh-crew-1.md) | ⭐119 | DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends the text-only harness vision and image generation. | ✅ active |
+| 1 | [Reactive Resume](resources/reactive-resume.md) | ⭐42,520 | Open-source, privacy-first resume builder; ships an MCP server and agent skills that can be driven from DeepSeek Harness. | ✅ active |
+| 2 | [OpenViking](resources/openviking.md) | ⭐36,784 | Self-evolving context database for AI agents that unifies agent memory, knowledge RAG and skills. | ✅ active |
+| 3 | [NocoBase](resources/nocobase.md) | ⭐24,175 | Open-source AI + no-code platform for building business systems, with AI agents and workflow automation. | ✅ active |
+| 4 | [WeKnora](resources/weknora.md) | ⭐22,553 | Open-source LLM knowledge platform: turn documents into a queryable RAG, an autonomous reasoning agent and a self-maintaining wiki. | ✅ active |
+| 5 | [EverOS](resources/everos.md) | ⭐12,898 | Portable memory layer for AI agents: local-first, Markdown-native, user-owned and self-evolving across apps and tools. | ✅ active |
+| 6 | [Honcho](resources/honcho.md) | ⭐7,129 | Memory library for building stateful agents, with context engineering and continual learning. | ✅ active |
+| 7 | [OpenPencil](resources/openpencil.md) | ⭐5,909 | Open-source AI-native vector design tool with concurrent agent teams, design-as-code and MCP support. | ✅ active |
+| 8 | [Mirage](resources/mirage.md) | ⭐3,624 | Virtual terminal and virtual filesystem for AI agents, with a sandboxed bash tool. | ✅ active |
+| 9 | [ReMe](resources/reme.md) | ⭐3,448 | Memory management kit for agents: remember, refine and reuse memory across sessions. | ✅ active |
+| 10 | [Coding Tools MCP](resources/coding-tools-mcp.md) | ⭐846 | Coding-oriented MCP tool collection that appears in the emerging DSH ecosystem: give any AI agent the ability to code. | ✅ active |
 
-## Complete list (493)
+## Complete list (502)
 
 
-**MCP (121)**
+**MCP (122)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
+| [Reactive Resume](resources/reactive-resume.md) | ⭐42,520 | Open-source, privacy-first resume builder; ships an MCP server and agent skills that can be driven from DeepSeek Harness. | ✅ active |
 | [Coding Tools MCP](resources/coding-tools-mcp.md) | ⭐846 | Coding-oriented MCP tool collection that appears in the emerging DSH ecosystem: give any AI agent the ability to code. | ✅ active |
 | [memtrace-public](resources/memtrace-public.md) | ⭐459 | Structural memory for AI coding agents. Bi-temporal graph, MCP-native, zero LLM calls. Cursor · Claude Code · Codex · DeepSeek Harness · Hermes · VS Code · Windsurf. | ✅ active |
 | [dsh-skill-mcp-panel](resources/dsh-skill-mcp-panel.md) | ⭐111 | DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具） | ✅ active |
@@ -572,8 +573,36 @@ keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 | [dsh-plugin-web-notify](resources/dsh-plugin-web-notify.md) | – | Browser notifications for the DeepSeek Harness Web GUI. | ✅ active |
 | [dsh-ui-zoom](resources/dsh-ui-zoom.md) | – | Масштабирование всего UI DeepSeek Harness как в браузере: Ctrl +/−/0, Ctrl+колесо, виджет с процентом. Browser-style UI zoom. | ✅ active |
 
+**Memory & context (5)**
+
+| Project | Stars | Description | Status |
+|---|---|---|---|
+| [OpenViking](resources/openviking.md) | ⭐36,784 | Self-evolving context database for AI agents that unifies agent memory, knowledge RAG and skills. | ✅ active |
+| [WeKnora](resources/weknora.md) | ⭐22,553 | Open-source LLM knowledge platform: turn documents into a queryable RAG, an autonomous reasoning agent and a self-maintaining wiki. | ✅ active |
+| [EverOS](resources/everos.md) | ⭐12,898 | Portable memory layer for AI agents: local-first, Markdown-native, user-owned and self-evolving across apps and tools. | ✅ active |
+| [Honcho](resources/honcho.md) | ⭐7,129 | Memory library for building stateful agents, with context engineering and continual learning. | ✅ active |
+| [ReMe](resources/reme.md) | ⭐3,448 | Memory management kit for agents: remember, refine and reuse memory across sessions. | ✅ active |
+
 **ACP (1)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
 | [deepseek-harness-acp](resources/deepseek-harness-acp.md) | ⭐12 | ACP server implementation for DeepSeek Harness: exposes the full DSH agent to ACP clients while reusing credentials and sessions. | ✅ active |
+
+**Workflows (1)**
+
+| Project | Stars | Description | Status |
+|---|---|---|---|
+| [NocoBase](resources/nocobase.md) | ⭐24,175 | Open-source AI + no-code platform for building business systems, with AI agents and workflow automation. | ✅ active |
+
+**UI & experience (1)**
+
+| Project | Stars | Description | Status |
+|---|---|---|---|
+| [OpenPencil](resources/openpencil.md) | ⭐5,909 | Open-source AI-native vector design tool with concurrent agent teams, design-as-code and MCP support. | ✅ active |
+
+**Terminal (1)**
+
+| Project | Stars | Description | Status |
+|---|---|---|---|
+| [Mirage](resources/mirage.md) | ⭐3,624 | Virtual terminal and virtual filesystem for AI agents, with a sandboxed bash tool. | ✅ active |

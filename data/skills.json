@@ -4475,5 +4475,122 @@
       "skill-adapter",
       "skills"
     ]
+  },
+  {
+    "id": "awesome-gpt-image-2",
+    "name": "awesome-gpt-image-2",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "description": "Prompt-as-code library for GPT Image: 530+ reverse-engineered cases, 20+ industrial templates and reusable skills.",
+    "description_zh": "GPT Image 的提示词即代码库：530+ 逆向工程案例、20+ 工业级模板与可复用 Skills。",
+    "capabilities": [
+      "learning",
+      "vision"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 31449,
+    "license": "MIT"
+  },
+  {
+    "id": "distilly",
+    "name": "Distilly",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/titanwings/distilly",
+    "description": "Distills how people think into reusable skills for any agent or bot.",
+    "description_zh": "把人的思维方式蒸馏为可复用 Skills，适用于任意 Agent 或 Bot。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24650,
+    "license": "MIT"
+  },
+  {
+    "id": "vibe-skills",
+    "name": "Vibe-Skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+    "description": "Intelligent skill routing and workflow orchestration for AI agents, benchmarked on SkillsBench.",
+    "description_zh": "面向 AI Agent 的智能 Skill 路由与工作流编排，在 SkillsBench 上有基准表现。",
+    "capabilities": [
+      "learning",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3260,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "j-space-cognition-suite",
+    "name": "J-Space Cognition Suite",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.7",
+    "description": "Cognitive-enhancement skills based on Anthropic's J-space global workspace research, for inference-time control.",
+    "description_zh": "基于 Anthropic J-space 全局工作空间研究的认知增强 Skills，用于推理时控制。",
+    "capabilities": [
+      "learning",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3011,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "browser-skill",
+    "name": "BrowserSkill",
+    "type": "skill",
+    "category": "browser",
+    "repository": "https://github.com/Tencent/BrowserSkill",
+    "description": "Let AI agents use your real, logged-in browser without interrupting your work: CLI plus extension.",
+    "description_zh": "让 AI Agent 直接使用你已登录的真实浏览器而不打断工作：CLI + 浏览器扩展。",
+    "capabilities": [
+      "browser",
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1955,
+    "license": "MIT"
+  },
+  {
+    "id": "vox-director",
+    "name": "vox-director",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Alisa0808/vox-director",
+    "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video, automated end to end.",
+    "description_zh": "把一个主题变成完整的 Vox 风格纸拼贴讲解/广告视频，端到端自动化。",
+    "capabilities": [
+      "learning",
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1862,
+    "license": "MIT"
+  },
+  {
+    "id": "last30days-skill-cn",
+    "name": "last30days-skill-cn",
+    "type": "skill",
+    "category": "research",
+    "repository": "https://github.com/Jesseovo/last30days-skill-cn",
+    "description": "Agent skill that searches 8 major Chinese platforms for the last 30 days of content and produces a sourced research report.",
+    "description_zh": "AI Agent 技能：自动搜索中国 8 大主流平台最近 30 天内容，生成有据可查的研究报告。",
+    "capabilities": [
+      "research",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1778
   }
 ]

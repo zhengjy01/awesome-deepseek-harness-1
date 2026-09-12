@@ -2363,5 +2363,22 @@
     "_topics": [
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "loopx",
+    "name": "loopx",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/huangruiteng/loopx",
+    "description": "Long-horizon agent control plane for durable, governed work across Codex, Claude Code and other harnesses.",
+    "description_zh": "面向长周期任务的 Agent 控制平面，为 Codex、Claude Code 等 Harness 提供持久、可治理的工作流。",
+    "capabilities": [
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5810,
+    "license": "Apache-2.0"
   }
 ]

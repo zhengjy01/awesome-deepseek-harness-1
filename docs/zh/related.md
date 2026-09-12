@@ -1,6 +1,6 @@
 ---
 title: "Related Agent Harnesses"
-description: "DeepSeek Harness (dsh) 精选 related agent harnesses：🔥 Top 10 与完整列表（13 条）。"
+description: "DeepSeek Harness (dsh) 精选 related agent harnesses：🔥 Top 10 与完整列表（17 条）。"
 keywords: "deepseek harness, dsh, related agent harnesses, plugin, awesome"
 ---
 # Related Agent Harnesses
@@ -24,16 +24,16 @@ keywords: "deepseek harness, dsh, related agent harnesses, plugin, awesome"
 | 3 | [CodeWhale](resources/codewhale.md) | ⭐40,830 | 开源、社区驱动的 Agent Harness。 | ✅ 活跃 |
 | 4 | [DeepSeek-Reasonix](resources/deepseek-reasonix.md) | ⭐35,284 | 面向终端、DeepSeek 原生的 AI 编程代理，围绕前缀缓存稳定性设计——可常驻运行。 | ✅ 活跃 |
 | 5 | [agentmemory](resources/agentmemory.md) | ⭐27,233 | 基于真实基准的 AI 编码 Agent 持久记忆（DSH agentmemory 移植的上游项目）。 | ✅ 活跃 |
-| 6 | [Cordis](resources/cordis.md) | ⭐6,867 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
-| 7 | [deeptide](resources/deeptide.md) | ⭐1,091 | DeepSeek 官方出品的 Swift 原生 macOS 编码 Agent。 | ✅ 活跃 |
-| 8 | [sandbase-harness](resources/sandbase-harness.md) | ⭐628 | 开源 CMA 兼容的任意模型 Agent 运行时：MCP 工具、沙箱会话、审计与回放。 | ✅ 活跃 |
-| 9 | [mnemon](resources/mnemon.md) | ⭐500 | LLM 监督的 Agent 持久记忆：图召回与跨会话知识，单二进制。 | ✅ 活跃 |
-| 10 | [claude-paper](resources/claude-paper.md) | ⭐324 | 跨 Agent 论文研究工具包：快速摘要与深度精读，支持 Claude Code/Codex/OpenCode/DSH。 | ✅ 活跃 |
+| 6 | [Yao](resources/yao.md) | ⭐7,929 | 自托管 Agent Harness 与工作空间：看板任务可在桌面、移动端、浏览器或 API 访问，支持 DSH。 | ✅ 活跃 |
+| 7 | [Cordis](resources/cordis.md) | ⭐6,867 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
+| 8 | [iPolloWork](resources/ipollowork.md) | ⭐5,863 | 企业级本地优先 Agent 工作台，统一 Codex、DeepSeek Harness 与 OpenCode，共享插件与 Skills。 | ✅ 活跃 |
+| 9 | [Ouroboros](resources/ouroboros.md) | ⭐5,812 | Agent OS：面试门控、分阶段评估与预算化进化循环；MCP 服务器支持 14 种运行时。 | ✅ 活跃 |
+| 10 | [OpenBitFun](resources/openbitfun.md) | ⭐2,123 | OpenBitFun 将高性能 Rust Agent 运行时与精致桌面应用结合，支持开放式 Agent 工作。 | ✅ 活跃 |
 
-## 完整列表（13）
+## 完整列表（17）
 
 
-**Harness（13）**
+**Harness（17）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
@@ -42,7 +42,11 @@ keywords: "deepseek harness, dsh, related agent harnesses, plugin, awesome"
 | [CodeWhale](resources/codewhale.md) | ⭐40,830 | 开源、社区驱动的 Agent Harness。 | ✅ 活跃 |
 | [DeepSeek-Reasonix](resources/deepseek-reasonix.md) | ⭐35,284 | 面向终端、DeepSeek 原生的 AI 编程代理，围绕前缀缓存稳定性设计——可常驻运行。 | ✅ 活跃 |
 | [agentmemory](resources/agentmemory.md) | ⭐27,233 | 基于真实基准的 AI 编码 Agent 持久记忆（DSH agentmemory 移植的上游项目）。 | ✅ 活跃 |
+| [Yao](resources/yao.md) | ⭐7,929 | 自托管 Agent Harness 与工作空间：看板任务可在桌面、移动端、浏览器或 API 访问，支持 DSH。 | ✅ 活跃 |
 | [Cordis](resources/cordis.md) | ⭐6,867 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
+| [iPolloWork](resources/ipollowork.md) | ⭐5,863 | 企业级本地优先 Agent 工作台，统一 Codex、DeepSeek Harness 与 OpenCode，共享插件与 Skills。 | ✅ 活跃 |
+| [Ouroboros](resources/ouroboros.md) | ⭐5,812 | Agent OS：面试门控、分阶段评估与预算化进化循环；MCP 服务器支持 14 种运行时。 | ✅ 活跃 |
+| [OpenBitFun](resources/openbitfun.md) | ⭐2,123 | OpenBitFun 将高性能 Rust Agent 运行时与精致桌面应用结合，支持开放式 Agent 工作。 | ✅ 活跃 |
 | [deeptide](resources/deeptide.md) | ⭐1,091 | DeepSeek 官方出品的 Swift 原生 macOS 编码 Agent。 | ✅ 活跃 |
 | [sandbase-harness](resources/sandbase-harness.md) | ⭐628 | 开源 CMA 兼容的任意模型 Agent 运行时：MCP 工具、沙箱会话、审计与回放。 | ✅ 活跃 |
 | [mnemon](resources/mnemon.md) | ⭐500 | LLM 监督的 Agent 持久记忆：图召回与跨会话知识，单二进制。 | ✅ 活跃 |

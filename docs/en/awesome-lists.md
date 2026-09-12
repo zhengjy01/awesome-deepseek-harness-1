@@ -1,6 +1,6 @@
 ---
 title: "Awesome Lists & Registries"
-description: "Top 10 and full list of 193 curated awesome lists & registries for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 194 curated awesome lists & registries for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 ---
 # Awesome Lists & Registries
@@ -22,24 +22,25 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 | 1 | [awesome-deepseek-integration](resources/awesome-deepseek-integration.md) | ⭐38,897 | Integrate the DeepSeek API into popular software | ✅ active |
 | 2 | [awesome-dsh-plugin](resources/awesome-dsh-plugin.md) | ⭐11,012 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
 | 3 | [Awesome-MCP-ZH](resources/awesome-mcp-zh.md) | ⭐7,615 | Curated Chinese MCP resource list: MCP guide, MCP Servers and MCP Clients. / MCP 资源精选：MCP 指南、MCP Servers、MCP Clients。 | ✅ active |
-| 4 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,966 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). | ✅ active |
-| 5 | [awesome-harness-engineering](resources/awesome-harness-engineering.md) | ⭐3,887 | 🛠️ Awesome tools & guides for harness engineering. | ✅ active |
-| 6 | [awesome-dsh-plugins (Radar)](resources/awesome-dsh-plugins.md) | ⭐1,309 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. | ✅ active |
-| 7 | [awesome-deepseek-harness](resources/awesome-deepseek-harness.md) | ⭐966 | Curated guide to DeepSeek Harness (dsh) and its best community plugins | ✅ active |
-| 8 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-anil-matcha-1.md) | ⭐966 | A curated list of plugins for DeepSeek Harness (dsh) - DeepSeek Harness plugin ecosystem | ✅ active |
-| 9 | [awesome-deepseek-coder](resources/awesome-deepseek-coder.md) | ⭐811 | A curated list of open-source projects related to DeepSeek Coder | ✅ active |
-| 10 | [awesome-deepseek-harness (0xsline)](resources/awesome-deepseek-harness-0xsline-1.md) | ⭐788 | Curated DSH ecosystem directory: plugins, tools and infrastructure from dsh-external/hub and the public dsh-plugin topic. | ✅ active |
+| 4 | [anbeime/skill](resources/anbeime-skill.md) | ⭐6,584 | Chinese skills store: curated original skill packs plus an auto-crawled index of GitHub skills by category, update time and stars. | ✅ active |
+| 5 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,966 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). | ✅ active |
+| 6 | [awesome-harness-engineering](resources/awesome-harness-engineering.md) | ⭐3,887 | 🛠️ Awesome tools & guides for harness engineering. | ✅ active |
+| 7 | [awesome-dsh-plugins (Radar)](resources/awesome-dsh-plugins.md) | ⭐1,309 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. | ✅ active |
+| 8 | [awesome-deepseek-harness](resources/awesome-deepseek-harness.md) | ⭐966 | Curated guide to DeepSeek Harness (dsh) and its best community plugins | ✅ active |
+| 9 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-anil-matcha-1.md) | ⭐966 | A curated list of plugins for DeepSeek Harness (dsh) - DeepSeek Harness plugin ecosystem | ✅ active |
+| 10 | [awesome-deepseek-coder](resources/awesome-deepseek-coder.md) | ⭐811 | A curated list of open-source projects related to DeepSeek Coder | ✅ active |
 
-## Complete list (193)
+## Complete list (194)
 
 
-**Registries (193)**
+**Registries (194)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
 | [awesome-deepseek-integration](resources/awesome-deepseek-integration.md) | ⭐38,897 | Integrate the DeepSeek API into popular software | ✅ active |
 | [awesome-dsh-plugin](resources/awesome-dsh-plugin.md) | ⭐11,012 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
 | [Awesome-MCP-ZH](resources/awesome-mcp-zh.md) | ⭐7,615 | Curated Chinese MCP resource list: MCP guide, MCP Servers and MCP Clients. / MCP 资源精选：MCP 指南、MCP Servers、MCP Clients。 | ✅ active |
+| [anbeime/skill](resources/anbeime-skill.md) | ⭐6,584 | Chinese skills store: curated original skill packs plus an auto-crawled index of GitHub skills by category, update time and stars. | ✅ active |
 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,966 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). | ✅ active |
 | [awesome-harness-engineering](resources/awesome-harness-engineering.md) | ⭐3,887 | 🛠️ Awesome tools & guides for harness engineering. | ✅ active |
 | [awesome-dsh-plugins (Radar)](resources/awesome-dsh-plugins.md) | ⭐1,309 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. | ✅ active |

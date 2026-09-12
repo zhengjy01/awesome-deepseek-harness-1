@@ -1,6 +1,6 @@
 ---
 title: "Agents & Multi-Agent"
-description: "DeepSeek Harness (dsh) 精选 agents & multi-agent：🔥 Top 10 与完整列表（106 条）。"
+description: "DeepSeek Harness (dsh) 精选 agents & multi-agent：🔥 Top 10 与完整列表（107 条）。"
 keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 ---
 # Agents & Multi-Agent
@@ -19,24 +19,25 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
-| 1 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,971 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ 活跃 |
-| 2 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐746 | 面向团队的 DSH 多 Agent 扩展。 | ✅ 活跃 |
-| 3 | [dsh-univer-office](resources/dsh-univer-office.md) | ⭐191 | Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration. | ✅ 活跃 |
-| 4 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern 迁移与下一代 Agent 角色扮演。 | ✅ 活跃 |
-| 5 | [dsh-auto-review](resources/dsh-auto-review-2.md) | ⭐116 | Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided). | ✅ 活跃 |
-| 6 | [dsh-data-agent](resources/dsh-data-agent.md) | ⭐104 | 会话级数据库连接 + 专用数据 Agent：让模型连数据库、写 SQL。 | ✅ 活跃 |
-| 7 | [dsh-openbiliclaw](resources/dsh-openbiliclaw.md) | ⭐48 | OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。 | ✅ 活跃 |
-| 8 | [dsh-hanako](resources/dsh-hanako.md) | ⭐43 | DSHana: DeepSeek Harness as a subagent for HanaAgent | ✅ 活跃 |
-| 9 | [allinluna](resources/allinluna.md) | ⭐41 | 面向 Codex 与 DeepSeek Harness 的资源感知多 Agent 编排。 | ✅ 活跃 |
-| 10 | [dsh-tianshu-build](resources/dsh-tianshu-build.md) | ⭐36 | DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。 | ✅ 活跃 |
+| 1 | [loopx](resources/loopx.md) | ⭐5,810 | 面向长周期任务的 Agent 控制平面，为 Codex、Claude Code 等 Harness 提供持久、可治理的工作流。 | ✅ 活跃 |
+| 2 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,971 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ 活跃 |
+| 3 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐746 | 面向团队的 DSH 多 Agent 扩展。 | ✅ 活跃 |
+| 4 | [dsh-univer-office](resources/dsh-univer-office.md) | ⭐191 | Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration. | ✅ 活跃 |
+| 5 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern 迁移与下一代 Agent 角色扮演。 | ✅ 活跃 |
+| 6 | [dsh-auto-review](resources/dsh-auto-review-2.md) | ⭐116 | Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided). | ✅ 活跃 |
+| 7 | [dsh-data-agent](resources/dsh-data-agent.md) | ⭐104 | 会话级数据库连接 + 专用数据 Agent：让模型连数据库、写 SQL。 | ✅ 活跃 |
+| 8 | [dsh-openbiliclaw](resources/dsh-openbiliclaw.md) | ⭐48 | OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。 | ✅ 活跃 |
+| 9 | [dsh-hanako](resources/dsh-hanako.md) | ⭐43 | DSHana: DeepSeek Harness as a subagent for HanaAgent | ✅ 活跃 |
+| 10 | [allinluna](resources/allinluna.md) | ⭐41 | 面向 Codex 与 DeepSeek Harness 的资源感知多 Agent 编排。 | ✅ 活跃 |
 
-## 完整列表（106）
+## 完整列表（107）
 
 
-**多智能体（103）**
+**多智能体（104）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
+| [loopx](resources/loopx.md) | ⭐5,810 | 面向长周期任务的 Agent 控制平面，为 Codex、Claude Code 等 Harness 提供持久、可治理的工作流。 | ✅ 活跃 |
 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐746 | 面向团队的 DSH 多 Agent 扩展。 | ✅ 活跃 |
 | [dsh-univer-office](resources/dsh-univer-office.md) | ⭐191 | Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration. | ✅ 活跃 |
 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern 迁移与下一代 Agent 角色扮演。 | ✅ 活跃 |
