@@ -1,6 +1,6 @@
 ---
 title: "Clients (Desktop & TUI)"
-description: "DeepSeek Harness (dsh) 精选 clients (desktop & tui)：🔥 Top 10 与完整列表（397 条）。"
+description: "DeepSeek Harness (dsh) 精选 clients (desktop & tui)：🔥 Top 10 与完整列表（398 条）。"
 keywords: "deepseek harness, dsh, clients, plugin, awesome"
 ---
 # Clients (Desktop & TUI)
@@ -30,10 +30,10 @@ keywords: "deepseek harness, dsh, clients, plugin, awesome"
 | 9 | [deepseek-harness-desktop-app](resources/deepseek-harness-desktop-app.md) | ⭐610 | DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts. | ✅ 活跃 |
 | 10 | [dsh-work](resources/dsh-work.md) | ⭐610 | Local-first AI workbench for DSH Plugins, combining Agent sessions, project files, data analysis, web research, MCP, and Office artifacts in an Electron desktop app. | ✅ 活跃 |
 
-## 完整列表（397）
+## 完整列表（398）
 
 
-**桌面端（327）**
+**桌面端（328）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
@@ -65,6 +65,7 @@ keywords: "deepseek harness, dsh, clients, plugin, awesome"
 | [DeepSeekHarnessDesktop (wess09)](resources/wess09-desktop.md) | ⭐66 | DeepSeek Harness 桌面端打包。 | ✅ 活跃 |
 | [dsh-desktop (bruc3van)](resources/bruc3van-dsh-desktop.md) | ⭐66 | 第三方桌面客户端：直接加载官方 Web UI，可复用本机实例或内置 dsh 运行时。 | ✅ 活跃 |
 | [dsh-desktop-hub](resources/dsh-desktop-hub.md) | ⭐58 | DSH Desktop Hub — DeepSeek Harness 桌面管理控制台（Electron + TypeScript）。多 Tab 管理 Harness / Plugin / MCP / Skills，双击即用。 | ✅ 活跃 |
+| [PaperMachine](resources/papermachine.md) | ⭐54 | 基于 DeepSeek Harness 的桌面数据分析应用，在本机运行 Python 和 R，支持检查执行步骤及追溯图表和表格的来源。 | 🧪 实验性 |
 | [dsh-multica-runtime](resources/dsh-multica-runtime.md) | ⭐53 | 在 Multica 上支持 dsh 运行时。 | ✅ 活跃 |
 | [beauticode](resources/beauticode.md) | ⭐51 | 面向 AI 编程客户端的动态、可响应环境——视频背景、氛围场景与主题，适用于 DeepSeek Harness 与 Codex Desktop。 | ✅ 活跃 |
 | [deepseek-harness-desktop (xiincs)](resources/xiincs-desktop.md) | ⭐49 | 基于 Tauri 2 的原生桌面版：内置 Node.js 运行时，托盘常驻，自动更新。 | ✅ 活跃 |

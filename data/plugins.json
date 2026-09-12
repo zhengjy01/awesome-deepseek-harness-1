@@ -18396,7 +18396,7 @@
     "id": "dsh-tool-policy",
     "name": "dsh-tool-policy",
     "type": "plugin",
-    "category": "vision",
+    "category": "security",
     "repository": "https://github.com/Drifter-yh/dsh-tool-policy",
     "description": "Declarative deny-by-default tool policy plugin for DeepSeek Harness",
     "description_zh": "Declarative deny-by-default tool policy plugin for DeepSeek Harness",
@@ -18413,8 +18413,7 @@
       "deepseek-harness",
       "dsh-plugin",
       "tool-policy"
-    ],
-    "subcategory": "vision-tools"
+    ]
   },
   {
     "id": "dsh-mobile-control",
@@ -64264,5 +64263,175 @@
     "_topics": [
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "dsh-zsxq",
+    "name": "dsh-zsxq",
+    "type": "plugin",
+    "category": "automation",
+    "repository": "https://github.com/zhengjy01/dsh-zsxq",
+    "description": "Knowledge Planet (知识星球 zsxq) integration for DSH: cookie/QR login against the unofficial web API, agent tools for groups / topic lists / topic detail / search / publish / comment / like, plus a web settings panel.",
+    "description_zh": "DeepSeek Harness 的知识星球（zsxq）集成：Cookie/扫码登录非官方 Web API，提供星球列表 / 主题列表 / 主题详情 / 搜索 / 发布 / 评论 / 点赞工具与 Web 设置面板。",
+    "capabilities": [
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-skill-recommender",
+    "name": "dsh-skill-recommender",
+    "type": "plugin",
+    "category": "discovery",
+    "repository": "https://github.com/zhengjy01/dsh-skill-recommender",
+    "description": "Session-profile driven open-source skill recommender for DSH: scans local DSH / Codex / Claude sessions, builds a weighted profile (topics, tools, tasks, projects) and recommends matching skills with a tunable match index.",
+    "description_zh": "DeepSeek Harness 的会话画像 skill 推荐器：扫描本地 DSH/Codex/Claude 会话建立加权画像（主题/工具/任务/项目），按可调匹配指数推荐开源 skill。",
+    "capabilities": [
+      "context",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-goofish-mcp",
+    "name": "dsh-goofish-mcp",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/zhengjy01/dsh-goofish-mcp",
+    "description": "Xianyu (Goofish 闲鱼) read-only monitoring for DSH: drives the goofish-cli MCP server and exposes read-only tools (search, item detail, listings, chat history, category) with all write actions filtered out.",
+    "description_zh": "DeepSeek Harness 的闲鱼只读监控：驱动 goofish-cli MCP 服务器，暴露搜索 / 商品详情 / 在售列表 / 会话历史 / 类目识别等只读工具，写操作一律过滤。",
+    "capabilities": [
+      "mcp",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-npm",
+    "name": "dsh-npm",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/zhengjy01/dsh-npm",
+    "description": "NPM registry management for DSH: query package info, list versions, search packages, and publish/deprecate with optional token injection, plus a web settings panel.",
+    "description_zh": "DeepSeek Harness 的 NPM 包管理：查询包信息 / 版本列表 / 搜索包，并用本机或注入的 token 发布与弃用，附 Web 设置面板。",
+    "capabilities": [
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-backup-migrator",
+    "name": "dsh-backup-migrator",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/zhengjy01/dsh-backup-migrator",
+    "description": "Plugin environment backup and migration for DSH: backs up every profile's plugin list, plugin configs and local-source plugin tarballs into a git repo, and restores them on a new machine.",
+    "description_zh": "DeepSeek Harness 插件环境备份与迁移：把各 profile 的插件清单、插件配置与本地源插件打包备份进 git 仓库，换机一键还原。",
+    "capabilities": [
+      "files",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-feishu-mcp",
+    "name": "dsh-feishu-mcp",
+    "type": "plugin",
+    "category": "mcp",
+    "repository": "https://github.com/zhengjy01/dsh-feishu-mcp",
+    "description": "Feishu (Lark) OpenAPI MCP connection for DSH: bridges the official @larksuiteoapi/lark-mcp server, exposing IM, Bitable, Docs, Calendar and Drive APIs as mcp__feishu__* tools with OAuth user-token support.",
+    "description_zh": "DeepSeek Harness 的飞书（Lark）OpenAPI MCP 连接：桥接官方 @larksuiteoapi/lark-mcp，把 IM / 多维表格 / 云文档 / 日历 / 云盘 API 暴露为 mcp__feishu__* 工具，支持用户令牌 OAuth。",
+    "capabilities": [
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-aliyun-mcp",
+    "name": "dsh-aliyun-mcp",
+    "type": "plugin",
+    "category": "mcp",
+    "repository": "https://github.com/zhengjy01/dsh-aliyun-mcp",
+    "description": "Alibaba Cloud OpenAPI MCP connection for DSH: static-credential mode through the official OpenAPI MCP proxy, exposing ECS / OSS / DNS / Function Compute APIs as mcp__aliyun__* tools.",
+    "description_zh": "DeepSeek Harness 的阿里云 OpenAPI MCP 连接：静态凭证 + 官方 MCP Proxy，把 ECS / OSS / 域名 / DNS / 函数计算等 OpenAPI 暴露为 mcp__aliyun__* 工具。",
+    "capabilities": [
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-map-tools",
+    "name": "dsh-map-tools",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/HorusJiang/dsh-map-tools",
+    "description": "Native map tools for DeepSeek Harness: driving/transit/walking/bicycling route planning, geocoding, reverse geocoding and POI search. Amap (高德) as the main data source, free OSM/OSRM fallback, and an in-app settings card for the key.",
+    "description_zh": "DeepSeek Harness 原生地图工具：驾车/公交/步行/骑行路线规划、地理编码、逆地理编码与 POI 搜索。主数据源为高德，OSM/OSRM 免费兜底，设置页内置 Key 配置卡片。",
+    "capabilities": [
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "subcategory": "tools",
+    "install": "dsh plugin --profile web add dsh-map-tools",
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-plugin-auto-review",
+    "name": "dsh-plugin-auto-review",
+    "type": "plugin",
+    "category": "security",
+    "repository": "https://github.com/delef/dsh-plugin-auto-review",
+    "description": "Automatically reviews native DSH tool approval requests through a configured DSH LLM route, with Web controls and fail-closed handling.",
+    "description_zh": "通过已配置的 DSH LLM 路由自动审核原生工具审批请求，并提供 Web 控件与故障关闭处理。",
+    "capabilities": [
+      "security",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1,
+    "install": "dsh plugin --profile web add dsh-plugin-auto-review",
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-task-flow",
+    "name": "dsh-task-flow",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/wqy-cell/dsh-task-flow",
+    "description": "Task Star Map for DeepSeek Harness: type a goal and the DSH model expands it into a branching flow with acceptance criteria, every agent tool call lights up a live execution star, with Goal-status linkage, a draggable star-map view and a visual editor.",
+    "description_zh": "任务星图：一句话让 DSH 模型把目标拆解为带分支与验收标准的流程，Agent 每次工具调用实时点亮执行星点，联动 Goal 主线星，含拖拽星图视图与可视化编辑器（MIT，零运行时依赖）。",
+    "capabilities": [
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "install": "dsh plugin --profile web add github:wqy-cell/dsh-task-flow",
+    "license": "MIT"
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: "Awesome Lists & Registries"
-description: "DeepSeek Harness (dsh) 精选 awesome lists & registries：🔥 Top 10 与完整列表（192 条）。"
+description: "DeepSeek Harness (dsh) 精选 awesome lists & registries：🔥 Top 10 与完整列表（193 条）。"
 keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 ---
 # Awesome Lists & Registries
@@ -30,10 +30,10 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 | 9 | [awesome-deepseek-coder](resources/awesome-deepseek-coder.md) | ⭐811 | 官方：DeepSeek 编码资源 | ✅ 活跃 |
 | 10 | [awesome-deepseek-harness (0xsline)](resources/awesome-deepseek-harness-0xsline-1.md) | ⭐788 | DSH 生态目录：来自 dsh-external/hub 与公开 dsh-plugin 主题的插件、工具与基础设施精选。 | ✅ 活跃 |
 
-## 完整列表（192）
+## 完整列表（193）
 
 
-**注册表（192）**
+**注册表（193）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
@@ -213,6 +213,7 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 | [dsh-plugin-market](resources/dsh-plugin-market-8.md) | ⭐1 | A loud GitHub plugin radar for DeepSeek Harness. | ✅ 活跃 |
 | [dsh-plugin-market](resources/dsh-plugin-market-9.md) | ⭐1 | A dsh plugin marketplace CLI: browse, install, and uninstall community plugins from the dsh-plugin GitHub topic | ✅ 活跃 |
 | [dsh-plugin-market](resources/dsh-plugin-market-10.md) | ⭐1 | DSH Agent Market — The AI-native plugin marketplace for DeepSeek Harness: search, trust & install plugins by AI agents. 3600+ plugins, auto-collected daily. DSH 插件市场（AI 原生）。 | ✅ 活跃 |
+| [dsh-plugin-registry](resources/dsh-plugin-registry-vbarter.md) | ⭐1 | 非官方社区 DeepSeek Harness 插件注册表，驱动 https://dsplugin.app/：浏览、发布与自动发现 dsh-plugin 仓库（Manifest/dsh.bundle）。 | ✅ 活跃 |
 | [dsh-plugins-public](resources/dsh-plugins-public.md) | ⭐1 | Installable DeepSeek Harness plugin marketplace (Settings → Plugins) | ✅ 活跃 |
 | [dsh-restore-archived-sessions](resources/dsh-restore-archived-sessions.md) | ⭐1 | 查看并恢复 Harness 中已被归档的会话 | ✅ 活跃 |
 | [dsh-session-manager](resources/dsh-session-manager-4.md) | ⭐1 | Session manager for DeepSeek Harness: restore archived sessions, delete-all, inline content preview. | ✅ 活跃 |

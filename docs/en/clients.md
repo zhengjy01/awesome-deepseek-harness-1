@@ -1,6 +1,6 @@
 ---
 title: "Clients (Desktop & TUI)"
-description: "Top 10 and full list of 397 curated clients (desktop & tui) for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 398 curated clients (desktop & tui) for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, clients, plugin, awesome"
 ---
 # Clients (Desktop & TUI)
@@ -30,10 +30,10 @@ keywords: "deepseek harness, dsh, clients, plugin, awesome"
 | 9 | [deepseek-harness-desktop-app](resources/deepseek-harness-desktop-app.md) | ⭐610 | DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts. | ✅ active |
 | 10 | [dsh-work](resources/dsh-work.md) | ⭐610 | Local-first AI workbench for DSH Plugins, combining Agent sessions, project files, data analysis, web research, MCP, and Office artifacts in an Electron desktop app. | ✅ active |
 
-## Complete list (397)
+## Complete list (398)
 
 
-**Desktop (327)**
+**Desktop (328)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
@@ -65,6 +65,7 @@ keywords: "deepseek harness, dsh, clients, plugin, awesome"
 | [DeepSeekHarnessDesktop (wess09)](resources/wess09-desktop.md) | ⭐66 | Desktop packaging for DeepSeek Harness. | ✅ active |
 | [dsh-desktop (bruc3van)](resources/bruc3van-dsh-desktop.md) | ⭐66 | Third-party desktop client loading the official Web UI: reuses a running official instance or a bundled dsh runtime. | ✅ active |
 | [dsh-desktop-hub](resources/dsh-desktop-hub.md) | ⭐58 | DSH Desktop Hub — DeepSeek Harness 桌面管理控制台（Electron + TypeScript）。多 Tab 管理 Harness / Plugin / MCP / Skills，双击即用。 | ✅ active |
+| [PaperMachine](resources/papermachine.md) | ⭐54 | Desktop data-analysis app built on DeepSeek Harness, running local Python and R with inspectable execution steps and chart/table provenance. | 🧪 experimental |
 | [dsh-multica-runtime](resources/dsh-multica-runtime.md) | ⭐53 | Support the dsh runtime on Multica. | ✅ active |
 | [beauticode](resources/beauticode.md) | ⭐51 | 面向 AI 编程客户端的动态、可响应环境——视频背景、氛围场景与主题，适用于 DeepSeek Harness 与 Codex Desktop。 | ✅ active |
 | [deepseek-harness-desktop (xiincs)](resources/xiincs-desktop.md) | ⭐49 | Native desktop built on Tauri 2 with bundled Node.js runtime, tray residency and auto-update. | ✅ active |

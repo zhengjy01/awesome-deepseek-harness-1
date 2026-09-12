@@ -1,6 +1,6 @@
 ---
 title: "Awesome Lists & Registries"
-description: "Top 10 and full list of 192 curated awesome lists & registries for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 193 curated awesome lists & registries for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 ---
 # Awesome Lists & Registries
@@ -30,10 +30,10 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 | 9 | [awesome-deepseek-coder](resources/awesome-deepseek-coder.md) | ⭐811 | A curated list of open-source projects related to DeepSeek Coder | ✅ active |
 | 10 | [awesome-deepseek-harness (0xsline)](resources/awesome-deepseek-harness-0xsline-1.md) | ⭐788 | Curated DSH ecosystem directory: plugins, tools and infrastructure from dsh-external/hub and the public dsh-plugin topic. | ✅ active |
 
-## Complete list (192)
+## Complete list (193)
 
 
-**Registries (192)**
+**Registries (193)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
@@ -213,6 +213,7 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 | [dsh-plugin-market](resources/dsh-plugin-market-8.md) | ⭐1 | A loud GitHub plugin radar for DeepSeek Harness. | ✅ active |
 | [dsh-plugin-market](resources/dsh-plugin-market-9.md) | ⭐1 | A dsh plugin marketplace CLI: browse, install, and uninstall community plugins from the dsh-plugin GitHub topic | ✅ active |
 | [dsh-plugin-market](resources/dsh-plugin-market-10.md) | ⭐1 | DSH Agent Market — The AI-native plugin marketplace for DeepSeek Harness: search, trust & install plugins by AI agents. 3600+ plugins, auto-collected daily. DSH 插件市场（AI 原生）。 | ✅ active |
+| [dsh-plugin-registry](resources/dsh-plugin-registry-vbarter.md) | ⭐1 | Unofficial community DeepSeek Harness plugin registry powering https://dsplugin.app/ — browse, publish, and auto-discover dsh-plugin repos (Manifest/dsh.bundle). | ✅ active |
 | [dsh-plugins-public](resources/dsh-plugins-public.md) | ⭐1 | Installable DeepSeek Harness plugin marketplace (Settings → Plugins) | ✅ active |
 | [dsh-restore-archived-sessions](resources/dsh-restore-archived-sessions.md) | ⭐1 | 查看并恢复 Harness 中已被归档的会话 | ✅ active |
 | [dsh-session-manager](resources/dsh-session-manager-4.md) | ⭐1 | Session manager for DeepSeek Harness: restore archived sessions, delete-all, inline content preview. | ✅ active |
