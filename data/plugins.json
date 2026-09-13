@@ -64450,5 +64450,22 @@
     "stars": 2233,
     "license": "MIT",
     "install": "See the repository README for the one-command install into your DSH profile."
+  },
+  {
+    "id": "dsh-restart-2",
+    "name": "dsh-restart",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/zhengjy01/dsh-restart",
+    "description": "One-click restart for DeepSeek Harness: a web button (plus a dsh_restart agent tool) hands the relaunch to a detached helper that waits for the port to free, relaunches the same command, auto-reconnects the page, and shows boot errors in a recovery console when the new host fails.",
+    "description_zh": "DeepSeek Harness 一键重启：网页按钮（外加 dsh_restart Agent 工具）把重启交给独立 helper，等端口释放后以完全相同的命令拉起新宿主，页面自动重连；新宿主启动失败时由恢复控制台显示启动错误。",
+    "capabilities": [
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "subcategory": "runtime-ops"
   }
 ]
