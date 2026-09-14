@@ -1,5 +1,156 @@
 [
   {
+    "id": "reactive-resume",
+    "name": "Reactive Resume",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/reactive-resume/reactive-resume",
+    "description": "Open-source, privacy-first resume builder; ships an MCP server and agent skills that can be driven from DeepSeek Harness.",
+    "description_zh": "开源、注重隐私的简历构建器，提供 MCP 服务器与 Agent Skills，可从 DeepSeek Harness 调用。",
+    "capabilities": [
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 42520,
+    "license": "MIT"
+  },
+  {
+    "id": "openviking",
+    "name": "OpenViking",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/volcengine/OpenViking",
+    "description": "Self-evolving context database for AI agents that unifies agent memory, knowledge RAG and skills.",
+    "description_zh": "面向 AI Agent 的自进化上下文数据库，统一 Agent 记忆、知识 RAG 与技能。",
+    "capabilities": [
+      "memory",
+      "context",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 36784,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "nocobase",
+    "name": "NocoBase",
+    "type": "integration",
+    "category": "workflow",
+    "repository": "https://github.com/nocobase/nocobase",
+    "description": "Open-source AI + no-code platform for building business systems, with AI agents and workflow automation.",
+    "description_zh": "开源 AI + 无代码平台，用于快速构建业务系统，内置 AI Agent 与工作流自动化。",
+    "capabilities": [
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24175
+  },
+  {
+    "id": "weknora",
+    "name": "WeKnora",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/Tencent/WeKnora",
+    "description": "Open-source LLM knowledge platform: turn documents into a queryable RAG, an autonomous reasoning agent and a self-maintaining wiki.",
+    "description_zh": "开源 LLM 知识平台：把文档转化为可查询 RAG、自主推理 Agent 与自维护 wiki。",
+    "capabilities": [
+      "memory",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 22553
+  },
+  {
+    "id": "everos",
+    "name": "EverOS",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/EverMind-AI/EverOS",
+    "description": "Portable memory layer for AI agents: local-first, Markdown-native, user-owned and self-evolving across apps and tools.",
+    "description_zh": "面向 AI Agent 的可移植记忆层：本地优先、Markdown 原生、用户自持，跨应用自进化。",
+    "capabilities": [
+      "memory",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12898,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "honcho",
+    "name": "Honcho",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/plastic-labs/honcho",
+    "description": "Memory library for building stateful agents, with context engineering and continual learning.",
+    "description_zh": "用于构建有状态 Agent 的记忆库，支持上下文工程与持续学习。",
+    "capabilities": [
+      "memory",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7129,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "openpencil",
+    "name": "OpenPencil",
+    "type": "integration",
+    "category": "ui",
+    "repository": "https://github.com/ZSeven-W/openpencil",
+    "description": "Open-source AI-native vector design tool with concurrent agent teams, design-as-code and MCP support.",
+    "description_zh": "开源 AI 原生矢量设计工具，支持并发 Agent Teams、Design-as-Code 与 MCP。",
+    "capabilities": [
+      "ui",
+      "multi-agent",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5909,
+    "license": "MIT"
+  },
+  {
+    "id": "mirage",
+    "name": "Mirage",
+    "type": "integration",
+    "category": "terminal",
+    "repository": "https://github.com/strukto-ai/mirage",
+    "description": "Virtual terminal and virtual filesystem for AI agents, with a sandboxed bash tool.",
+    "description_zh": "面向 AI Agent 的虚拟终端与虚拟文件系统，提供沙箱化 bash 工具。",
+    "capabilities": [
+      "terminal",
+      "files"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3624,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "reme",
+    "name": "ReMe",
+    "type": "integration",
+    "category": "memory",
+    "repository": "https://github.com/agentscope-ai/ReMe",
+    "description": "Memory management kit for agents: remember, refine and reuse memory across sessions.",
+    "description_zh": "面向 Agent 的记忆管理套件：跨会话记住、提炼并复用记忆。",
+    "capabilities": [
+      "memory",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3448,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "coding-tools-mcp",
     "name": "Coding Tools MCP",
     "type": "integration",
@@ -18,6 +169,24 @@
     "_updated": "2026-08-18",
     "_stars_prev": 841,
     "growth": 5
+  },
+  {
+    "id": "ccteam",
+    "name": "ccteam",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/firstintent/ccteam",
+    "description": "ccteam turns the coding agents you already run (Claude Code, Codex, Grok, DeepSeek Harness, Kimi, Pi) into one team — any session can spawn, dispatch, and collect work from any vendor on any machine, while you steer it all from Telegram, Lark, or a browser tab. 把你在用的编程 agent 编成一支团队,跨厂商跨机器派活,Telegram/飞书/网页统一指挥。",
+    "description_zh": "ccteam turns the coding agents you already run (Claude Code, Codex, Grok, DeepSeek Harness, Kimi, Pi) into one team — any session can spawn, dispatch, and collect work from any vendor on any machine, while you steer it all from Telegram, Lark, or a browser tab. 把你在用的编程 agent 编成一支团队,跨厂商跨机器派活,Telegram/飞书/网页统一指挥。",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 538,
+    "license": "MIT"
   },
   {
     "id": "memtrace-public",
@@ -40,6 +209,26 @@
     "_updated": "2026-08-20",
     "_stars_prev": 458,
     "growth": 1
+  },
+  {
+    "id": "watch-skill",
+    "name": "watch-skill",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/oxbshw/watch-skill",
+    "description": "Give AI agents eyes, ears, and verifiable results. Watch Skill turns video, audio and screen activity into searchable, timestamped evidence and proves work with deterministic contracts, not model opinion. DeepWatch is the agent workspace built on DeepSeek Harness. Python + npm, MCP, CLI, REST, Web.",
+    "description_zh": "Give AI agents eyes, ears, and verifiable results. Watch Skill turns video, audio and screen activity into searchable, timestamped evidence and proves work with deterministic contracts, not model opinion. DeepWatch is the agent workspace built on DeepSeek Harness. Python + npm, MCP, CLI, REST, Web.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "search",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 374,
+    "license": "MIT"
   },
   {
     "id": "dsh-ios",
@@ -71,6 +260,24 @@
     ]
   },
   {
+    "id": "nature-academic-search",
+    "name": "nature-academic-search",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/wp-a/nature-academic-search",
+    "description": "Academic Paper Search：中文科研用户的 Codex / Claude Code / DeepSeek Harness Skill + MCP；跨 CrossRef、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 MeSH、引用核验、引文图谱、试验检索与审计导出。",
+    "description_zh": "Academic Paper Search：中文科研用户的 Codex / Claude Code / DeepSeek Harness Skill + MCP；跨 CrossRef、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 MeSH、引用核验、引文图谱、试验检索与审计导出。",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 237,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-popout-sidebar",
     "name": "dsh-popout-sidebar",
     "type": "integration",
@@ -90,6 +297,41 @@
     "_topics": [
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "blue-whale-harness",
+    "name": "Blue-Whale-Harness",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/leenkcool/Blue-Whale-Harness",
+    "description": "🐋 DeepSeek Harness 插件总目录 · The catalog of DSH plugins：1958 个仓库 / 1819 个真插件（Skills · MCP · Tools · UI · Orchestration），中英文搜索、分类筛选、STAR 排序 → leenkcool.github.io",
+    "description_zh": "🐋 DeepSeek Harness 插件总目录 · The catalog of DSH plugins：1958 个仓库 / 1819 个真插件（Skills · MCP · Tools · UI · Orchestration），中英文搜索、分类筛选、STAR 排序 → leenkcool.github.io",
+    "capabilities": [
+      "coding",
+      "git",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 195,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "pi2dsh",
+    "name": "pi2dsh",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/weijiafu14/pi2dsh",
+    "description": "Bridge the Pi and DeepSeek Harness ecosystems: one Pi Host ABI runs unmodified Pi extensions as native DSH plugins. 打通 Pi 与 DSH 生态。",
+    "description_zh": "Bridge the Pi and DeepSeek Harness ecosystems: one Pi Host ABI runs unmodified Pi extensions as native DSH plugins. 打通 Pi 与 DSH 生态。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 188,
+    "license": "MIT"
   },
   {
     "id": "dsh-plugin-bridge",
@@ -219,6 +461,23 @@
     "stars": 119
   },
   {
+    "id": "dsh-mcp",
+    "name": "dsh-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Mr-potato-123/dsh-mcp",
+    "description": "dsh as mcp, make your claude code or codex etc. faster, more powerful and more economic!",
+    "description_zh": "dsh as mcp, make your claude code or codex etc. faster, more powerful and more economic!",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 119,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-skill-mcp-panel",
     "name": "dsh-skill-mcp-panel",
     "type": "integration",
@@ -280,6 +539,42 @@
     ]
   },
   {
+    "id": "dsh-capability-menu",
+    "name": "dsh-capability-menu",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/PKUfudawei/dsh-capability-menu",
+    "description": "Unified capability menu for DeepSeek Harness: manage exposure level (context footprint) and execution mode of MCP tools & skills via Exposed/Progressive/Blocked tiers.",
+    "description_zh": "Unified capability menu for DeepSeek Harness: manage exposure level (context footprint) and execution mode of MCP tools & skills via Exposed/Progressive/Blocked tiers.",
+    "capabilities": [
+      "coding",
+      "context",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 85,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "agent-bridge",
+    "name": "Agent-Bridge",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/FeiZhuLulu/Agent-Bridge",
+    "description": "Agent Bridge is a connector that links various local agents, enabling users to coordinate multiple other agents simply by interacting with a single powerful agent. It currently supports Codex as the coordinator to direct Antigravity CLI, Grok Build, and DeepSeek Harness. Support for additional agents will be rolled out soon.",
+    "description_zh": "Agent Bridge is a connector that links various local agents, enabling users to coordinate multiple other agents simply by interacting with a single powerful agent. It currently supports Codex as the coordinator to direct Antigravity CLI, Grok Build, and DeepSeek Harness. Support for additional agents will be rolled out soon.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 73,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-qqbot",
     "name": "dsh-qqbot",
     "type": "integration",
@@ -297,6 +592,77 @@
     "_updated": "2026-08-18",
     "_stars_prev": 68,
     "growth": 2
+  },
+  {
+    "id": "opencues",
+    "name": "opencues",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/opencues/opencues",
+    "description": "The open standard for omnipresent AI. Claude Code, OpenCode, Gemini CLI, Shell, Chrome, DeepSeek Harness. Model-agnostic",
+    "description_zh": "The open standard for omnipresent AI. Claude Code, OpenCode, Gemini CLI, Shell, Chrome, DeepSeek Harness. Model-agnostic",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 48,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "ax-feishu-bridge",
+    "name": "ax-feishu-bridge",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/AX1202/ax-feishu-bridge",
+    "description": "飞书/Lark 机器人桥接，同时支持 Pi 和 DeepSeek Harness（DSH）双平台，随时随地远程与你的编程助手对话",
+    "description_zh": "飞书/Lark 机器人桥接，同时支持 Pi 和 DeepSeek Harness（DSH）双平台，随时随地远程与你的编程助手对话",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 47
+  },
+  {
+    "id": "distill-kura",
+    "name": "distill-kura",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/lna-lab/distill-kura",
+    "description": "蒸留蔵 — distilled long-term memory for agents: recall by meaning, writing gated by evidence, one kura per agent mode. Ships as a DeepSeek Harness plugin and an MCP server.",
+    "description_zh": "蒸留蔵 — distilled long-term memory for agents: recall by meaning, writing gated by evidence, one kura per agent mode. Ships as a DeepSeek Harness plugin and an MCP server.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 47,
+    "license": "MIT"
+  },
+  {
+    "id": "mjolnir",
+    "name": "mjolnir",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/BrokkAi/mjolnir",
+    "description": "Manage Codex, Claude Code, Muse Code, Kimi Code, Grok Build, and DeepSeek Harness with durable sessions, isolated environments, quotas, and remote control. A Rust terminal and web control plane for Agent Client Protocol (ACP) coding agents.",
+    "description_zh": "Manage Codex, Claude Code, Muse Code, Kimi Code, Grok Build, and DeepSeek Harness with durable sessions, isolated environments, quotas, and remote control. A Rust terminal and web control plane for Agent Client Protocol (ACP) coding agents.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "terminal",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 47,
+    "license": "GPL-3.0"
   },
   {
     "id": "dsh-wsl-workspace",
@@ -338,6 +704,22 @@
     "_updated": "2026-08-19",
     "_stars_prev": 38,
     "growth": 3
+  },
+  {
+    "id": "dsh-acp-interactive",
+    "name": "dsh-acp-interactive",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/ClickPM/dsh-acp-interactive",
+    "description": "Editor-facing ACP server for Zed and other ACP clients, composed from published DeepSeek Harness plugins. Community-maintained; not affiliated with DeepSeek.",
+    "description_zh": "Editor-facing ACP server for Zed and other ACP clients, composed from published DeepSeek Harness plugins. Community-maintained; not affiliated with DeepSeek.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 39,
+    "license": "MIT"
   },
   {
     "id": "dsh-lark-bot",
@@ -398,6 +780,25 @@
     ]
   },
   {
+    "id": "agent-team",
+    "name": "agent-team",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/limuyang2/agent-team",
+    "description": "Multi-agent team collaboration for DeepSeek Harness, with independent models, skills, MCP tools, contexts, and a shared workspace.",
+    "description_zh": "Multi-agent team collaboration for DeepSeek Harness, with independent models, skills, MCP tools, contexts, and a shared workspace.",
+    "capabilities": [
+      "coding",
+      "context",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 33,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-plugin-guide-1",
     "name": "dsh-plugin-guide",
     "type": "integration",
@@ -455,6 +856,24 @@
     "status": "active",
     "verified": false,
     "stars": 30
+  },
+  {
+    "id": "plexus",
+    "name": "Plexus",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/miniLV/Plexus",
+    "description": "一键配置各类 AI Agent 工具的 MCP、Skills 和规则；支持 Claude Code、Codex、DeepSeek Harness、OpenCode、Cursor、Gemini CLI、Qwen Code 等。 One-click local setup for MCP servers, skills, and rules across AI coding agents.",
+    "description_zh": "一键配置各类 AI Agent 工具的 MCP、Skills 和规则；支持 Claude Code、Codex、DeepSeek Harness、OpenCode、Cursor、Gemini CLI、Qwen Code 等。 One-click local setup for MCP servers, skills, and rules across AI coding agents.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 29,
+    "license": "Apache-2.0"
   },
   {
     "id": "deepseek-harness-docker-2",
@@ -552,6 +971,24 @@
       "dsh-plugin",
       "dsh-plugins"
     ]
+  },
+  {
+    "id": "godot-bridge",
+    "name": "godot-bridge",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Smalldy/godot-bridge",
+    "description": "DSH (DeepSeek Harness) plugin that launches and drives a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools.",
+    "description_zh": "DSH (DeepSeek Harness) plugin that launches and drives a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26,
+    "license": "MIT"
   },
   {
     "id": "dsh-codex-sync",
@@ -658,6 +1095,24 @@
     "stars": 24
   },
   {
+    "id": "augmentor-dsh-extension-plugin",
+    "name": "augmentor-dsh-extension-plugin",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/ManoloRemiddi/augmentor-dsh-extension-plugin",
+    "description": "Chromium side panel and browser control for DeepSeek Harness. Includes the plugin, extension and native host.",
+    "description_zh": "Chromium side panel and browser control for DeepSeek Harness. Includes the plugin, extension and native host.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 23,
+    "license": "MIT"
+  },
+  {
     "id": "chatccc",
     "name": "chatccc",
     "type": "integration",
@@ -701,6 +1156,22 @@
     ]
   },
   {
+    "id": "smart-dsh",
+    "name": "Smart-DSH",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/hikarioyama/Smart-DSH",
+    "description": "Unofficial DeepSeek Harness plugin: mobile-friendly UI, Web Push notifications, and Linux Tailscale setup guide",
+    "description_zh": "Unofficial DeepSeek Harness plugin: mobile-friendly UI, Web Push notifications, and Linux Tailscale setup guide",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 22
+  },
+  {
     "id": "dsh-pilot",
     "name": "dsh-pilot",
     "type": "integration",
@@ -725,6 +1196,24 @@
       "deepseek-harness",
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "dsh-harness-one",
+    "name": "dsh-harness-one",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/chumingjun/dsh-harness-one",
+    "description": "Visual AI workflow orchestrator for DeepSeek Harness (dsh): multi-agent DAGs, live execution, recovery, and Feishu integration.",
+    "description_zh": "Visual AI workflow orchestrator for DeepSeek Harness (dsh): multi-agent DAGs, live execution, recovery, and Feishu integration.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 19,
+    "license": "MIT"
   },
   {
     "id": "dsh-robotic-harness",
@@ -818,6 +1307,43 @@
     ]
   },
   {
+    "id": "garmin-connect-plugin-for-dsh",
+    "name": "garmin-connect-plugin-for-dsh",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Likenttt/garmin-connect-plugin-for-dsh",
+    "description": "A TypeScript-based Garmin Connect plugin and MCP server with secure browser-based MFA, built for DeepSeek Harness and designed to work with other AI agents.",
+    "description_zh": "A TypeScript-based Garmin Connect plugin and MCP server with secure browser-based MFA, built for DeepSeek Harness and designed to work with other AI agents.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "mcp",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17,
+    "license": "MIT"
+  },
+  {
+    "id": "codely-dsh-bridge",
+    "name": "codely-dsh-bridge",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/tianyin231/codely-dsh-bridge",
+    "description": "Codely 是 Unity 中国（Tuanjie/团结）旗下的 AI 编程智能体（官方 agent：Tuanjie Cowork）。本项目将 Codely 账号的模型额度（LiteLLM 网关）代理到 dsh（DeepSeek Harness）中使用，并提供多账号管理：额度实时查看、一键丝滑切换、设备码登录。",
+    "description_zh": "Codely 是 Unity 中国（Tuanjie/团结）旗下的 AI 编程智能体（官方 agent：Tuanjie Cowork）。本项目将 Codely 账号的模型额度（LiteLLM 网关）代理到 dsh（DeepSeek Harness）中使用，并提供多账号管理：额度实时查看、一键丝滑切换、设备码登录。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-hdc-bridge",
     "name": "dsh-hdc-bridge",
     "type": "integration",
@@ -860,6 +1386,57 @@
     ]
   },
   {
+    "id": "dsh-mcp-manage-1",
+    "name": "dsh-mcp-manage",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/null119/dsh-mcp-manage",
+    "description": "DSH（DeepSeek Harness）Web GUI 插件：在设置页管理 MCP 服务器——列出已安装工具，添加/编辑/删除、启用/停用；组合配置提供的 MCP 同样可在运行时直接编辑、停用、移除并恢复，无需重启宿主。",
+    "description_zh": "DSH（DeepSeek Harness）Web GUI 插件：在设置页管理 MCP 服务器——列出已安装工具，添加/编辑/删除、启用/停用；组合配置提供的 MCP 同样可在运行时直接编辑、停用、移除并恢复，无需重启宿主。",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 16,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-branchmark",
+    "name": "dsh-branchmark",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/zaizaizhao/dsh-branchmark",
+    "description": "While vibe coding, save an answer you may need later, use Side Chat for a question that suddenly comes up, or open a related conversation for deeper work without losing focus on the current task.",
+    "description_zh": "While vibe coding, save an answer you may need later, use Side Chat for a question that suddenly comes up, or open a related conversation for deeper work without losing focus on the current task.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 16,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-deepseek-web-login",
+    "name": "dsh-deepseek-web-login",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/cv-superding/dsh-deepseek-web-login",
+    "description": "Unofficial DSH (DeepSeek Harness) plugin: use chat.deepseek.com web models as an LLM provider - browser-login capture, PoW solving, SSE streaming, prompting-based tool calls.",
+    "description_zh": "Unofficial DSH (DeepSeek Harness) plugin: use chat.deepseek.com web models as an LLM provider - browser-login capture, PoW solving, SSE streaming, prompting-based tool calls.",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 16,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "dsh-movein",
     "name": "dsh-movein",
     "type": "integration",
@@ -875,6 +1452,40 @@
     "status": "active",
     "verified": false,
     "stars": 15
+  },
+  {
+    "id": "prompt-skill-armory",
+    "name": "prompt-skill-armory",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Qian-Ning/prompt-skill-armory",
+    "description": "Managing prompts，, skills, MCP tools & wallpaper for DeepSeek Harness",
+    "description_zh": "Managing prompts，, skills, MCP tools & wallpaper for DeepSeek Harness",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 15,
+    "license": "MIT"
+  },
+  {
+    "id": "jnpz",
+    "name": "Jnpz",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/pazz11/Jnpz",
+    "description": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
+    "description_zh": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 15,
+    "license": "MIT"
   },
   {
     "id": "dsh-vscode-1",
@@ -987,6 +1598,142 @@
     ]
   },
   {
+    "id": "dsh-browser-control-2",
+    "name": "dsh-browser-control",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/caob23/dsh-browser-control",
+    "description": "Chrome 浏览器扩展 + DeepSeek Harness 插件，让 AI Agent 直接操控你的真实浏览器。",
+    "description_zh": "Chrome 浏览器扩展 + DeepSeek Harness 插件，让 AI Agent 直接操控你的真实浏览器。",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "tarocub",
+    "name": "tarocub",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/cloveric/tarocub",
+    "description": "Feishu/Lark-first local AI agent gateway and native DeepSeek Harness plugin for Codex, Claude Code, Kimi Code, DeepSeek Harness, and Antigravity; Telegram optional.",
+    "description_zh": "Feishu/Lark-first local AI agent gateway and native DeepSeek Harness plugin for Codex, Claude Code, Kimi Code, DeepSeek Harness, and Antigravity; Telegram optional.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek-peak",
+    "name": "deepseek-peak",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/YMRYMR/deepseek-peak",
+    "description": "Live DeepSeek V4 API peak/off-peak status widget — drop-in dsh-plugin for deepseek-ai/deepseek-harness, plus a standalone browser widget.",
+    "description_zh": "Live DeepSeek V4 API peak/off-peak status widget — drop-in dsh-plugin for deepseek-ai/deepseek-harness, plus a standalone browser widget.",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-setting-restart",
+    "name": "dsh-setting-restart",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/893413974-bit/dsh-setting-restart",
+    "description": "One-click restart of the DSH service from Settings → General. A dsh-plugin for DeepSeek Harness; the restart row stays pinned at the bottom of the general settings page.  在设置 → 通用设置中一键重启 DSH 服务。DeepSeek Harness 的 dsh-plugin，重启行固定显示在通用设置页面最底部。",
+    "description_zh": "One-click restart of the DSH service from Settings → General. A dsh-plugin for DeepSeek Harness; the restart row stays pinned at the bottom of the general settings page.  在设置 → 通用设置中一键重启 DSH 服务。DeepSeek Harness 的 dsh-plugin，重启行固定显示在通用设置页面最底部。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseekharness-mcp-manager",
+    "name": "DeepSeekHarness-MCP-Manager",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+    "description": "DSH durable MCP server manager plugin — Settings UI + HTTP API + mcp_manager_* model tools, cross-platform installers",
+    "description_zh": "DSH durable MCP server manager plugin — Settings UI + HTTP API + mcp_manager_* model tools, cross-platform installers",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek-harness-browser",
+    "name": "DeepSeek-Harness-Browser",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/tonyd2wild/DeepSeek-Harness-Browser",
+    "description": "An in-app browser pane for DeepSeek Harness — real Chrome over CDP, plus rendered previews of local files, markdown and PDFs.",
+    "description_zh": "An in-app browser pane for DeepSeek Harness — real Chrome over CDP, plus rendered previews of local files, markdown and PDFs.",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek-harness-for-vscode-1",
+    "name": "deepseek-harness-for-vscode",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/zxlishixian/deepseek-harness-for-vscode",
+    "description": "🐳  DeepSeek-Harness extension for VS Code！！！Welcome everyone to join and improve this project！！！",
+    "description_zh": "🐳  DeepSeek-Harness extension for VS Code！！！Welcome everyone to join and improve this project！！！",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "deepchat",
+    "name": "deepchat",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/theajack/deepchat",
+    "description": "DeepChat - An AI Version of WeChat Built on DeepSeek Harness",
+    "description_zh": "DeepChat - An AI Version of WeChat Built on DeepSeek Harness",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-git-graph",
     "name": "dsh-git-graph",
     "type": "integration",
@@ -1076,6 +1823,40 @@
     "_topics": [
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "dsh-mcp-1",
+    "name": "dsh-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/ArvinQi/dsh-mcp",
+    "description": "DeepSeek Harness 的 MCP 服务器管理插件：可视化界面管理 + 按需热注入，OAuth 鉴权支持，环境变量配置。",
+    "description_zh": "DeepSeek Harness 的 MCP 服务器管理插件：可视化界面管理 + 按需热注入，OAuth 鉴权支持，环境变量配置。",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 13,
+    "license": "MIT"
+  },
+  {
+    "id": "deepeseek-harness-guide",
+    "name": "deepeseek-harness-guide",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/flaqai/deepeseek-harness-guide",
+    "description": "Guide for development with DeepSeek Harness. Building plugin for DeepSeek Harness Project.",
+    "description_zh": "Guide for development with DeepSeek Harness. Building plugin for DeepSeek Harness Project.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 13,
+    "license": "MIT"
   },
   {
     "id": "ikanban",
@@ -1270,6 +2051,41 @@
     ]
   },
   {
+    "id": "dsh-token-optimizer",
+    "name": "dsh-token-optimizer",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Zoria-Lind/dsh-token-optimizer",
+    "description": "Layered token-optimization pipeline for DeepSeek Harness: output ladder, MCP lazy loading,compaction driver, cache-hit reporting. Built on real DSH plugin APIs; ~40-60% input saved in long sessions.",
+    "description_zh": "Layered token-optimization pipeline for DeepSeek Harness: output ladder, MCP lazy loading,compaction driver, cache-hit reporting. Built on real DSH plugin APIs; ~40-60% input saved in long sessions.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "license": "MIT"
+  },
+  {
+    "id": "oh-my-dsh-slim",
+    "name": "oh-my-dsh-slim",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/ninipa/oh-my-dsh-slim",
+    "description": "Specialist subagent delegation preset for DeepSeek Harness — orchestrator + 5 roles (oracle/designer/fixer/explorer/librarian) with per-role models, effort, tool filters, scoped MCP and background-first delegation. Port of oh-my-opencode-slim.",
+    "description_zh": "Specialist subagent delegation preset for DeepSeek Harness — orchestrator + 5 roles (oracle/designer/fixer/explorer/librarian) with per-role models, effort, tool filters, scoped MCP and background-first delegation. Port of oh-my-opencode-slim.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12
+  },
+  {
     "id": "dsh-annotate",
     "name": "dsh-annotate",
     "type": "integration",
@@ -1410,6 +2226,43 @@
     ]
   },
   {
+    "id": "minta",
+    "name": "minta",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/xinchen03/minta",
+    "description": "The context quality layer for AI agents — memory that checks itself: lifecycle governance, calibrated confidence, and   staged claim gates. Local-first, MCP 19 tools, DeepSeek Harness plugin.",
+    "description_zh": "The context quality layer for AI agents — memory that checks itself: lifecycle governance, calibrated confidence, and   staged claim gates. Local-first, MCP 19 tools, DeepSeek Harness plugin.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-computer-use-6",
+    "name": "dsh-computer-use",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/AzaiSakura/dsh-computer-use",
+    "description": "Reverse-engineering & re-implementation of OpenAI Computer Use macOS plugin for DeepSeek Harness: 10 MCP tools, JSON-RPC wire protocol, native Swift AX/screenshot/input daemon.",
+    "description_zh": "Reverse-engineering & re-implementation of OpenAI Computer Use macOS plugin for DeepSeek Harness: 10 MCP tools, JSON-RPC wire protocol, native Swift AX/screenshot/input daemon.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-mcp-manager-dup",
     "name": "dsh-mcp-manager",
     "type": "integration",
@@ -1529,6 +2382,23 @@
       "wechat-bot",
       "weixin"
     ]
+  },
+  {
+    "id": "deepseek-harness-vscode-1",
+    "name": "deepseek-harness-vscode",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/112GT/deepseek-harness-vscode",
+    "description": "Independent VS Code sidebar for DeepSeek Harness.",
+    "description_zh": "Independent VS Code sidebar for DeepSeek Harness.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10,
+    "license": "MIT"
   },
   {
     "id": "dsh-harness-mcp-server",
@@ -1727,6 +2597,58 @@
       "review",
       "vscode"
     ]
+  },
+  {
+    "id": "dsh-russian-lang",
+    "name": "dsh-russian-lang",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/GooDAnDReaDY/dsh-russian-lang",
+    "description": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-rc.2+): 6808 ключей (ядро + 40+ плагинов), единый дизайн настроек dsh-clinebot, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L).",
+    "description_zh": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-rc.2+): 6808 ключей (ядро + 40+ плагинов), единый дизайн настроек dsh-clinebot, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L).",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-vscode-workbench",
+    "name": "dsh-vscode-workbench",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/tingfeng347/dsh-vscode-workbench",
+    "description": "DeepSeek Harness 的 VS Code 风格本地开发工作台：文件管理、Monaco 编辑、文档预览、搜索、Git、分屏终端与 DSH 对话一体化。",
+    "description_zh": "DeepSeek Harness 的 VS Code 风格本地开发工作台：文件管理、Monaco 编辑、文档预览、搜索、Git、分屏终端与 DSH 对话一体化。",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "graphflow",
+    "name": "GraphFlow",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Roarpeng/GraphFlow",
+    "description": "Local-first code knowledge graph and context harness for coding agents. MCP + DeepSeek Harness (dsh) plugin.",
+    "description_zh": "Local-first code knowledge graph and context harness for coding agents. MCP + DeepSeek Harness (dsh) plugin.",
+    "capabilities": [
+      "coding",
+      "context",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-browser-xylt",
@@ -2051,6 +2973,60 @@
     ]
   },
   {
+    "id": "dsh-browser-agent",
+    "name": "dsh-browser-agent",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/jaibhasin/dsh-browser-agent",
+    "description": "Chrome side-panel browser agent powered by DeepSeek Harness",
+    "description_zh": "Chrome side-panel browser agent powered by DeepSeek Harness",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-comfyui-canvas",
+    "name": "dsh-comfyui-canvas",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/wbin0001/dsh-comfyui-canvas",
+    "description": "DSH+ComfyUI画布插件dsh-comfyui-canvas embeds your ComfyUI instance as a split-screen canvas inside DeepSeek Harness Web. The agent writes prompts and edits nodes right in chat, applies them live to the canvas you're watching, and turns ideas into images, video, and 3D — all without switching front-ends.",
+    "description_zh": "DSH+ComfyUI画布插件dsh-comfyui-canvas embeds your ComfyUI instance as a split-screen canvas inside DeepSeek Harness Web. The agent writes prompts and edits nodes right in chat, applies them live to the canvas you're watching, and turns ideas into images, video, and 3D — all without switching front-ends.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "multimodal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-wechat-article",
+    "name": "dsh-wechat-article",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/aiworkskills/dsh-wechat-article",
+    "description": "一个DeepSeek Harness的公众号运营插件，选题 → 写稿 → 排版 → 配图 → 发布",
+    "description_zh": "一个DeepSeek Harness的公众号运营插件，选题 → 写稿 → 排版 → 配图 → 发布",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "telegram",
     "name": "telegram",
     "type": "integration",
@@ -2313,6 +3289,112 @@
       "dsh-plugin-market",
       "dsh-plugins"
     ]
+  },
+  {
+    "id": "dsh-agent-bridge",
+    "name": "DSH-agent-bridge",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/zmh2000829/DSH-agent-bridge",
+    "description": "Use Grok Build inside DeepSeek Harness Web through ACP",
+    "description_zh": "Use Grok Build inside DeepSeek Harness Web through ACP",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-unreal-mcp",
+    "name": "dsh-unreal-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/PeterTXPan/dsh-unreal-mcp",
+    "description": "DeepSeek Harness Bundle for Unreal Engine 5.8 via Unreal MCP",
+    "description_zh": "DeepSeek Harness Bundle for Unreal Engine 5.8 via Unreal MCP",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-clawbot",
+    "name": "dsh-clawbot",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/cryjkd/dsh-clawbot",
+    "description": "在 DeepSeek Harness（DSH）里接入微信官方 ilink 机器人网关：扫码绑定后，AI 能主动给自己发微信通知；每次回复后自动推送任务完成摘要；目标完成/阻断时自动通知；需要批准/选择时主动微信提醒。自带设置界面（设置 → ClawBot：扫码二维码、微信在线/断线状态、手动发送、三个自动通知开关、监听开关、解除绑定、自定义图标）。  底层走腾讯官方 ilink 网关（https://ilinkai.weixin.qq.com），无第三方破解、无自建中转，消息只发给绑定的账号自己。",
+    "description_zh": "在 DeepSeek Harness（DSH）里接入微信官方 ilink 机器人网关：扫码绑定后，AI 能主动给自己发微信通知；每次回复后自动推送任务完成摘要；目标完成/阻断时自动通知；需要批准/选择时主动微信提醒。自带设置界面（设置 → ClawBot：扫码二维码、微信在线/断线状态、手动发送、三个自动通知开关、监听开关、解除绑定、自定义图标）。  底层走腾讯官方 ilink 网关（https://ilinkai.weixin.qq.com），无第三方破解、无自建中转，消息只发给绑定的账号自己。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "sprites-deepseek-plugin",
+    "name": "sprites-deepseek-plugin",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/superfly/sprites-deepseek-plugin",
+    "description": "DeepSeek Harness plugin for Fly.io Sprites: computers for agents. Sprites MCP tools and packaged workflow guidance for remote builds, tests, and long-running services.",
+    "description_zh": "DeepSeek Harness plugin for Fly.io Sprites: computers for agents. Sprites MCP tools and packaged workflow guidance for remote builds, tests, and long-running services.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "code2skill",
+    "name": "Code2Skill",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/leechen298/Code2Skill",
+    "description": "Generate Function, MCP, Agent Skill, and offline test packages from existing code; installable as a DeepSeek Harness bundle.",
+    "description_zh": "Generate Function, MCP, Agent Skill, and offline test packages from existing code; installable as a DeepSeek Harness bundle.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "unified-agent-memory",
+    "name": "unified-agent-memory",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/Noelune/unified-agent-memory",
+    "description": "Unified fleet-wide agent memory system for DeepSeek Harness — shared Obsidian Vault for dsh, Codex, Claude Code & Hermes with dependency-free Python FTS5 core.",
+    "description_zh": "Unified fleet-wide agent memory system for DeepSeek Harness — shared Obsidian Vault for dsh, Codex, Claude Code & Hermes with dependency-free Python FTS5 core.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
   },
   {
     "id": "dsh-telegram-relay",
@@ -2851,6 +3933,72 @@
       "file-tree",
       "workbench"
     ]
+  },
+  {
+    "id": "harness-lark",
+    "name": "harness-lark",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/huoxue1/harness-lark",
+    "description": "Lark/飞书（Feishu）渠道插件，为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供飞书通信能力",
+    "description_zh": "Lark/飞书（Feishu）渠道插件，为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供飞书通信能力",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek-harness-dsh-for-vscode",
+    "name": "deepseek-harness-dsh-for-vscode",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/Xizhi1024/deepseek-harness-dsh-for-vscode",
+    "description": "DeepSeek Harness(dsh) for VS Code",
+    "description_zh": "DeepSeek Harness(dsh) for VS Code",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-mcp-mgr",
+    "name": "dsh-mcp-mgr",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/yangfch3/dsh-mcp-mgr",
+    "description": "MCP server manager for DeepSeek Harness — workspace mcp.json discovery, hot sync, and a web settings UI.",
+    "description_zh": "MCP server manager for DeepSeek Harness — workspace mcp.json discovery, hot sync, and a web settings UI.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
+    "id": "chicheng-push",
+    "name": "chicheng-push",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/534119219/chicheng-push",
+    "description": "DSH(DeepSeek Harness) Web 消息推送插件：多渠道推送(Server酱/PushPlus/Bark/钉钉/企微/Telegram/飞书/Webhook等)，设置界面提供「推送插件」入口，可被其他插件调用(pushNotifier 服务 / /push/api 接口)",
+    "description_zh": "DSH(DeepSeek Harness) Web 消息推送插件：多渠道推送(Server酱/PushPlus/Bark/钉钉/企微/Telegram/飞书/Webhook等)，设置界面提供「推送插件」入口，可被其他插件调用(pushNotifier 服务 / /push/api 接口)",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
   },
   {
     "id": "dsh4vscode",
@@ -3443,6 +4591,139 @@
       "vision"
     ],
     "subcategory": "files-import"
+  },
+  {
+    "id": "dsh-vsceditor",
+    "name": "dsh-vsceditor",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/k-ying/dsh-vsceditor",
+    "description": "DeepSeek Harness 内嵌 VSCode 编辑器插件：嵌入完整 code-server，agent 写文件时自动弹出红绿 diff 跟随（edit sync / file locking / follow mode）",
+    "description_zh": "DeepSeek Harness 内嵌 VSCode 编辑器插件：嵌入完整 code-server，agent 写文件时自动弹出红绿 diff 跟随（edit sync / file locking / follow mode）",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-acp-adapter",
+    "name": "dsh-acp-adapter",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter",
+    "description": "Use AI agents from the DSH session UI.",
+    "description_zh": "Use AI agents from the DSH session UI.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-tylina",
+    "name": "dsh-tylina",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/tylina/dsh-tylina",
+    "description": "Edit typeset Typst documents inside DeepSeek Harness. Share a workspace with your agent, from first draft to finished PDF.",
+    "description_zh": "Edit typeset Typst documents inside DeepSeek Harness. Share a workspace with your agent, from first draft to finished PDF.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-hermes-link",
+    "name": "dsh-hermes-link",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Tianbuyu-wwx/dsh-hermes-link",
+    "description": "Bidirectional bridge between Hermes Agent and DeepSeek Harness (DSH). v0.2.4 — single-bundle Cordis plugin replacing the archived hermes-foundation/-oneshot-arbitrate/-dispatch-bridge triad.",
+    "description_zh": "Bidirectional bridge between Hermes Agent and DeepSeek Harness (DSH). v0.2.4 — single-bundle Cordis plugin replacing the archived hermes-foundation/-oneshot-arbitrate/-dispatch-bridge triad.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-sidenote",
+    "name": "dsh-sidenote",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/g-yixuan/dsh-sidenote",
+    "description": "侧边开一岔对话，划选留一条注释——DSH（DeepSeek Harness）插件：fork 主会话成侧边会话，支线问题不打断主线，结论一键回流。Side chat & selection annotations for DSH.",
+    "description_zh": "侧边开一岔对话，划选留一条注释——DSH（DeepSeek Harness）插件：fork 主会话成侧边会话，支线问题不打断主线，结论一键回流。Side chat & selection annotations for DSH.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-sound-player",
+    "name": "dsh-sound-player",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/LaoQianwocao/dsh-sound-player",
+    "description": "DSH Web 音效播放器（设置页管理）：对话完成、发送消息、权限请求、被提问、服务终止、子代理运行完成、最后一个子代理运行完成等 7 类场景触发提示音；内置 Web Audio 合成音效与 Windows 系统提示音，可导入自定义音频并逐项绑定；提供 soundPlayer API 供其他插件集成",
+    "description_zh": "DSH Web 音效播放器（设置页管理）：对话完成、发送消息、权限请求、被提问、服务终止、子代理运行完成、最后一个子代理运行完成等 7 类场景触发提示音；内置 Web Audio 合成音效与 Windows 系统提示音，可导入自定义音频并逐项绑定；提供 soundPlayer API 供其他插件集成",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-copilot-sdk",
+    "name": "dsh-copilot-sdk",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/GongYuanCaiJi/dsh-copilot-sdk",
+    "description": "桥接 GitHub Copilot 订阅到 DeepSeek Harness（移植自 github/copilot-sdk）",
+    "description_zh": "桥接 GitHub Copilot 订阅到 DeepSeek Harness（移植自 github/copilot-sdk）",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "astrbot-plugin-dsh-bridge",
+    "name": "astrbot_plugin_dsh_bridge",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/Fantasality/astrbot_plugin_dsh_bridge",
+    "description": "AstrBot plugin bridging DeepSeek Harness (DSH) agents — AstrBot 插件：桥接 DeepSeek Harness 智能体",
+    "description_zh": "AstrBot plugin bridging DeepSeek Harness (DSH) agents — AstrBot 插件：桥接 DeepSeek Harness 智能体",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
   },
   {
     "id": "picgo-dsh-plugin",
@@ -4565,6 +5846,369 @@
       "dsh",
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "dsh-feishu-plugin",
+    "name": "dsh-feishu-plugin",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/yangzhaofeng496/dsh-feishu-plugin",
+    "description": "Feishu bot bridge plugin for DeepSeek Harness",
+    "description_zh": "Feishu bot bridge plugin for DeepSeek Harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-plugins-28",
+    "name": "dsh-plugins",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/iia-arg/dsh-plugins",
+    "description": "Community plugins for DeepSeek Harness — starting with a Telegram channel the harness does not ship",
+    "description_zh": "Community plugins for DeepSeek Harness — starting with a Telegram channel the harness does not ship",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-triad",
+    "name": "dsh-triad",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Kr-ATG/dsh-triad",
+    "description": "定时自动化 · 用量趋势 · 技能与 MCP Server 管理 · 自动沉淀的长期记忆——一套插件装齐 DSH 四个工作台。纯插件注入，不动官方源码，一句话安装。",
+    "description_zh": "定时自动化 · 用量趋势 · 技能与 MCP Server 管理 · 自动沉淀的长期记忆——一套插件装齐 DSH 四个工作台。纯插件注入，不动官方源码，一句话安装。",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "rocketx",
+    "name": "RocketX",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/lusipad/RocketX",
+    "description": "以原版 Rocket.Chat 为内核、集成 Codex App Server、Deepseek Harness、Azure DevOps、体验对标飞书的团队协作客户端。",
+    "description_zh": "以原版 Rocket.Chat 为内核、集成 Codex App Server、Deepseek Harness、Azure DevOps、体验对标飞书的团队协作客户端。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-adaptive-context",
+    "name": "dsh-adaptive-context",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Icstick/dsh-adaptive-context",
+    "description": "DeepSeek Harness 的 AdaptiveContextPlane (ACP) 插件——带治理的长期记忆系统",
+    "description_zh": "DeepSeek Harness 的 AdaptiveContextPlane (ACP) 插件——带治理的长期记忆系统",
+    "capabilities": [
+      "coding",
+      "context",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-plugin-capability-panel",
+    "name": "dsh-plugin-capability-panel",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/chengdb/dsh-plugin-capability-panel",
+    "description": "在 Web GUI 里可视化管理项目的全部能力——Skills、MCP 服务器、快捷消息， 全部支持项目级 / 全局级双作用域，全部可以不离开浏览器完成安装、启停与分发",
+    "description_zh": "在 Web GUI 里可视化管理项目的全部能力——Skills、MCP 服务器、快捷消息， 全部支持项目级 / 全局级双作用域，全部可以不离开浏览器完成安装、启停与分发",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "cocos-extensions",
+    "name": "cocos-extensions",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/hhhh124hhhh/cocos-extensions",
+    "description": "让 AI 直接驱动 Cocos Creator 做游戏开发 — DeepSeek Harness MCP 全栈方案（场景操作、构建验证、视觉验证、多Agent团队）",
+    "description_zh": "让 AI 直接驱动 Cocos Creator 做游戏开发 — DeepSeek Harness MCP 全栈方案（场景操作、构建验证、视觉验证、多Agent团队）",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "qcc-mcp-oauth",
+    "name": "qcc-mcp-oauth",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/duhu2000/qcc-mcp-oauth",
+    "description": "DeepSeek Harness 插件：一键 OAuth 授权连接企查查（Qichacha）MCP 服务 / One-click OAuth connect to Qichacha MCP services for DeepSeek Harness",
+    "description_zh": "DeepSeek Harness 插件：一键 OAuth 授权连接企查查（Qichacha）MCP 服务 / One-click OAuth connect to Qichacha MCP services for DeepSeek Harness",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dock-files",
+    "name": "dock-files",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/AKS1st/dock-files",
+    "description": "DSH 生态中最好的文件浏览插件：VSCode 资源管理器级目录树、新建/重命名/复制粘贴/删除、拖放导入、粘贴本地文件与剪贴板图片、上传进度条与右键菜单；依赖 dock 基座 | The best file explorer for DSH: VSCode-level directory tree with new/rename/copy-paste/delete, drag-and-drop import, paste local files and clipboard images, upload progress and context menus; requires the dock base",
+    "description_zh": "DSH 生态中最好的文件浏览插件：VSCode 资源管理器级目录树、新建/重命名/复制粘贴/删除、拖放导入、粘贴本地文件与剪贴板图片、上传进度条与右键菜单；依赖 dock 基座 | The best file explorer for DSH: VSCode-level directory tree with new/rename/copy-paste/delete, drag-and-drop import, paste local files and clipboard images, upload progress and context menus; requires the dock base",
+    "capabilities": [
+      "coding",
+      "context",
+      "multimodal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-obsidian-2",
+    "name": "dsh-obsidian",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/gxpppp/dsh-obsidian",
+    "description": "Obsidian bridge plugin for DSH",
+    "description_zh": "Obsidian bridge plugin for DSH",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-browser-firefox",
+    "name": "dsh-browser-firefox",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/tuojc/dsh-browser-firefox",
+    "description": "Firefox browser-control plugin for DeepSeek Harness: one DSH plugin + one Firefox extension, driving your own Firefox over a token-authenticated WebSocket. Text-first toolset (snapshot/click/type/navigate/tab-stack) with screenshot as visual fallback. Firefox add-on available on AMO. Ported from Lum1104/dsh-browser (MIT).",
+    "description_zh": "Firefox browser-control plugin for DeepSeek Harness: one DSH plugin + one Firefox extension, driving your own Firefox over a token-authenticated WebSocket. Text-first toolset (snapshot/click/type/navigate/tab-stack) with screenshot as visual fallback. Firefox add-on available on AMO. Ported from Lum1104/dsh-browser (MIT).",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "ds-vision-plugin",
+    "name": "ds-vision-plugin",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Sorwcyra/ds-vision-plugin",
+    "description": "Paste images into DeepSeek Harness with a four-model vision race, OCR, and an automatic text bridge.",
+    "description_zh": "Paste images into DeepSeek Harness with a four-model vision race, OCR, and an automatic text bridge.",
+    "capabilities": [
+      "coding",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-kit-1",
+    "name": "dsh-kit",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/zhouzhencheng07/dsh-kit",
+    "description": "Page capability kit for DeepSeek Harness (dsh): terminal dock, file tree, source control, skills manager, phone access, background jobs and keyless web search in the browser UI",
+    "description_zh": "Page capability kit for DeepSeek Harness (dsh): terminal dock, file tree, source control, skills manager, phone access, background jobs and keyless web search in the browser UI",
+    "capabilities": [
+      "browser",
+      "coding",
+      "search",
+      "terminal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "teachreplay",
+    "name": "TeachReplay",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/Ottohere-Mourn/TeachReplay",
+    "description": "Teach once, replay anywhere — harness-agnostic Teach-by-Demonstration engine (Record → Compile → Replay → Verify) with OpenMausBot and DeepSeek Harness integrations.",
+    "description_zh": "Teach once, replay anywhere — harness-agnostic Teach-by-Demonstration engine (Record → Compile → Replay → Verify) with OpenMausBot and DeepSeek Harness integrations.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-nonead-universal-robots",
+    "name": "dsh-nonead-universal-robots",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/NoneadChina/dsh-nonead-universal-robots",
+    "description": "A plugin enabling DSH to directly control Universal Robots (UR) arms using natural language, developed by Nonead Technology based on the self-developed nUR MCP Server's source logic. (Suzhou Nonead Robot Technology Co., Ltd.)",
+    "description_zh": "A plugin enabling DSH to directly control Universal Robots (UR) arms using natural language, developed by Nonead Technology based on the self-developed nUR MCP Server's source logic. (Suzhou Nonead Robot Technology Co., Ltd.)",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-tool-ssh",
+    "name": "dsh-tool-ssh",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/hoshinoick811/dsh-tool-ssh",
+    "description": "MobaXterm-style SSH/SFTP tool plugin for DeepSeek Harness (DSH): saved connection profiles, persistent multiplexed sessions, remote command execution, SFTP file transfer, and a web GUI console with file browser + live xterm terminal.",
+    "description_zh": "MobaXterm-style SSH/SFTP tool plugin for DeepSeek Harness (DSH): saved connection profiles, persistent multiplexed sessions, remote command execution, SFTP file transfer, and a web GUI console with file browser + live xterm terminal.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "terminal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-onebot",
+    "name": "dsh-onebot",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/Hoshino-Yumetsuki/dsh-onebot",
+    "description": "OneBot Adapter For DSH",
+    "description_zh": "OneBot Adapter For DSH",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MPL-2.0"
+  },
+  {
+    "id": "better-dsh",
+    "name": "better-dsh",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/pgmi-builds/better-dsh",
+    "description": "Make your dsh ready for serious coding. (Tools x Schemas)^REPL. skill://, ctx://, agent://, dvc://, dsh://, IPython REPL, Context as Variables, cross compaction recallable, full context revive. hash-edit, dvc://browser, subagent as a function, workflow as a function.",
+    "description_zh": "Make your dsh ready for serious coding. (Tools x Schemas)^REPL. skill://, ctx://, agent://, dvc://, dsh://, IPython REPL, Context as Variables, cross compaction recallable, full context revive. hash-edit, dvc://browser, subagent as a function, workflow as a function.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "context",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-chatgpt-web",
+    "name": "dsh-chatgpt-web",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/WLV-ZEDD/dsh-chatgpt-web",
+    "description": "DSH ChatGPT Free bridges standard ChatGPT Web directly into DeepSeek Harness",
+    "description_zh": "DSH ChatGPT Free bridges standard ChatGPT Web directly into DeepSeek Harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-sshworkspaces",
+    "name": "dsh-sshworkspaces",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/tiphareth0/dsh-sshworkspaces",
+    "description": "Workspace-level SSH remote development plugin for DeepSeek Harness: transparent seam-routed fs, git & terminal across multiple hosts and workspaces, with a built-in 4-column IDE and SSH ops toolkit. 提供工作区级 SSH 远程开发的Deepseek Harness插件：文件/Git/终端按工作区透明路由，支持多服务器多工作区并行开发，内置四列 IDE 与 SSH 运维工具。",
+    "description_zh": "Workspace-level SSH remote development plugin for DeepSeek Harness: transparent seam-routed fs, git & terminal across multiple hosts and workspaces, with a built-in 4-column IDE and SSH ops toolkit. 提供工作区级 SSH 远程开发的Deepseek Harness插件：文件/Git/终端按工作区透明路由，支持多服务器多工作区并行开发，内置四列 IDE 与 SSH 运维工具。",
+    "capabilities": [
+      "coding",
+      "git",
+      "terminal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "dsh-mcp-lazy-1",
+    "name": "dsh-mcp-lazy",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/wings1848/dsh-mcp-lazy",
+    "description": "Lazy MCP gateway for DeepSeek Harness: one stable proxy tool instead of N tool schemas, servers connect on first use and idle out, metadata cached to disk.",
+    "description_zh": "Lazy MCP gateway for DeepSeek Harness: one stable proxy tool instead of N tool schemas, servers connect on first use and idle out, metadata cached to disk.",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
   },
   {
     "id": "dsh-subagent-cwd",
@@ -6070,6 +7714,698 @@
     "_topics": [
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "dsh-management-suite",
+    "name": "dsh-management-suite",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/tanleikingsley913/dsh-management-suite",
+    "description": "Five open-source management plugins for DeepSeek Harness: MCP, Skills, project docs, rules and memory, and SSH.",
+    "description_zh": "Five open-source management plugins for DeepSeek Harness: MCP, Skills, project docs, rules and memory, and SSH.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-fetch-timeouts",
+    "name": "dsh-fetch-timeouts",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/d3vmeh/dsh-fetch-timeouts",
+    "description": "DeepSeek Harness plugin: raise Node's HTTP timeouts process-wide so slow local models (Ollama, LM Studio) are not cut off at 5 minutes",
+    "description_zh": "DeepSeek Harness plugin: raise Node's HTTP timeouts process-wide so slow local models (Ollama, LM Studio) are not cut off at 5 minutes",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-workbench-3",
+    "name": "dsh-workbench",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/staff-os/dsh-workbench",
+    "description": "An enterprise workbench for the DeepSeek Harness: AI employees, knowledge bases, skills, MCP servers and DSH plugins, all manageable from a running session.",
+    "description_zh": "An enterprise workbench for the DeepSeek Harness: AI employees, knowledge bases, skills, MCP servers and DSH plugins, all manageable from a running session.",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-mobile-11",
+    "name": "dsh-mobile",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Wike-CHI/dsh-mobile",
+    "description": "Mobile device capability plugin for DeepSeek Harness: MobileService seam, mock/mobile-mcp providers, agent tools (observe/open_app/tap/type/back), tiered execution policy",
+    "description_zh": "Mobile device capability plugin for DeepSeek Harness: MobileService seam, mock/mobile-mcp providers, agent tools (observe/open_app/tap/type/back), tiered execution policy",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-web-icon-indicator",
+    "name": "dsh-web-icon-indicator",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/waknow/dsh-web-icon-indicator",
+    "description": "DSH browser tab favicon reflecting session state: idle / running / asking / done. · DSH 标签页 favicon 实时反映会话状态：待机 / 运行中 / 提问 / 完成",
+    "description_zh": "DSH browser tab favicon reflecting session state: idle / running / asking / done. · DSH 标签页 favicon 实时反映会话状态：待机 / 运行中 / 提问 / 完成",
+    "capabilities": [
+      "browser",
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-clawbot-1",
+    "name": "dsh-clawbot",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/tangwenhao616-netizen/dsh-clawbot",
+    "description": "微信 ClawBot 通道插件增强版：多会话、斜杠命令、每会话模型、并发修复。把微信变成你的 AI 代理指挥中心。",
+    "description_zh": "微信 ClawBot 通道插件增强版：多会话、斜杠命令、每会话模型、并发修复。把微信变成你的 AI 代理指挥中心。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "vscode-dsh",
+    "name": "vscode-dsh",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/joygqz/vscode-dsh",
+    "description": "Start, open, and manage the DeepSeek Harness Web UI from VS Code.",
+    "description_zh": "Start, open, and manage the DeepSeek Harness Web UI from VS Code.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-btw-plugin",
+    "name": "dsh-btw-plugin",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/JasonQQ/dsh-btw-plugin",
+    "description": "Codex-style /btw command for DeepSeek Harness: side questions answered in a conversation-seeded subagent context, without polluting the main context",
+    "description_zh": "Codex-style /btw command for DeepSeek Harness: side questions answered in a conversation-seeded subagent context, without polluting the main context",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-academic-paper-search",
+    "name": "dsh-academic-paper-search",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/wp-a/dsh-academic-paper-search",
+    "description": "DeepSeek Harness 的中文学术论文检索 Bundle：复用 Academic Paper Search MCP，支持多源检索去重、引用核验、引文图谱、MeSH、试验检索与审计导出。",
+    "description_zh": "DeepSeek Harness 的中文学术论文检索 Bundle：复用 Academic Paper Search MCP，支持多源检索去重、引用核验、引文图谱、MeSH、试验检索与审计导出。",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-stcardwriter",
+    "name": "dsh-stcardwriter",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/bychv/dsh-stcardwriter",
+    "description": "面向 DeepSeek Harness 的 SillyTavern 角色卡、世界书与预设创作插件，集成 Preset Plus。",
+    "description_zh": "面向 DeepSeek Harness 的 SillyTavern 角色卡、世界书与预设创作插件，集成 Preset Plus。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-weixin-clawbot",
+    "name": "dsh-weixin-clawbot",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/zp-home/dsh-weixin-clawbot",
+    "description": "Phone-to-DSH control through Tencent's official Weixin ClawBot/iLink channel | 基于腾讯官方微信 ClawBot/iLink 的 DSH 手机远程控制插件",
+    "description_zh": "Phone-to-DSH control through Tencent's official Weixin ClawBot/iLink channel | 基于腾讯官方微信 ClawBot/iLink 的 DSH 手机远程控制插件",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-files-panel",
+    "name": "dsh-files-panel",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/JiayuuWang/dsh-files-panel",
+    "description": "DeepSeek Harness web GUI file panel plugin: browse and edit workspace files in-browser (Monaco editor + vim/emacs keymaps).",
+    "description_zh": "DeepSeek Harness web GUI file panel plugin: browse and edit workspace files in-browser (Monaco editor + vim/emacs keymaps).",
+    "capabilities": [
+      "browser",
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-session-drafts",
+    "name": "dsh-session-drafts",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/ne-ilyxa/dsh-session-drafts",
+    "description": "Cursor-style draft chats for DeepSeek Harness (DSH): New Session reuses the empty draft — and only mints a fresh one when every draft has unsent text — so empty placeholders never stack, exactly like Cursor's (or Telegram's) chat list.",
+    "description_zh": "Cursor-style draft chats for DeepSeek Harness (DSH): New Session reuses the empty draft — and only mints a fresh one when every draft has unsent text — so empty placeholders never stack, exactly like Cursor's (or Telegram's) chat list.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "dsh-telegram-4",
+    "name": "dsh-telegram",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/Kevin66Z0/dsh-telegram",
+    "description": "Remote-control DeepSeek Harness from Telegram: stream replies, one-tap keyboards, whitelist-secured, zero inbound ports.",
+    "description_zh": "Remote-control DeepSeek Harness from Telegram: stream replies, one-tap keyboards, whitelist-secured, zero inbound ports.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-side-chat-6",
+    "name": "dsh-side-chat",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/xlennart/dsh-side-chat",
+    "description": "DeepSeek Harness native parallel side chat with hidden child sessions and on-demand parent context",
+    "description_zh": "DeepSeek Harness native parallel side chat with hidden child sessions and on-demand parent context",
+    "capabilities": [
+      "coding",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-jetbrains-plugin",
+    "name": "dsh-jetbrains-plugin",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/Chocomintopia/dsh-jetbrains-plugin",
+    "description": "将 DeepSeek Harness WebUI 作为 JetBrains IDE 的一个窗口，像终端一样可以随时隐藏/显示。",
+    "description_zh": "将 DeepSeek Harness WebUI 作为 JetBrains IDE 的一个窗口，像终端一样可以随时隐藏/显示。",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-feishu-bridge-plugin",
+    "name": "dsh-feishu-bridge-plugin",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/21hbguo/dsh-feishu-bridge-plugin",
+    "description": "飞书机器人 ↔ DSH 对话桥：DSH 进程内 Cordis 插件，流式卡片 / 问答卡片 / 审批卡片 / 斜杠命令",
+    "description_zh": "飞书机器人 ↔ DSH 对话桥：DSH 进程内 Cordis 插件，流式卡片 / 问答卡片 / 审批卡片 / 斜杠命令",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "screenshot-feedback-hook-mcp",
+    "name": "screenshot-feedback-hook-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/lkh081231/screenshot-feedback-hook-mcp",
+    "description": "Let your coding agent SEE what it builds. Cross-platform screenshot feedback for AI agents: an MCP server, a Claude Code hook, and a native DeepSeek Harness plugin that drops screenshots straight into the conversation as images. Python + uv, zero install via uvx. Windows / Linux / macOS.",
+    "description_zh": "Let your coding agent SEE what it builds. Cross-platform screenshot feedback for AI agents: an MCP server, a Claude Code hook, and a native DeepSeek Harness plugin that drops screenshots straight into the conversation as images. Python + uv, zero install via uvx. Windows / Linux / macOS.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "multimodal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-codebuddy-plugin",
+    "name": "dsh-codebuddy-plugin",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/taikaikaikai-pixel/dsh-codebuddy-plugin",
+    "description": "CodeBuddy (copilot.tencent.com) provider bundle for DeepSeek Harness: 18 models, web_search/web_fetch backends, image_generate, local streaming bridge with OAuth & multi-Key rotation, Web UI settings card. Unofficial.",
+    "description_zh": "CodeBuddy (copilot.tencent.com) provider bundle for DeepSeek Harness: 18 models, web_search/web_fetch backends, image_generate, local streaming bridge with OAuth & multi-Key rotation, Web UI settings card. Unofficial.",
+    "capabilities": [
+      "coding",
+      "multimodal",
+      "search",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "qcc-mcp-legal-oauth",
+    "name": "qcc-mcp-legal-oauth",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/duhu2000/qcc-mcp-legal-oauth",
+    "description": "DeepSeek Harness 插件：一键 OAuth 授权连接企查查法律数据 MCP（法律产品：法规/案例） / One-click OAuth connect to Qichacha legal-data MCP (regulation & case) for DeepSeek Harness",
+    "description_zh": "DeepSeek Harness 插件：一键 OAuth 授权连接企查查法律数据 MCP（法律产品：法规/案例） / One-click OAuth connect to Qichacha legal-data MCP (regulation & case) for DeepSeek Harness",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "kabutack",
+    "name": "Kabutack",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/SunQingyuan0/Kabutack",
+    "description": "Kabutack 是一个面向 DSH 的插件，用于在一个界面里统一管理插件、Skill 和 MCP，并支持按“角色”一键动态装载、切换与恢复能力组合。",
+    "description_zh": "Kabutack 是一个面向 DSH 的插件，用于在一个界面里统一管理插件、Skill 和 MCP，并支持按“角色”一键动态装载、切换与恢复能力组合。",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "id": "muretai-dsh-skill",
+    "name": "muretai-dsh-skill",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/muretai/muretai-dsh-skill",
+    "description": "Join the Muretai agent network from DeepSeek Harness (dsh) — one-step install, MCP wiring, inbound-mail wake",
+    "description_zh": "Join the Muretai agent network from DeepSeek Harness (dsh) — one-step install, MCP wiring, inbound-mail wake",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-capability-panel",
+    "name": "dsh-capability-panel",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/pure-craft/dsh-capability-panel",
+    "description": "DeepSeek Harness plugin: see what your agent can actually reach — skills, MCP servers, system tools with true in-context state, and per-session / per-preset switches",
+    "description_zh": "DeepSeek Harness plugin: see what your agent can actually reach — skills, MCP servers, system tools with true in-context state, and per-session / per-preset switches",
+    "capabilities": [
+      "coding",
+      "context",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "voco-input-sh",
+    "name": "voco-input-sh",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Nothree-code/voco-input-sh",
+    "description": "DeepSeek Harness (dsh web) 语音输入插件：集成 VocoType 本地离线识别，识别结果自动插入聊天输入框（自动部署/防重复/持续输入）",
+    "description_zh": "DeepSeek Harness (dsh web) 语音输入插件：集成 VocoType 本地离线识别，识别结果自动插入聊天输入框（自动部署/防重复/持续输入）",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "multimodal-bridge",
+    "name": "multimodal-bridge",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Spirit4471/multimodal-bridge",
+    "description": "Multimodal bridge for any LLM: qwen_vision (Qwen-VL) + qwen_generate (Qwen-Image) — an MCP server for Kimi Code & Claude Code, and a DeepSeek Harness plugin (dsh-multimodal-bridge). 给任何 LLM 补上 Qwen 视觉与出图能力：MCP server（Kimi Code / Claude Code）+ DeepSeek Harness 插件双形态。",
+    "description_zh": "Multimodal bridge for any LLM: qwen_vision (Qwen-VL) + qwen_generate (Qwen-Image) — an MCP server for Kimi Code & Claude Code, and a DeepSeek Harness plugin (dsh-multimodal-bridge). 给任何 LLM 补上 Qwen 视觉与出图能力：MCP server（Kimi Code / Claude Code）+ DeepSeek Harness 插件双形态。",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-visibridge",
+    "name": "dsh-visibridge",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/lhbsaa/dsh-visibridge",
+    "description": "DeepSeek Harness vision plugin: analyze_image (structured OCR evidence) + capture_image (USB camera visual loop). 摄像头视觉闭环 + 结构化证据，支持 Ollama / DeepSeek / Xiaomi 三后端。",
+    "description_zh": "DeepSeek Harness vision plugin: analyze_image (structured OCR evidence) + capture_image (USB camera visual loop). 摄像头视觉闭环 + 结构化证据，支持 Ollama / DeepSeek / Xiaomi 三后端。",
+    "capabilities": [
+      "coding",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "computer-use-plus",
+    "name": "computer-use-plus",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Ethanout/computer-use-plus",
+    "description": "Low-token, low-latency Windows computer-use MCP with learned shortcuts, UIA/CDP/OCR routing, and DeepSeek Harness support",
+    "description_zh": "Low-token, low-latency Windows computer-use MCP with learned shortcuts, UIA/CDP/OCR routing, and DeepSeek Harness support",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multimodal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "agentduel-dsh",
+    "name": "agentduel-dsh",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/linconz/agentduel-dsh",
+    "description": "AgentDuel 是一个通过代码进行对战的游戏。允许你通过 AI 提交代码，并通过可回看的对战画面复盘整个战斗，然后再次优化。 | Code your agent, watch it fight, tweak and rematch — all inside DeepSeek Harness.",
+    "description_zh": "AgentDuel 是一个通过代码进行对战的游戏。允许你通过 AI 提交代码，并通过可回看的对战画面复盘整个战斗，然后再次优化。 | Code your agent, watch it fight, tweak and rematch — all inside DeepSeek Harness.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "pivot-web-search",
+    "name": "pivot-web-search",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Tannnnhauser/pivot-web-search",
+    "description": "Resilient multi-provider web search & content extraction for Claude Code, DeepSeek Harness, and any MCP host — quota-aware failover, JS rendering, and a CLI.",
+    "description_zh": "Resilient multi-provider web search & content extraction for Claude Code, DeepSeek Harness, and any MCP host — quota-aware failover, JS rendering, and a CLI.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-progressive-tools-1",
+    "name": "dsh-progressive-tools",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/Yan-Zero/dsh-progressive-tools",
+    "description": "An automatically mounted, presentation-only progressive tool disclosure layer for every DeepSeek Harness Agent preset in Native, Code, and Both modes.",
+    "description_zh": "An automatically mounted, presentation-only progressive tool disclosure layer for every DeepSeek Harness Agent preset in Native, Code, and Both modes.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-auto-evolve",
+    "name": "dsh-auto-evolve",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/lispking/dsh-auto-evolve",
+    "description": "A self-evolving plugin for DeepSeek Harness (dsh). It observes how the agent runs, proposes improvements to its own assets via the LLM, validates each proposal inside a sandboxed trial agent, and applies only verified mutations — with a versioned ledger and automatic rollback on regression.",
+    "description_zh": "A self-evolving plugin for DeepSeek Harness (dsh). It observes how the agent runs, proposes improvements to its own assets via the LLM, validates each proposal inside a sandboxed trial agent, and applies only verified mutations — with a versioned ledger and automatic rollback on regression.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-project-mcp-manager",
+    "name": "dsh-project-mcp-manager",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/wldxiaobai/dsh-project-mcp-manager",
+    "description": "基于原版 DSH 扩展，提供项目层、用户层更完整 MCP 管理 || Extended from the original DSH code, providing more complete MCP management at both project and user levels",
+    "description_zh": "基于原版 DSH 扩展，提供项目层、用户层更完整 MCP 管理 || Extended from the original DSH code, providing more complete MCP management at both project and user levels",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-plugin-tool-management",
+    "name": "dsh-plugin-tool-management",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/ouli-1242/dsh-plugin-tool-management",
+    "description": "一站式管理 DSH 的 MCP 服务与 Skills：工具级开关、密钥打码、技能回收站 | Unified MCP & skills manager for DeepSeek Harness: per-tool toggles, secret masking, skill trash",
+    "description_zh": "一站式管理 DSH 的 MCP 服务与 Skills：工具级开关、密钥打码、技能回收站 | Unified MCP & skills manager for DeepSeek Harness: per-tool toggles, secret masking, skill trash",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-tidewatch",
+    "name": "dsh-tidewatch",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/KhalilYamber/dsh-tidewatch",
+    "description": "DeepSeek 峰谷时刻悬浮徽章 · dsh plugin：实时峰谷档位、下一阶段倒计时、本次会话 API 花费（含三段历史价格档）| A floating tide badge for DeepSeek Harness: live peak/off-peak phase, countdown and session cost.",
+    "description_zh": "DeepSeek 峰谷时刻悬浮徽章 · dsh plugin：实时峰谷档位、下一阶段倒计时、本次会话 API 花费（含三段历史价格档）| A floating tide badge for DeepSeek Harness: live peak/off-peak phase, countdown and session cost.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "promptaflow",
+    "name": "promptaflow",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/TNJ2026/promptaflow",
+    "description": "Local-first, durable workflow runtime for Agent Apps—compile static Workflow DSL to LangGraph and orchestrate trusted multi-agent execution through Codex, WorkBuddy, DeepSeek Harness, or any MCP client.",
+    "description_zh": "Local-first, durable workflow runtime for Agent Apps—compile static Workflow DSL to LangGraph and orchestrate trusted multi-agent execution through Codex, WorkBuddy, DeepSeek Harness, or any MCP client.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-pihuo-plugins",
+    "name": "dsh-pihuo-plugins",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/xun404/dsh-pihuo-plugins",
+    "description": "PiHuo: DeepSeek Harness plugins that run local ACP processes as chat workers",
+    "description_zh": "PiHuo: DeepSeek Harness plugins that run local ACP processes as chat workers",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-qwen-mm-plugins",
+    "name": "dsh-qwen-mm-plugins",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/ShuiHan268/dsh-qwen-mm-plugins",
+    "description": "DeepSeek Harness 的 Qwen-MM-Plugins 集成插件：12 个多模态 MCP 工具（视觉/OCR/定位/ASR/音视频）、Web 设置页（粘贴 Qwen API Key 即用）、内置技能与一键安装器",
+    "description_zh": "DeepSeek Harness 的 Qwen-MM-Plugins 集成插件：12 个多模态 MCP 工具（视觉/OCR/定位/ASR/音视频）、Web 设置页（粘贴 Qwen API Key 即用）、内置技能与一键安装器",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-codebase-memory",
+    "name": "dsh-codebase-memory",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/andyfan1094/dsh-codebase-memory",
+    "description": "DSH bundle that bridges the Codebase Memory MCP code knowledge graph into DSH via the official @deepseek-ai/dsh-mcp-client.",
+    "description_zh": "DSH bundle that bridges the Codebase Memory MCP code knowledge graph into DSH via the official @deepseek-ai/dsh-mcp-client.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-capability-discovery",
+    "name": "dsh-capability-discovery",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/444136347/dsh-capability-discovery",
+    "description": "DeepSeek Harness 多源能力发现、排序与风险检查｜Multi-source capability discovery, ranking, and risk inspection for plugins, skills, MCP servers, and agents.",
+    "description_zh": "DeepSeek Harness 多源能力发现、排序与风险检查｜Multi-source capability discovery, ranking, and risk inspection for plugins, skills, MCP servers, and agents.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "obsidian-dsh-plugin",
+    "name": "obsidian-dsh-plugin",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/bzlir/obsidian-dsh-plugin",
+    "description": "Obsidian plugin hosting DeepSeek Harness (dsh) inside the vault — unified surface, vault-aware agent, persistent memory.",
+    "description_zh": "Obsidian plugin hosting DeepSeek Harness (dsh) inside the vault — unified surface, vault-aware agent, persistent memory.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-github-integration",
@@ -11365,154 +13701,20 @@
     ]
   },
   {
-    "id": "reactive-resume",
-    "name": "Reactive Resume",
+    "id": "dsh-cert-mcp",
+    "name": "dsh-cert-mcp",
     "type": "integration",
     "category": "mcp",
-    "repository": "https://github.com/reactive-resume/reactive-resume",
-    "description": "Open-source, privacy-first resume builder; ships an MCP server and agent skills that can be driven from DeepSeek Harness.",
-    "description_zh": "开源、注重隐私的简历构建器，提供 MCP 服务器与 Agent Skills，可从 DeepSeek Harness 调用。",
+    "repository": "https://github.com/PerryLink/dsh-cert-mcp",
+    "description": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshot dates, and five-dimension evidence for DeepSeek Harness plugins.",
+    "description_zh": "只读 MCP 服务器，暴露 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照日期与五维证据。",
     "capabilities": [
-      "mcp"
+      "mcp",
+      "security"
     ],
     "status": "active",
     "verified": false,
-    "stars": 42520,
-    "license": "MIT"
-  },
-  {
-    "id": "openviking",
-    "name": "OpenViking",
-    "type": "integration",
-    "category": "memory",
-    "repository": "https://github.com/volcengine/OpenViking",
-    "description": "Self-evolving context database for AI agents that unifies agent memory, knowledge RAG and skills.",
-    "description_zh": "面向 AI Agent 的自进化上下文数据库，统一 Agent 记忆、知识 RAG 与技能。",
-    "capabilities": [
-      "memory",
-      "context",
-      "research"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 36784,
-    "license": "AGPL-3.0"
-  },
-  {
-    "id": "nocobase",
-    "name": "NocoBase",
-    "type": "integration",
-    "category": "workflow",
-    "repository": "https://github.com/nocobase/nocobase",
-    "description": "Open-source AI + no-code platform for building business systems, with AI agents and workflow automation.",
-    "description_zh": "开源 AI + 无代码平台，用于快速构建业务系统，内置 AI Agent 与工作流自动化。",
-    "capabilities": [
-      "workflow"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 24175
-  },
-  {
-    "id": "weknora",
-    "name": "WeKnora",
-    "type": "integration",
-    "category": "memory",
-    "repository": "https://github.com/Tencent/WeKnora",
-    "description": "Open-source LLM knowledge platform: turn documents into a queryable RAG, an autonomous reasoning agent and a self-maintaining wiki.",
-    "description_zh": "开源 LLM 知识平台：把文档转化为可查询 RAG、自主推理 Agent 与自维护 wiki。",
-    "capabilities": [
-      "memory",
-      "research"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 22553
-  },
-  {
-    "id": "everos",
-    "name": "EverOS",
-    "type": "integration",
-    "category": "memory",
-    "repository": "https://github.com/EverMind-AI/EverOS",
-    "description": "Portable memory layer for AI agents: local-first, Markdown-native, user-owned and self-evolving across apps and tools.",
-    "description_zh": "面向 AI Agent 的可移植记忆层：本地优先、Markdown 原生、用户自持，跨应用自进化。",
-    "capabilities": [
-      "memory",
-      "context"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 12898,
-    "license": "Apache-2.0"
-  },
-  {
-    "id": "honcho",
-    "name": "Honcho",
-    "type": "integration",
-    "category": "memory",
-    "repository": "https://github.com/plastic-labs/honcho",
-    "description": "Memory library for building stateful agents, with context engineering and continual learning.",
-    "description_zh": "用于构建有状态 Agent 的记忆库，支持上下文工程与持续学习。",
-    "capabilities": [
-      "memory",
-      "context"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 7129,
-    "license": "AGPL-3.0"
-  },
-  {
-    "id": "openpencil",
-    "name": "OpenPencil",
-    "type": "integration",
-    "category": "ui",
-    "repository": "https://github.com/ZSeven-W/openpencil",
-    "description": "Open-source AI-native vector design tool with concurrent agent teams, design-as-code and MCP support.",
-    "description_zh": "开源 AI 原生矢量设计工具，支持并发 Agent Teams、Design-as-Code 与 MCP。",
-    "capabilities": [
-      "ui",
-      "multi-agent",
-      "mcp"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 5909,
-    "license": "MIT"
-  },
-  {
-    "id": "mirage",
-    "name": "Mirage",
-    "type": "integration",
-    "category": "terminal",
-    "repository": "https://github.com/strukto-ai/mirage",
-    "description": "Virtual terminal and virtual filesystem for AI agents, with a sandboxed bash tool.",
-    "description_zh": "面向 AI Agent 的虚拟终端与虚拟文件系统，提供沙箱化 bash 工具。",
-    "capabilities": [
-      "terminal",
-      "files"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 3624,
-    "license": "Apache-2.0"
-  },
-  {
-    "id": "reme",
-    "name": "ReMe",
-    "type": "integration",
-    "category": "memory",
-    "repository": "https://github.com/agentscope-ai/ReMe",
-    "description": "Memory management kit for agents: remember, refine and reuse memory across sessions.",
-    "description_zh": "面向 Agent 的记忆管理套件：跨会话记住、提炼并复用记忆。",
-    "capabilities": [
-      "memory",
-      "context"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 3448,
+    "stars": 0,
     "license": "Apache-2.0"
   }
 ]

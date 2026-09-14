@@ -1,0 +1,28 @@
+---
+title: "dsh-gsv"
+description: "为 DSH (DeepSeek Harness) 打造的语音朗读插件——双模式可选： Edge 云端零配置即用（20+ 免费音色，联网即读）+  GSV 本地离线音色克隆；支持一键朗读、自动朗读、音色市场。"
+keywords: "dsh-gsv, vision, plugin, coding, deepseek harness, dsh"
+---
+# dsh-gsv
+
+> ⭐ **3** · ✅ active · plugin
+
+| | | | |
+|---|---|---|---|
+| Type | plugin | Category | Vision & multimodal |
+| Stars | ⭐ 3 | Status | ✅ active |
+| Author | [TaoruiLiu19](https://github.com/TaoruiLiu19) | Updated | — |
+
+## One-liner
+
+> 为 DSH (DeepSeek Harness) 打造的语音朗读插件——双模式可选： Edge 云端零配置即用（20+ 免费音色，联网即读）+  GSV 本地离线音色克隆；支持一键朗读、自动朗读、音色市场。
+
+## About
+
+为 DSH (DeepSeek Harness) 打造的语音朗读插件——双模式可选： Edge 云端零配置即用（20+ 免费音色，联网即读）+  GSV 本地离线音色克隆；支持一键朗读、自动朗读、音色市场。
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/TaoruiLiu19/dsh-gsv)
+- [Full README](https://github.com/TaoruiLiu19/dsh-gsv#readme)
+- [Back to the Plugins list](../plugins.md)
