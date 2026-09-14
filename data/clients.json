@@ -80,6 +80,25 @@
     "growth": 5
   },
   {
+    "id": "codeg",
+    "name": "codeg",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/xintaofei/codeg",
+    "description": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.",
+    "description_zh": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3447,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "echobird",
     "name": "echobird",
     "type": "client",
@@ -117,6 +136,23 @@
     "status": "active",
     "verified": false,
     "stars": 2680
+  },
+  {
+    "id": "token-monitor",
+    "name": "token-monitor",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/Javis603/token-monitor",
+    "description": "Local-first desktop widget for tracking token usage, costs, and limits across 36+ AI coding tools—including Claude Code, Codex, Cursor, OpenCode, and OpenClaw—with multi-device sync.",
+    "description_zh": "Local-first desktop widget for tracking token usage, costs, and limits across 36+ AI coding tools—including Claude Code, Codex, Cursor, OpenCode, and OpenClaw—with multi-device sync.",
+    "capabilities": [
+      "coding",
+      "desktop"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2138,
+    "license": "MIT"
   },
   {
     "id": "deepseek-harness-desktop-34",
@@ -173,6 +209,62 @@
     "growth": 233
   },
   {
+    "id": "longhorizon-harness",
+    "name": "LongHorizon-Harness",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/AMAP-ML/LongHorizon-Harness",
+    "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
+    "description_zh": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
+    "capabilities": [
+      "coding",
+      "context",
+      "desktop",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1508,
+    "license": "MIT"
+  },
+  {
+    "id": "openpets",
+    "name": "openpets",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/OpenPetsHQ/openpets",
+    "description": "Local first, desktop companion platform with animated pets, plugin SDK and coding-agent integrations.",
+    "description_zh": "Local first, desktop companion platform with animated pets, plugin SDK and coding-agent integrations.",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1189,
+    "license": "MIT"
+  },
+  {
+    "id": "agentrq",
+    "name": "agentrq",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/agentrq/agentrq",
+    "description": "AgentRQ: Human-in-loop realtime conversational task manager for AI Agents. Self-hosted! Control your own agents from wherever you want Mobile, Web, Desktop. Designed to work well with your own Claude subscriptions and any harness with ACP support.",
+    "description_zh": "AgentRQ: Human-in-loop realtime conversational task manager for AI Agents. Self-hosted! Control your own agents from wherever you want Mobile, Web, Desktop. Designed to work well with your own Claude subscriptions and any harness with ACP support.",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1115,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "deepseek-harness-eac",
     "name": "deepseek-harness-eac",
     "type": "client",
@@ -192,6 +284,24 @@
     "_updated": "2026-08-21",
     "_stars_prev": 1011,
     "growth": 56
+  },
+  {
+    "id": "wesight",
+    "name": "wesight",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/freestylefly/wesight",
+    "description": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
+    "description_zh": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 923,
+    "license": "MIT"
   },
   {
     "id": "hairyf-desktop",
@@ -400,6 +510,23 @@
     "license": "Apache-2.0"
   },
   {
+    "id": "abu-cowork",
+    "name": "Abu-Cowork",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/PM-Shawn/Abu-Cowork",
+    "description": "Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving skills · privacy-first · multi-Harness roadmap · DeepSeek Harness integration in progress",
+    "description_zh": "Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving skills · privacy-first · multi-Harness roadmap · DeepSeek Harness integration in progress",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 374
+  },
+  {
     "id": "dsha",
     "name": "dsha",
     "type": "client",
@@ -579,6 +706,23 @@
     "growth": 2
   },
   {
+    "id": "opc-nexus",
+    "name": "opc-nexus",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/h4dex/opc-nexus",
+    "description": "开源的企业版的数字员工工作台, OPC-Nexus（One Person Company Nexus）是一款本地优先的桌面 AI Agent 管理器。它为单人公司 / 独立开发者提供统一的 AI 数字员工管理平台 —— 从 Agent 创建、任务编排、多引擎接入，到消息渠道集成、工作流自动化和专家团协作，一站式覆盖。",
+    "description_zh": "开源的企业版的数字员工工作台, OPC-Nexus（One Person Company Nexus）是一款本地优先的桌面 AI Agent 管理器。它为单人公司 / 独立开发者提供统一的 AI 数字员工管理平台 —— 从 Agent 创建、任务编排、多引擎接入，到消息渠道集成、工作流自动化和专家团协作，一站式覆盖。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 225,
+    "license": "MIT"
+  },
+  {
     "id": "deepseek-harness-desktop-35",
     "name": "deepseek-harness-desktop",
     "type": "client",
@@ -729,6 +873,23 @@
     ]
   },
   {
+    "id": "tydora",
+    "name": "Tydora",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/zuorn/Tydora",
+    "description": "Let Your Ideas Flow — Tydora is a modern desktop Markdown editor combining WYSIWYG editing, bidirectional links, mind maps, and an infinite canvas — empowering deep thinking and effortless expression.",
+    "description_zh": "Let Your Ideas Flow — Tydora is a modern desktop Markdown editor combining WYSIWYG editing, bidirectional links, mind maps, and an infinite canvas — empowering deep thinking and effortless expression.",
+    "capabilities": [
+      "coding",
+      "desktop"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 163,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "cocode",
     "name": "cocode",
     "type": "client",
@@ -824,6 +985,61 @@
     "status": "active",
     "verified": false,
     "stars": 156,
+    "license": "MIT"
+  },
+  {
+    "id": "makocode",
+    "name": "MakoCode",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/liebaojun/MakoCode",
+    "description": "MakoCode — 茉子版 Agent | Galgame 风格桌面 AI Agent，零门槛体验 Agent 的乐趣",
+    "description_zh": "MakoCode — 茉子版 Agent | Galgame 风格桌面 AI Agent，零门槛体验 Agent 的乐趣",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 149
+  },
+  {
+    "id": "open-record-replay",
+    "name": "open-record-replay",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/humblebanana/open-record-replay",
+    "description": "Open-source macOS record-and-replay workflow recorder for computer use agents. Captures mouse, keyboard, and UI events as structured traces so agents can learn, replay, and automate real desktop tasks.",
+    "description_zh": "Open-source macOS record-and-replay workflow recorder for computer use agents. Captures mouse, keyboard, and UI events as structured traces so agents can learn, replay, and automate real desktop tasks.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "desktop",
+      "multi-agent",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 143,
+    "license": "MIT"
+  },
+  {
+    "id": "cetus",
+    "name": "cetus",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/drewnekota/cetus",
+    "description": "One macOS app for Claude Code, Codex, and every agent runtime you use — scheduled runs, global hotkey launcher, per-run git worktrees, one review board.",
+    "description_zh": "One macOS app for Claude Code, Codex, and every agent runtime you use — scheduled runs, global hotkey launcher, per-run git worktrees, one review board.",
+    "capabilities": [
+      "coding",
+      "git",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 143,
     "license": "MIT"
   },
   {
@@ -985,6 +1201,22 @@
     ]
   },
   {
+    "id": "miffan",
+    "name": "Miffan",
+    "type": "client",
+    "category": "mobile",
+    "repository": "https://github.com/Ayuilos/Miffan",
+    "description": "RikkaHub fork，Android AI 客户端。支持 ChatGPT 订阅登录使用、跨应用划词悬浮翻译、助手工作区文件隔离、工作区 Skills 自动发现、文档与 HTML 预览、可定制动态角色。",
+    "description_zh": "RikkaHub fork，Android AI 客户端。支持 ChatGPT 订阅登录使用、跨应用划词悬浮翻译、助手工作区文件隔离、工作区 Skills 自动发现、文档与 HTML 预览、可定制动态角色。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 115,
+    "license": "AGPL-3.0"
+  },
+  {
     "id": "deepseek-harness-desktop-39",
     "name": "deepseek-harness-desktop",
     "type": "client",
@@ -1104,6 +1336,22 @@
     "_updated": "2026-08-19",
     "_stars_prev": 51,
     "growth": 28
+  },
+  {
+    "id": "happy-friday-lite",
+    "name": "happy-friday-lite",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/cheney-plus/happy-friday-lite",
+    "description": "一个私人专属的集笔记、日程、Agent、对话于一体的智能体桌面应用端",
+    "description_zh": "一个私人专属的集笔记、日程、Agent、对话于一体的智能体桌面应用端",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 75
   },
   {
     "id": "dsh-mobile-app",
@@ -1238,6 +1486,22 @@
     "verified": false,
     "stars": 62,
     "license": "MIT"
+  },
+  {
+    "id": "patentradar",
+    "name": "PatentRadar",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/yuc16/PatentRadar",
+    "description": "专利侵权分析系统 —— 输入专利公开号，产出竞品侵权分析报告；同时打包成 skill，可被任意 agent（dsh, codex, claudecode 等） 调用。",
+    "description_zh": "专利侵权分析系统 —— 输入专利公开号，产出竞品侵权分析报告；同时打包成 skill，可被任意 agent（dsh, codex, claudecode 等） 调用。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 62
   },
   {
     "id": "dsh-desktop-54",
@@ -1433,6 +1697,45 @@
     "license": "MIT"
   },
   {
+    "id": "hn-cli",
+    "name": "hn-cli",
+    "type": "client",
+    "category": "terminal",
+    "repository": "https://github.com/heartleo/hn-cli",
+    "description": "Blazing fast, Hacker News CLI (TUI)⚡",
+    "description_zh": "Blazing fast, Hacker News CLI (TUI)⚡",
+    "capabilities": [
+      "coding",
+      "search",
+      "terminal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 51,
+    "license": "MIT"
+  },
+  {
+    "id": "openquantum",
+    "name": "OpenQuantum",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/xi-zhao/OpenQuantum",
+    "description": "Open-source quantum Agent workspace with a desktop client, Web UI, messaging, Qiskit/MCP tools, and scientific validation",
+    "description_zh": "Open-source quantum Agent workspace with a desktop client, Web UI, messaging, Qiskit/MCP tools, and scientific validation",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "mcp",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 50,
+    "license": "MIT"
+  },
+  {
     "id": "xiincs-desktop",
     "name": "deepseek-harness-desktop (xiincs)",
     "type": "client",
@@ -1487,6 +1790,25 @@
     "stars": 46
   },
   {
+    "id": "cosyncing",
+    "name": "cosyncing",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/cosyncing/cosyncing",
+    "description": "Synchronize and Orchestrate agents from CLI to GUI, across desktop to phone.",
+    "description_zh": "Synchronize and Orchestrate agents from CLI to GUI, across desktop to phone.",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 46,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "dsh-mattpocock-skills-deck",
     "name": "dsh-mattpocock-skills-deck",
     "type": "client",
@@ -1512,6 +1834,23 @@
       "dsh-plugin",
       "github-issues"
     ]
+  },
+  {
+    "id": "rish-app",
+    "name": "rish-app",
+    "type": "client",
+    "category": "mobile",
+    "repository": "https://github.com/ZSeven-W/rish-app",
+    "description": "Your pocket agent. Local-first AI agents on iOS and Android — real workspaces, tool execution with approvals, and your choice of model (DSH · Claude Code · Codex · GLM).",
+    "description_zh": "Your pocket agent. Local-first AI agents on iOS and Android — real workspaces, tool execution with approvals, and your choice of model (DSH · Claude Code · Codex · GLM).",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 43,
+    "license": "MIT"
   },
   {
     "id": "dsh-tether",
@@ -1805,6 +2144,22 @@
     ]
   },
   {
+    "id": "fn-os-apps",
+    "name": "fn-os-apps",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/tnnevol/fn-os-apps",
+    "description": "飞牛 fnOS 应用 Monorepo",
+    "description_zh": "飞牛 fnOS 应用 Monorepo",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 34,
+    "license": "AGPL-3.0"
+  },
+  {
     "id": "dsh-usage-plugin-yihong89",
     "name": "dsh-usage-plugin",
     "type": "client",
@@ -2071,6 +2426,25 @@
     "capabilities": [
       "coding",
       "terminal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 25,
+    "license": "MIT"
+  },
+  {
+    "id": "hologram",
+    "name": "HoloGram",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/834063245-creator/HoloGram",
+    "description": "3D code dependency graph generator with built-in LLM agent. Language-agnostic (Python, TypeScript, Rust, Go, Java, C/C++, C#, Ruby, Kotlin, Swift, PHP, Lua). Coupling depth analysis, constraint gating, real-time file watching. Tauri 2 + Three.js + Rust engine.跨语言代码依赖拓扑图生成器 · 14 门语言统一 IR · 3D 全息星图 · 内置 AI Agent 双向联动 · 四级耦合诊断 · 桌面应用 / CLI 双模",
+    "description_zh": "3D code dependency graph generator with built-in LLM agent. Language-agnostic (Python, TypeScript, Rust, Go, Java, C/C++, C#, Ruby, Kotlin, Swift, PHP, Lua). Coupling depth analysis, constraint gating, real-time file watching. Tauri 2 + Three.js + Rust engine.跨语言代码依赖拓扑图生成器 · 14 门语言统一 IR · 3D 全息星图 · 内置 AI Agent 双向联动 · 四级耦合诊断 · 桌面应用 / CLI 双模",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent",
       "ui"
     ],
     "status": "active",
@@ -2643,6 +3017,23 @@
     "license": "MIT"
   },
   {
+    "id": "deepseek-visionary",
+    "name": "deepseek-visionary",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/xlight/deepseek-visionary",
+    "description": "使用 DeepSeek 官方多模态视觉模型让你的 Agent 不再眼瞎（支持 DSH、Zed、OpenCode、Codex、Claude Code、Cursor、Claude Desktop）",
+    "description_zh": "使用 DeepSeek 官方多模态视觉模型让你的 Agent 不再眼瞎（支持 DSH、Zed、OpenCode、Codex、Claude Code、Cursor、Claude Desktop）",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17
+  },
+  {
     "id": "dsh-melody-launcher",
     "name": "dsh-melody-launcher",
     "type": "client",
@@ -3025,6 +3416,24 @@
     "license": "MIT"
   },
   {
+    "id": "govard",
+    "name": "govard",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/ddtcorex/govard",
+    "description": "Go-based local development orchestrator for Magento, Laravel, Symfony, Next.js, WordPress, and more. Docker stacks, SSL, Xdebug, and a desktop dashboard.",
+    "description_zh": "Go-based local development orchestrator for Magento, Laravel, Symfony, Next.js, WordPress, and more. Docker stacks, SSL, Xdebug, and a desktop dashboard.",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 13,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-mobile-for-android",
     "name": "dsh-mobile-for-android",
     "type": "client",
@@ -3271,6 +3680,23 @@
       "desktop",
       "terminal",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11,
+    "license": "MIT"
+  },
+  {
+    "id": "star-dsh-desktop",
+    "name": "star-dsh-desktop",
+    "type": "client",
+    "category": "mobile",
+    "repository": "https://github.com/dabaicai001/star-dsh-desktop",
+    "description": "StarHub — All-in-One DevOps Desktop Command Center。把开发运维每天要用到的工具收进同一个窗口:数据库客户端 · SSH 终端 · SFTP · Docker · AI 助手,以及 AI 驱动的沙箱桌面与 Android 实体机操作。",
+    "description_zh": "StarHub — All-in-One DevOps Desktop Command Center。把开发运维每天要用到的工具收进同一个窗口:数据库客户端 · SSH 终端 · SFTP · Docker · AI 助手,以及 AI 驱动的沙箱桌面与 Android 实体机操作。",
+    "capabilities": [
+      "coding",
+      "desktop"
     ],
     "status": "active",
     "verified": false,
@@ -4878,6 +5304,23 @@
     "license": "MIT"
   },
   {
+    "id": "moji-docs",
+    "name": "moji-docs",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/opqnext/moji-docs",
+    "description": "MojiDocs 是一款跨平台的 Markdown Wiki 桌面应用，基于 Electron + Vue 3 + SQLite 构建。",
+    "description_zh": "MojiDocs 是一款跨平台的 Markdown Wiki 桌面应用，基于 Electron + Vue 3 + SQLite 构建。",
+    "capabilities": [
+      "coding",
+      "desktop"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-desktop-electron",
     "name": "dsh-desktop-electron",
     "type": "client",
@@ -5522,6 +5965,21 @@
     "verified": false,
     "stars": 5,
     "license": "MIT"
+  },
+  {
+    "id": "dotfiles",
+    "name": "dotfiles",
+    "type": "client",
+    "category": "mobile",
+    "repository": "https://github.com/qw457812/dotfiles",
+    "description": "My dotfiles on macOS and Termux, managed with Chezmoi.",
+    "description_zh": "My dotfiles on macOS and Termux, managed with Chezmoi.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
   },
   {
     "id": "dsh-closerai",
@@ -7611,6 +8069,56 @@
     "status": "active",
     "verified": false,
     "stars": 3
+  },
+  {
+    "id": "harness-macos-desktop-plugin-suite",
+    "name": "harness-macos-desktop-plugin-suite",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/snzhi000-sys/harness-macos-desktop-plugin-suite",
+    "description": "基于 DeepSeek‑Harness 的 macOS 桌面定制客户端，在基座之上完成原生打包运行；内置多款自研、经过迭代优化的办公插件，适配产品经理轻度开发、PRD 文档撰写等办公场景。⚠️本项目属于社区第三方项目，非 DeepSeek 官方出品。",
+    "description_zh": "基于 DeepSeek‑Harness 的 macOS 桌面定制客户端，在基座之上完成原生打包运行；内置多款自研、经过迭代优化的办公插件，适配产品经理轻度开发、PRD 文档撰写等办公场景。⚠️本项目属于社区第三方项目，非 DeepSeek 官方出品。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "agentcat",
+    "name": "AgentCat",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/LRainner/AgentCat",
+    "description": "A lightweight desktop companion that brings AI agent activity to life through animated pets and real-time status updates / 一款轻量的桌面伴侣，用动画宠物实时呈现 AI Agent 的工作状态",
+    "description_zh": "A lightweight desktop companion that brings AI agent activity to life through animated pets and real-time status updates / 一款轻量的桌面伴侣，用动画宠物实时呈现 AI Agent 的工作状态",
+    "capabilities": [
+      "coding",
+      "desktop",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "agents-plugins",
+    "name": "agents-plugins",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/lxp731/agents-plugins",
+    "description": "Pi extension: desktop notification + chime when a reply finishes, with configurable duration threshold",
+    "description_zh": "Pi extension: desktop notification + chime when a reply finishes, with configurable duration threshold",
+    "capabilities": [
+      "coding",
+      "desktop"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
   },
   {
     "id": "dsh-portable-launcher",

@@ -170,6 +170,92 @@
     "stars": 1778
   },
   {
+    "id": "ppt-design-skill",
+    "name": "PPT-Design-Skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/sunchaokun/PPT-Design-Skill",
+    "description": "Precision PPT design skill for OpenCode/Claude Code/Codex, with 40,000+ styles, pixel-perfect Build Mode control, AI image generation, and fully editable PPTX. 面向专业演示设计场景，帮助用户从需求分析、视觉方向选择到原生可编辑 PPTX 交付，打造高质量、可持续修改的演示文稿。",
+    "description_zh": "Precision PPT design skill for OpenCode/Claude Code/Codex, with 40,000+ styles, pixel-perfect Build Mode control, AI image generation, and fully editable PPTX. 面向专业演示设计场景，帮助用户从需求分析、视觉方向选择到原生可编辑 PPTX 交付，打造高质量、可持续修改的演示文稿。",
+    "capabilities": [
+      "coding",
+      "multimodal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1221,
+    "license": "MIT"
+  },
+  {
+    "id": "aegis",
+    "name": "Aegis",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/GanyuanRan/Aegis",
+    "description": "Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks.",
+    "description_zh": "Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1185,
+    "license": "MIT"
+  },
+  {
+    "id": "skillcorpus",
+    "name": "SkillCorpus",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/EverMind-AI/SkillCorpus",
+    "description": "Open-source infrastructure that turns scattered SKILL.md files into curated, retrieval-ready agent-skill corpora—with retrieval and evaluation tooling included.",
+    "description_zh": "Open-source infrastructure that turns scattered SKILL.md files into curated, retrieval-ready agent-skill corpora—with retrieval and evaluation tooling included.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 646,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "superdesign-skill",
+    "name": "superdesign-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/superdesigndev/superdesign-skill",
+    "description": "The design skill for Claude Code, Cursor and any coding agent. Stop shipping AI-slop UI: turn it into shippable, tasteful frontend. Install: npx skills add superdesigndev/superdesign-skill. Powered by superdesign.dev",
+    "description_zh": "The design skill for Claude Code, Cursor and any coding agent. Stop shipping AI-slop UI: turn it into shippable, tasteful frontend. Install: npx skills add superdesigndev/superdesign-skill. Powered by superdesign.dev",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 556,
+    "license": "MIT"
+  },
+  {
+    "id": "deepsec",
+    "name": "DeepSec",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Unclecheng-li/DeepSec",
+    "description": "DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, missing safeguards & AI pattern errors in real time. Spear automates authorized penetration testing with 40+ skill packs, from recon to PoC.",
+    "description_zh": "DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, missing safeguards & AI pattern errors in real time. Spear automates authorized penetration testing with 40+ skill packs, from recon to PoC.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 423,
+    "license": "MIT"
+  },
+  {
     "id": "oh-story-dsh",
     "name": "oh-story-dsh",
     "type": "skill",
@@ -184,6 +270,22 @@
     "verified": false,
     "stars": 345,
     "license": "MIT"
+  },
+  {
+    "id": "minara-skills",
+    "name": "minara-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Minara-AI/minara-skills",
+    "description": "The skills for trading, to make your agent earn for you.",
+    "description_zh": "The skills for trading, to make your agent earn for you.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 345
   },
   {
     "id": "easyeda-agent",
@@ -250,6 +352,21 @@
     ]
   },
   {
+    "id": "eval",
+    "name": "eval",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/frontier-harness-eval/eval",
+    "description": "Public results and task definitions for FrontierHarness Eval",
+    "description_zh": "Public results and task definitions for FrontierHarness Eval",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 204
+  },
+  {
     "id": "dsh-taskboard",
     "name": "dsh-taskboard",
     "type": "skill",
@@ -267,6 +384,39 @@
     "stars": 195
   },
   {
+    "id": "skills-link",
+    "name": "skills-link",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/shanliuling/skills-link",
+    "description": "Sync your local skills across 41+ AI coding agents with a single command.",
+    "description_zh": "Sync your local skills across 41+ AI coding agents with a single command.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 195,
+    "license": "MIT"
+  },
+  {
+    "id": "infra-skills",
+    "name": "infra-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/yzlnew/infra-skills",
+    "description": "A collection of specialized agent skills for AI infrastructure development, enabling Claude Code to write, optimize, and debug high-performance systems.",
+    "description_zh": "A collection of specialized agent skills for AI infrastructure development, enabling Claude Code to write, optimize, and debug high-performance systems.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 146
+  },
+  {
     "id": "dsh-plugin-upgrade-skill",
     "name": "dsh-plugin-upgrade-skill",
     "type": "skill",
@@ -276,6 +426,23 @@
     "description_zh": "帮助插件自动随着dsh版本升级的skill",
     "capabilities": [
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 126,
+    "license": "MIT"
+  },
+  {
+    "id": "xskill",
+    "name": "xskill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/SkillNerds/xskill",
+    "description": "Self-evolving skills lib for coding agents",
+    "description_zh": "Self-evolving skills lib for coding agents",
+    "capabilities": [
+      "coding",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
@@ -316,6 +483,23 @@
     "stars": 107
   },
   {
+    "id": "photo-abstract-editorial",
+    "name": "photo-abstract-editorial",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/kwhi6693-web/photo-abstract-editorial",
+    "description": "Turn photos into source-faithful editorial artworks with an Agent Skill — adaptive layouts, controlled abstraction, and a Strict Fidelity composition path.",
+    "description_zh": "Turn photos into source-faithful editorial artworks with an Agent Skill — adaptive layouts, controlled abstraction, and a Strict Fidelity composition path.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 101,
+    "license": "AGPL-3.0"
+  },
+  {
     "id": "dsh-skill-viewer",
     "name": "dsh-skill-viewer",
     "type": "plugin",
@@ -334,6 +518,71 @@
     "_updated": "2026-08-18",
     "_stars_prev": 86,
     "growth": 2
+  },
+  {
+    "id": "aria",
+    "name": "Aria",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/dqsjqian/Aria",
+    "description": "Modern MVVM framework supporting C++23 (C++20 minimum) — cross-platform, layered, coroutine-first. Reactive DAG (Property/Computed/Effect), Task<T>, and pluggable adapters.",
+    "description_zh": "Modern MVVM framework supporting C++23 (C++20 minimum) — cross-platform, layered, coroutine-first. Reactive DAG (Property/Computed/Effect), Task<T>, and pluggable adapters.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 86,
+    "license": "MIT"
+  },
+  {
+    "id": "sealos-skills",
+    "name": "sealos-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/labring/sealos-skills",
+    "description": "AI agent skills for Sealos — deploy any project, provision databases, object storage & more with one command. Works with Claude Code, Gemini CLI, Codex.",
+    "description_zh": "AI agent skills for Sealos — deploy any project, provision databases, object storage & more with one command. Works with Claude Code, Gemini CLI, Codex.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 79
+  },
+  {
+    "id": "promentor",
+    "name": "ProMentor",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Lyn-77/ProMentor",
+    "description": "ProMentor 是一个 AI Coding Agent Skill。装上它，你的 AI 编程助手立刻化身为导师——扫描项目架构、生成阶梯式 Chapter、带你手写核心逻辑、自动判题、AI Code Review。",
+    "description_zh": "ProMentor 是一个 AI Coding Agent Skill。装上它，你的 AI 编程助手立刻化身为导师——扫描项目架构、生成阶梯式 Chapter、带你手写核心逻辑、自动判题、AI Code Review。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 74
+  },
+  {
+    "id": "forkprobe",
+    "name": "forkprobe",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Jayden-X-L/forkprobe",
+    "description": "Compare multiple skills on the same task and pick the winner.",
+    "description_zh": "Compare multiple skills on the same task and pick the winner.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 72,
+    "license": "MIT"
   },
   {
     "id": "recruiting-copilot",
@@ -562,6 +811,23 @@
     ]
   },
   {
+    "id": "atlas-cloud-skills",
+    "name": "atlas-cloud-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/AtlasCloudAI/atlas-cloud-skills",
+    "description": "Atlas Cloud skills for Claude Code, Codex & Gemini CLI — generate images/videos and call 300+ AI models from your coding agent.",
+    "description_zh": "Atlas Cloud skills for Claude Code, Codex & Gemini CLI — generate images/videos and call 300+ AI models from your coding agent.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 30
+  },
+  {
     "id": "dsh-skills-manager",
     "name": "dsh-skills-manager",
     "type": "skill",
@@ -636,6 +902,41 @@
     "stars": 27
   },
   {
+    "id": "agent-handoff-skill",
+    "name": "agent-handoff-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/WeirdSky924/agent-handoff-skill",
+    "description": "Use this cross-platform skill in Codex or Claude Code to establish repository-local continuity memory so a future agent can recover objective, status, decisions, validation, risks, and next actions without relying on previous chat history.",
+    "description_zh": "Use this cross-platform skill in Codex or Claude Code to establish repository-local continuity memory so a future agent can recover objective, status, decisions, validation, risks, and next actions without relying on previous chat history.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 27,
+    "license": "MIT"
+  },
+  {
+    "id": "iosdev",
+    "name": "iosdev",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/kuangre123/iosdev",
+    "description": "ios app 开发 skill",
+    "description_zh": "ios app 开发 skill",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-skill-picker",
     "name": "dsh-skill-picker",
     "type": "skill",
@@ -649,6 +950,22 @@
     "status": "active",
     "verified": false,
     "stars": 25
+  },
+  {
+    "id": "skills",
+    "name": "skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/upstash/skills",
+    "description": "Collection of skills for Upstash",
+    "description_zh": "Collection of skills for Upstash",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 25,
+    "license": "MIT"
   },
   {
     "id": "dsh-science-1",
@@ -725,6 +1042,39 @@
     "status": "active",
     "verified": false,
     "stars": 22
+  },
+  {
+    "id": "harness-ai-kit",
+    "name": "harness-ai-kit",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/seed-forge/harness-ai-kit",
+    "description": "Package manager for AI agent assets — 42 skills, 5 CLIs, 1 plugin. Skills for AI/LLM agent engineering, eval-driven dev, spec-driven dev, database (MySQL/PG/Redis/Kafka/Mongo/Oracle/NL2SQL), K8s/Docker diagnostics, infra ops (Dify/Nexus/Harbor/SonarQube) & docs/patent. Runtimes: Codex, Claude Code, Cursor, Kiro, DSH.",
+    "description_zh": "Package manager for AI agent assets — 42 skills, 5 CLIs, 1 plugin. Skills for AI/LLM agent engineering, eval-driven dev, spec-driven dev, database (MySQL/PG/Redis/Kafka/Mongo/Oracle/NL2SQL), K8s/Docker diagnostics, infra ops (Dify/Nexus/Harbor/SonarQube) & docs/patent. Runtimes: Codex, Claude Code, Cursor, Kiro, DSH.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 22,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "write-chinese-long-screenplay",
+    "name": "write-chinese-long-screenplay",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/mudden2380078550-creator/write-chinese-long-screenplay",
+    "description": "中文电影与剧集长剧本写作 skill",
+    "description_zh": "中文电影与剧集长剧本写作 skill",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 20,
+    "license": "GPL-3.0"
   },
   {
     "id": "dsh-media-skills",
@@ -872,6 +1222,23 @@
     "license": "MIT"
   },
   {
+    "id": "zerotoken-skill",
+    "name": "zerotoken-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/phoenixlucky/zerotoken-skill",
+    "description": "让 Agent 高效又守纪律 — 不止省 token：ZeroToken 压缩无效上下文/推理/输出；尉缭子十原则约束权限边界、单一指令、先谋后动、验证先于结束；附 Unicode 编码规范、搜索规范、六种任务模式。More than token savings: ZeroToken efficiency + AI coding discipline for Reasonix / Codex / OpenCode / Hermes",
+    "description_zh": "让 Agent 高效又守纪律 — 不止省 token：ZeroToken 压缩无效上下文/推理/输出；尉缭子十原则约束权限边界、单一指令、先谋后动、验证先于结束；附 Unicode 编码规范、搜索规范、六种任务模式。More than token savings: ZeroToken efficiency + AI coding discipline for Reasonix / Codex / OpenCode / Hermes",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 16,
+    "license": "GPL-3.0"
+  },
+  {
     "id": "pptwise",
     "name": "pptwise",
     "type": "skill",
@@ -883,6 +1250,22 @@
       "coding",
       "multi-agent",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 15,
+    "license": "MIT"
+  },
+  {
+    "id": "tizhuang-agent-skills",
+    "name": "tizhuang-agent-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/weishao2/tizhuang-agent-skills",
+    "description": "2000万+中小学K12真题题库 Skill：免费注册、免费抽题、教材/章节/知识点检索、练习测验与AI智能组卷。",
+    "description_zh": "2000万+中小学K12真题题库 Skill：免费注册、免费抽题、教材/章节/知识点检索、练习测验与AI智能组卷。",
+    "capabilities": [
+      "coding"
     ],
     "status": "active",
     "verified": false,
@@ -1004,6 +1387,23 @@
     "stars": 14
   },
   {
+    "id": "sgme",
+    "name": "sgme",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/freehul/sgme",
+    "description": "SGME 拾光记忆引擎——AI 无缝切换：记忆、WIKI 知识库、技能库全面接管。换模型不失忆，多智能体共享同一大脑。ShiGuang Memory Engine · seamless AI switching, memory/wiki/skills fully managed.",
+    "description_zh": "SGME 拾光记忆引擎——AI 无缝切换：记忆、WIKI 知识库、技能库全面接管。换模型不失忆，多智能体共享同一大脑。ShiGuang Memory Engine · seamless AI switching, memory/wiki/skills fully managed.",
+    "capabilities": [
+      "coding",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-plugin-dev",
     "name": "dsh-plugin-dev",
     "type": "skill",
@@ -1021,6 +1421,22 @@
     "_updated": "2026-08-21",
     "_stars_prev": 12,
     "growth": 1
+  },
+  {
+    "id": "wanjiqi-meme",
+    "name": "wanjiqi-meme",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Chu-Xin-r/wanjiqi-meme",
+    "description": "玩机器(6657直播间)烂梗 Skill：22771条真实弹幕烂梗蒸馏成AI Skill，生成玩机器式弹幕/解说吐槽/CS×DOTA双料梗",
+    "description_zh": "玩机器(6657直播间)烂梗 Skill：22771条真实弹幕烂梗蒸馏成AI Skill，生成玩机器式弹幕/解说吐槽/CS×DOTA双料梗",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 13,
+    "license": "MIT"
   },
   {
     "id": "dsh-skill-manager-ytxue",
@@ -1072,6 +1488,23 @@
     "description_zh": "从规划到发布的全流程 DeepSeek Harness 插件开发 skill，支持 pure、bundle、bundle-client 三种形态，自动生成脚手架、构建脚本、门禁与验证流程。",
     "capabilities": [
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "license": "MIT"
+  },
+  {
+    "id": "yinchao-ai-music-skill",
+    "name": "yinchao-ai-music-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/yinhcao/yinchao-ai-music-skill",
+    "description": "AI 音乐生成 Agent Skill：支持文字/歌词生成歌曲、参考音频创作、BGM 与歌曲续写",
+    "description_zh": "AI 音乐生成 Agent Skill：支持文字/歌词生成歌曲、参考音频创作、BGM 与歌曲续写",
+    "capabilities": [
+      "coding",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
@@ -1159,6 +1592,23 @@
     "_topics": [
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "skills-1",
+    "name": "skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/creght-dev/skills",
+    "description": "Codex and agent skills for Cregh.",
+    "description_zh": "Codex and agent skills for Cregh.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11,
+    "license": "MIT"
   },
   {
     "id": "dsh-skill-7d-code-reviewer",
@@ -1303,6 +1753,53 @@
     "capabilities": [
       "coding",
       "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9
+  },
+  {
+    "id": "biga",
+    "name": "bigA",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/kobenfang/bigA",
+    "description": "openclaw-skills BigA · A股智能选股（选股分析·量化交易·股票池）",
+    "description_zh": "openclaw-skills BigA · A股智能选股（选股分析·量化交易·股票池）",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "sumsec-skills",
+    "name": "SumSec-Skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/SummerSec/SumSec-Skills",
+    "description": "SummerSec 个人自定义Skill仓库",
+    "description_zh": "SummerSec 个人自定义Skill仓库",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "mcm-skills",
+    "name": "MCM_skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/ciyuan1234/MCM_skills",
+    "description": "CUMCM 国赛 AI skill 包：读题到交卷。C 题走数据契约，A 题走机理/PDE（单位、守恒、网格收敛）。支持 Claude/Codex/Grok/opencode。",
+    "description_zh": "CUMCM 国赛 AI skill 包：读题到交卷。C 题走数据契约，A 题走机理/PDE（单位、守恒、网格收敛）。支持 Claude/Codex/Grok/opencode。",
+    "capabilities": [
+      "coding"
     ],
     "status": "active",
     "verified": false,
@@ -1565,6 +2062,39 @@
     "license": "MIT"
   },
   {
+    "id": "xiaoliuren-skill",
+    "name": "xiaoliuren-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/tianmingwangluo/xiaoliuren-skill",
+    "description": "道传小六壬 skill (xiaoliuren-skill)——一个为 AI 代理（Cursor / Claude Code / OpenClaw / VS Code Copilot 等）提供专业级小六壬起卦排盘与解卦能力的技能包。",
+    "description_zh": "道传小六壬 skill (xiaoliuren-skill)——一个为 AI 代理（Cursor / Claude Code / OpenClaw / VS Code Copilot 等）提供专业级小六壬起卦排盘与解卦能力的技能包。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "cue-skills",
+    "name": "cue-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/sensedeal/cue-skills",
+    "description": "Cue Skills for Agents",
+    "description_zh": "Cue Skills for Agents",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-superpowers",
     "name": "dsh-superpowers",
     "type": "skill",
@@ -1657,6 +2187,22 @@
     "repository": "https://github.com/maple110011/dsh-obsidian-math",
     "description": "面向数学笔记的 DeepSeek Harness 助手，驻留在 Obsidian 右侧栏。可直接读写数学笔记，维护分层长期记忆（画像、主题、类型化记录、原始证据），按 Rethlas 风格证明工作流工作，内置个人定理索引与问题模板库，并能把关键想法捕捉到备忘录、主动提醒打磨。",
     "description_zh": "面向数学笔记的 DeepSeek Harness 助手，驻留在 Obsidian 右侧栏。可直接读写数学笔记，维护分层长期记忆（画像、主题、类型化记录、原始证据），按 Rethlas 风格证明工作流工作，内置个人定理索引与问题模板库，并能把关键想法捕捉到备忘录、主动提醒打磨。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "skillhub-1",
+    "name": "skillhub",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/cocofhu/skillhub",
+    "description": "skillhub of deepseek-harness",
+    "description_zh": "skillhub of deepseek-harness",
     "capabilities": [
       "coding"
     ],
@@ -1975,6 +2521,55 @@
     "status": "active",
     "verified": false,
     "stars": 5
+  },
+  {
+    "id": "academic-research-graph",
+    "name": "academic-research-graph",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/watericetangcw/academic-research-graph",
+    "description": "A SKILL that turns one paper into a living research map.",
+    "description_zh": "A SKILL that turns one paper into a living research map.",
+    "capabilities": [
+      "coding",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "deep-structural-analysis-skill",
+    "name": "deep-structural-analysis-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/tetckx/deep-structural-analysis-skill",
+    "description": "Deep Structural Analysis — a multi-perspective structural analysis skill for complex social, economic, philosophical, and systemic questions. 16 lenses, 10 structural tools, an attack-loop protocol against analytical priors. Behavior-verified from real usage. MIT licensed.深度结构分析——面向复杂社会、哲学与系统性问题的多学科结构分析技能。16 透镜、10 结构工具、攻击循环协议对抗分析先验。基于实战行为验证。MIT许可。",
+    "description_zh": "Deep Structural Analysis — a multi-perspective structural analysis skill for complex social, economic, philosophical, and systemic questions. 16 lenses, 10 structural tools, an attack-loop protocol against analytical priors. Behavior-verified from real usage. MIT licensed.深度结构分析——面向复杂社会、哲学与系统性问题的多学科结构分析技能。16 透镜、10 结构工具、攻击循环协议对抗分析先验。基于实战行为验证。MIT许可。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek-prism",
+    "name": "DeepSeek_Prism",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/YOGEMOW/DeepSeek_Prism",
+    "description": "为纯文本模型按需识图：DSH 零补丁 Cordis 插件（prism_see 工具 + 图片 VEP 降级 + 技能运行时注册）+ Codex Skill；多 Provider 视觉 API，VEP/1 低 Token 视觉证据包",
+    "description_zh": "为纯文本模型按需识图：DSH 零补丁 Cordis 插件（prism_see 工具 + 图片 VEP 降级 + 技能运行时注册）+ Codex Skill；多 Provider 视觉 API，VEP/1 低 Token 视觉证据包",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
   },
   {
     "id": "dsh-book2skill",
@@ -2613,6 +3208,55 @@
     "repository": "https://github.com/OMSociety/kimi-ppt-skill",
     "description": "DSH (DeepSeek Harness) presentation skill: PPT/演示文稿生成与导出，含 DSH 内纯本地导出 (python-pptx) 与本地预览渲染 (Pillow)。",
     "description_zh": "DSH (DeepSeek Harness) presentation skill: PPT/演示文稿生成与导出，含 DSH 内纯本地导出 (python-pptx) 与本地预览渲染 (Pillow)。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "resanity",
+    "name": "reSanity",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/Thhoho/reSanity",
+    "description": "reSanity 散修 — 面向散户投研的证据搜索与逻辑梳理 Skill：核查一手资料，拆解题材到收入、利润和现金的传导链，标注证据与推断边界。",
+    "description_zh": "reSanity 散修 — 面向散户投研的证据搜索与逻辑梳理 Skill：核查一手资料，拆解题材到收入、利润和现金的传导链，标注证据与推断边界。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "agent-skills",
+    "name": "agent-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/octoparse/agent-skills",
+    "description": "Collection of Octoparse agent skills",
+    "description_zh": "Collection of Octoparse agent skills",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "claude-conventions-skill",
+    "name": "claude-conventions-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/yyyyolo7a79-sketch/claude-conventions-skill",
+    "description": "Claude Code conventions skill for Chinese users",
+    "description_zh": "Claude Code conventions skill for Chinese users",
     "capabilities": [
       "coding"
     ],
@@ -3600,6 +4244,156 @@
     "capabilities": [
       "coding",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "litestartup-skills",
+    "name": "litestartup-skills",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/litestartup-com/litestartup-skills",
+    "description": "Publish blog, docs, website, changelog, send campaign email directly from your AI agent. Write content, run one prompt, go live in seconds.",
+    "description_zh": "Publish blog, docs, website, changelog, send campaign email directly from your AI agent. Write content, run one prompt, go live in seconds.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "infographic",
+    "name": "infographic",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/remybroun/infographic",
+    "description": "A Claude Code skill that turns a document or a topic into a designed visual explainer. 52 block forms, an enforced word budget, and guards that fail the build.",
+    "description_zh": "A Claude Code skill that turns a document or a topic into a designed visual explainer. 52 block forms, an enforced word budget, and guards that fail the build.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "chat2skill",
+    "name": "chat2skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/rxa3c/chat2skill",
+    "description": "Extracting and iterating skills from daily conversations with AI",
+    "description_zh": "Extracting and iterating skills from daily conversations with AI",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "bigseedskill",
+    "name": "BigSeedSkill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/kobenfang/BigSeedSkill",
+    "description": "🌱 BigSeed 闪念记录与人生拼图 - 捕捉生活点滴生成人生故事/自传 | Life story, journal, biography, memory keeper",
+    "description_zh": "🌱 BigSeed 闪念记录与人生拼图 - 捕捉生活点滴生成人生故事/自传 | Life story, journal, biography, memory keeper",
+    "capabilities": [
+      "coding",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "stata-ai-skill",
+    "name": "Stata-AI-Skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/ZihaoVistonWang/Stata-AI-Skill",
+    "description": "Stata AI Skill Native Service: Native localhost HTTP service that lets AI agents run Stata without VS Code, Node.js, or Python on the user side.",
+    "description_zh": "Stata AI Skill Native Service: Native localhost HTTP service that lets AI agents run Stata without VS Code, Node.js, or Python on the user side.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "commercial-ui-ux-codex-skill",
+    "name": "commercial-ui-ux-codex-skill",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/zjsthmjialin/commercial-ui-ux-codex-skill",
+    "description": "Installable Codex skill for commercial UI/UX/GUI design, review, repair, and implementation.",
+    "description_zh": "Installable Codex skill for commercial UI/UX/GUI design, review, repair, and implementation.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "listform",
+    "name": "ListForm",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/kobenfang/ListForm",
+    "description": "openclaw - skills :　List · 智能表单（万能信息记录·智能记事本·智能账单）- Smart Form & Notes",
+    "description_zh": "openclaw - skills :　List · 智能表单（万能信息记录·智能记事本·智能账单）- Smart Form & Notes",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "catalog-capabilities-zh",
+    "name": "catalog-capabilities-zh",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/MeowTnT3r/catalog-capabilities-zh",
+    "description": "一个面向 Codex 的公开 skill：编排当前 Agent 已有的可信安装器，并为 skills、插件和市场能力维护一份有来源依据的中文说明目录",
+    "description_zh": "一个面向 Codex 的公开 skill：编排当前 Agent 已有的可信安装器，并为 skills、插件和市场能力维护一份有来源依据的中文说明目录",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "agent-plaza",
+    "name": "agent-plaza",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/agent-plaza/agent-plaza",
+    "description": "Zero-signup public commons for AI agents — HTTP API + Agent Skill (Codex, Cursor, Hermes)",
+    "description_zh": "Zero-signup public commons for AI agents — HTTP API + Agent Skill (Codex, Cursor, Hermes)",
+    "capabilities": [
+      "coding",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,

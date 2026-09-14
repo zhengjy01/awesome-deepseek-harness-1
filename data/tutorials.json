@@ -15,6 +15,21 @@
     "stars": 14556
   },
   {
+    "id": "math-modeling-skill",
+    "name": "math-modeling-skill",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/XiaoMaColtAI/math-modeling-skill",
+    "description": "数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本",
+    "description_zh": "数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1540
+  },
+  {
     "id": "deepseek-harness-orange-book",
     "name": "DeepSeek Harness Orange Book",
     "type": "tutorial",
@@ -637,6 +652,23 @@
     "license": "MIT"
   },
   {
+    "id": "arch-lens",
+    "name": "arch-lens",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/gwj001/arch-lens",
+    "description": "一个基于代码事实的，ai画图、ai 讲解的代码架构学习台插件(An AI drawing and AI explanation code architecture learning platform plugin)",
+    "description_zh": "一个基于代码事实的，ai画图、ai 讲解的代码架构学习台插件(An AI drawing and AI explanation code architecture learning platform plugin)",
+    "capabilities": [
+      "coding",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
     "id": "gitlearnos",
     "name": "gitlearnos",
     "type": "tutorial",
@@ -700,6 +732,22 @@
     "stars": 4,
     "_license": "MIT",
     "_topics": []
+  },
+  {
+    "id": "kitten-punch-screenwriting",
+    "name": "kitten-punch-screenwriting",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/YanKaFei/kitten-punch-screenwriting",
+    "description": "kitten-punch-screenwriting，是生产级中文编剧创作与剧本诊断系统，覆盖概念超短片、短片、电影长片、剧集/连续剧与竖屏短剧/微短剧。内置主角驱动因果、场景价值转折、潜台词、中文去AI味、故事状态机、人物知识边界、关系连续性、承诺-兑现机制、14道证据式QC、单调修复与长篇记忆快照，支持从零开发、续写、改戏、对白打磨与剧本医生诊断。",
+    "description_zh": "kitten-punch-screenwriting，是生产级中文编剧创作与剧本诊断系统，覆盖概念超短片、短片、电影长片、剧集/连续剧与竖屏短剧/微短剧。内置主角驱动因果、场景价值转折、潜台词、中文去AI味、故事状态机、人物知识边界、关系连续性、承诺-兑现机制、14道证据式QC、单调修复与长篇记忆快照，支持从零开发、续写、改戏、对白打磨与剧本医生诊断。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
   },
   {
     "id": "dsh-deeptutor",
@@ -770,6 +818,40 @@
     "status": "active",
     "verified": false,
     "stars": 3
+  },
+  {
+    "id": "project-memory-agent",
+    "name": "Project-Memory-Agent",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/LoveDoLove/Project-Memory-Agent",
+    "description": "Project Memory gives coding agents a single, trustworthy memory for a software repository — so they stop re-learning the same facts and stop writing conflicting \"memory\" files.",
+    "description_zh": "Project Memory gives coding agents a single, trustworthy memory for a software repository — so they stop re-learning the same facts and stop writing conflicting \"memory\" files.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "avoid-ai-writing-cn",
+    "name": "avoid-ai-writing-cn",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/hellogit2021/avoid-ai-writing-cn",
+    "description": "知乎\"去AI味写作技巧\"社区免费提供：中文写作去 AI 味插件。说\"去掉AI味\"即重写，说\"写的不错\"自动学习新 AI 词。",
+    "description_zh": "知乎\"去AI味写作技巧\"社区免费提供：中文写作去 AI 味插件。说\"去掉AI味\"即重写，说\"写的不错\"自动学习新 AI 词。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
   },
   {
     "id": "deepseek-protocol-doctor",

@@ -1,6 +1,6 @@
 ---
 title: "Agents & Multi-Agent"
-description: "DeepSeek Harness (dsh) 精选 agents & multi-agent：🔥 Top 10 与完整列表（137 条）。"
+description: "DeepSeek Harness (dsh) 精选 agents & multi-agent：🔥 Top 10 与完整列表（144 条）。"
 keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 ---
 # Agents & Multi-Agent
@@ -22,25 +22,28 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 | 1 | [loopx](resources/loopx.md) | ⭐5,810 | 面向长周期任务的 Agent 控制平面，为 Codex、Claude Code 等 Harness 提供持久、可治理的工作流。 | ✅ 活跃 |
 | 2 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,971 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ 活跃 |
 | 3 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐746 | 面向团队的 DSH 多 Agent 扩展。 | ✅ 活跃 |
-| 4 | [dsh-univer-office](resources/dsh-univer-office.md) | ⭐191 | Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration. | ✅ 活跃 |
-| 5 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern 迁移与下一代 Agent 角色扮演。 | ✅ 活跃 |
-| 6 | [dsh-auto-review](resources/dsh-auto-review-2.md) | ⭐116 | Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided). | ✅ 活跃 |
-| 7 | [dsh-liketavern](resources/dsh-liketavern.md) | ⭐111 | A DeepSeek Harness (dsh) plugin — turns dsh web into a SillyTavern-style roleplay frontend: character cards, prompt presets, lorebooks, personas, BM25 long-term memory, world-state deltas, and rollback-able floor operations, all on the dsh agent runtime. | ✅ 活跃 |
-| 8 | [dsh-data-agent](resources/dsh-data-agent.md) | ⭐104 | 会话级数据库连接 + 专用数据 Agent：让模型连数据库、写 SQL。 | ✅ 活跃 |
-| 9 | [DSHana](resources/dshana.md) | ⭐50 | DSHana: DeepSeek Harness as a subagent for HanaAgent | ✅ 活跃 |
-| 10 | [dsh-openbiliclaw](resources/dsh-openbiliclaw.md) | ⭐48 | OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。 | ✅ 活跃 |
+| 4 | [OpenStory](resources/openstory.md) | ⭐416 | An LLM-powered multi-agent framework for simulating interactive, evolving story worlds. | ✅ 活跃 |
+| 5 | [tingly-box](resources/tingly-box.md) | ⭐348 | Your Intelligence, Orchestrated. Every builder. Every team. Every agent. For Everyone. | ✅ 活跃 |
+| 6 | [dsh-univer-office](resources/dsh-univer-office.md) | ⭐191 | Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration. | ✅ 活跃 |
+| 7 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern 迁移与下一代 Agent 角色扮演。 | ✅ 活跃 |
+| 8 | [consensus-pipeline](resources/consensus-pipeline.md) | ⭐124 | Multi-agent department framework for long-form complex tasks, fighting AI hallucination, validated on academic research. 共识管线：多智能体部门长线任务解决框架，对抗AI幻觉，以学术研究为验证场景。 | ✅ 活跃 |
+| 9 | [dsh-auto-review](resources/dsh-auto-review-2.md) | ⭐116 | Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided). | ✅ 活跃 |
+| 10 | [dsh-liketavern](resources/dsh-liketavern.md) | ⭐111 | A DeepSeek Harness (dsh) plugin — turns dsh web into a SillyTavern-style roleplay frontend: character cards, prompt presets, lorebooks, personas, BM25 long-term memory, world-state deltas, and rollback-able floor operations, all on the dsh agent runtime. | ✅ 活跃 |
 
-## 完整列表（137）
+## 完整列表（144）
 
 
-**多智能体（134）**
+**多智能体（141）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [loopx](resources/loopx.md) | ⭐5,810 | 面向长周期任务的 Agent 控制平面，为 Codex、Claude Code 等 Harness 提供持久、可治理的工作流。 | ✅ 活跃 |
 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐746 | 面向团队的 DSH 多 Agent 扩展。 | ✅ 活跃 |
+| [OpenStory](resources/openstory.md) | ⭐416 | An LLM-powered multi-agent framework for simulating interactive, evolving story worlds. | ✅ 活跃 |
+| [tingly-box](resources/tingly-box.md) | ⭐348 | Your Intelligence, Orchestrated. Every builder. Every team. Every agent. For Everyone. | ✅ 活跃 |
 | [dsh-univer-office](resources/dsh-univer-office.md) | ⭐191 | Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration. | ✅ 活跃 |
 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern 迁移与下一代 Agent 角色扮演。 | ✅ 活跃 |
+| [consensus-pipeline](resources/consensus-pipeline.md) | ⭐124 | Multi-agent department framework for long-form complex tasks, fighting AI hallucination, validated on academic research. 共识管线：多智能体部门长线任务解决框架，对抗AI幻觉，以学术研究为验证场景。 | ✅ 活跃 |
 | [dsh-auto-review](resources/dsh-auto-review-2.md) | ⭐116 | Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided). | ✅ 活跃 |
 | [dsh-liketavern](resources/dsh-liketavern.md) | ⭐111 | A DeepSeek Harness (dsh) plugin — turns dsh web into a SillyTavern-style roleplay frontend: character cards, prompt presets, lorebooks, personas, BM25 long-term memory, world-state deltas, and rollback-able floor operations, all on the dsh agent runtime. | ✅ 活跃 |
 | [DSHana](resources/dshana.md) | ⭐50 | DSHana: DeepSeek Harness as a subagent for HanaAgent | ✅ 活跃 |
@@ -49,6 +52,7 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 | [dsh-tianshu-build](resources/dsh-tianshu-build.md) | ⭐36 | DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。 | ✅ 活跃 |
 | [dsh-interconnect](resources/dsh-interconnect.md) | ⭐34 | 跨实例消息/事件交接插件（interconnect 服务 + 工具）。 | ✅ 活跃 |
 | [dsh-plugin-cc](resources/dsh-plugin-cc.md) | ⭐29 | 将 DSH 桥接到 Claude Code：审查、批判、委托与会话导入。 | ✅ 活跃 |
+| [distill](resources/distill.md) | ⭐25 | 自动对话蒸馏：后台 subagent 反省 + 技能 create/update | ✅ 活跃 |
 | [dsh-agent-team](resources/dsh-agent-team.md) | ⭐25 | Give DeepSeek Harness a persistent agent team: durable Member identities with private memory, notes and skills across sessions. You set the direction — agents coordinate through Channels and Tasks, and manage their own context. | ✅ 活跃 |
 | [dsh-thinking-effort](resources/dsh-thinking-effort.md) | ⭐23 | Configurable reasoning levels for hand-declared DSH llm-pi-ai models, with bilingual settings and subagent defaults. | ✅ 活跃 |
 | [kixparadigm](resources/kixparadigm.md) | ⭐23 | kixparadigm — AI self-orchestrated minimal paradigm (resident cognition layer) + kixpower multi-agent orchestration · one-command import into DeepSeek Harness (npm i -g) / AI 自编排最小范式（认知层常驻）× kixpower 多智能体编排 · npm 一键导入 DeepSeek Harness | ✅ 活跃 |
@@ -73,6 +77,7 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 | [DSH-RolePlay](resources/dsh-roleplay-2.md) | ⭐8 | DeepSeek Harness 的 Tavern 角色卡兼容与原生 Agent RolePlay 插件。 | ✅ 活跃 |
 | [dsh-team](resources/dsh-team.md) | ⭐8 | Agent teams for DeepSeek Harness: named long-lived teammates over ctx.subagents, a shared task list, a member-to-member mailbox, virtual workspaces, and a live team room in the conversation view | ✅ 活跃 |
 | [evo-subagent](resources/evo-subagent.md) | ⭐8 | Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution (prefercmd/memory as knowledge allow/deny lists), so repeated tasks start from proven commands and save tokens. Unified subagent routing and evolution: prefercmd/memory serve as knowledge allow/deny lists, saving tokens. | ✅ 活跃 |
+| [ai-company-framework](resources/ai-company-framework.md) | ⭐7 | Company Is a Word. 一句话开一家AI公司 - open-source multi-agent orchestration framework for non-developers. 小白5分钟拥有自己的AI公司，可DIY任意行业、调教子Agent、无限家公司，支持飞书遥控。MIT | ✅ 活跃 |
 | [dsh-a2a](resources/dsh-a2a.md) | ⭐7 | DSH 的 A2A v1.0 双端插件:Client 发现远程 Agent 并映射为工具,Server 对外提供 JSON-RPC/SSE 端点与连接面板 ｜ A2A v1.0 dual-mode DSH plugin: A2A client (skills as tools) + A2A server (JSON-RPC/SSE) with dashboard. | ✅ 活跃 |
 | [dsh-background-agents](resources/dsh-background-agents.md) | ⭐7 | Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watch its progress in the Web UI sidebar, message it any time, and interrupt it - all through the official subagent seam. | ✅ 活跃 |
 | [dsh-ha-orchestrator](resources/dsh-ha-orchestrator.md) | ⭐7 | DeepSeek Harness（dsh）动态 Cordis 插件：模型高可用回退 + 五种模式子智能体编排（fanout / pipeline / supervisor / map-reduce / router） | ✅ 活跃 |
@@ -121,6 +126,8 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 | [dsh-subagent-ui](resources/dsh-subagent-ui.md) | ⭐3 | Searchable workspace subagent manager for DeepSeek Harness Web | ✅ 活跃 |
 | [dsh-task-relay](resources/dsh-task-relay.md) | ⭐3 | DSH 跨会话任务接力板：task_push/list/claim/done + handoff_write/read | ✅ 活跃 |
 | [foreman-dsh](resources/foreman-dsh.md) | ⭐3 | 贵脑+贱手: cloud-orchestrator + local-worker lanes (delegate & read-only scout) for DeepSeek Harness | 社区 Agent 预设 | ✅ 活跃 |
+| [knotline](resources/knotline.md) | ⭐3 | 把 Agent 从对话框搬到一张图上——连线即执行 / Orchestrate AI agents by drawing lines | ✅ 活跃 |
+| [openspec-agents](resources/openspec-agents.md) | ⭐3 | OpenSpec 流程的 Agent Team：面向实施阶段的多 Agent 工作流编排。 | ✅ 活跃 |
 | [dsh-cluster](resources/dsh-cluster.md) | ⭐2 | 画布式多智能体协作插件 | Canvas-based multi-agent cooperation plugin for DeepSeek Harness | ✅ 活跃 |
 | [dsh-command-opt](resources/dsh-command-opt.md) | ⭐2 | DeepSeek Harness（DSH）命令优化插件：Tab/Enter 补全命令名、参数格式引导与提示弹框、tool 开启会话（subagent）补丁、空对话命令输出修复。Command optimization plugin for DeepSeek Harness. | ✅ 活跃 |
 | [dsh-crosstalk](resources/dsh-crosstalk-1.md) | ⭐2 | 跨会话消息：同机 DSH 会话之间可发现、互发消息并协同。 | ✅ 活跃 |

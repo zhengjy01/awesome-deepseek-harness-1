@@ -126,6 +126,24 @@
     "subcategory": "vision-tools"
   },
   {
+    "id": "j-space-cognition-suite-1",
+    "name": "J-Space-Cognition-Suite",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/Tiger3807861189/J-Space-Cognition-Suite",
+    "description": "J-Space Cognition Suite — a model-agnostic inference-time control suite for deep reasoning, long-horizon work, verification, and recovery. Based on Anthropic's J-space global workspace research.",
+    "description_zh": "J-Space Cognition Suite — a model-agnostic inference-time control suite for deep reasoning, long-horizon work, verification, and recovery. Based on Anthropic's J-space global workspace research.",
+    "capabilities": [
+      "coding",
+      "search",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3010,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "dashi-taskboard",
     "name": "dashi-taskboard",
     "type": "plugin",
@@ -141,6 +159,24 @@
     "verified": false,
     "stars": 2813,
     "subcategory": "sidebar-panels"
+  },
+  {
+    "id": "deepwiki-rs",
+    "name": "deepwiki-rs",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/sopaco/deepwiki-rs",
+    "description": "Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—perfectly structured for human teams and intelligent agents.",
+    "description_zh": "Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—perfectly structured for human teams and intelligent agents.",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2712,
+    "license": "MIT"
   },
   {
     "id": "dsh-better-sidebar",
@@ -197,6 +233,24 @@
     "stars": 2233,
     "license": "MIT",
     "install": "See the repository README for the one-command install into your DSH profile."
+  },
+  {
+    "id": "memmy-agent",
+    "name": "memmy-agent",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/MemTensor/memmy-agent",
+    "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
+    "description_zh": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1906,
+    "license": "MIT"
   },
   {
     "id": "dsh-market",
@@ -257,6 +311,22 @@
     "license": "MIT"
   },
   {
+    "id": "brooks-lint",
+    "name": "brooks-lint",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/hyhmrright/brooks-lint",
+    "description": "AI code reviews grounded in 12 classic engineering books — decay risk diagnostics with book citations, severity labels, and 6 analysis modes including full-sweep auto-fix",
+    "description_zh": "AI code reviews grounded in 12 classic engineering books — decay risk diagnostics with book citations, severity labels, and 6 analysis modes including full-sweep auto-fix",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1474,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-plugin-radar-2",
     "name": "dsh-plugin-radar",
     "type": "plugin",
@@ -271,6 +341,23 @@
     "verified": false,
     "stars": 1466,
     "license": "MIT"
+  },
+  {
+    "id": "harnessrouter",
+    "name": "harnessrouter",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/HarnessRouter/harnessrouter",
+    "description": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
+    "description_zh": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1409,
+    "license": "Apache-2.0"
   },
   {
     "id": "tokentracker",
@@ -293,6 +380,40 @@
     "growth": 15
   },
   {
+    "id": "ai-animation",
+    "name": "AI_Animation",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/Unclecheng-li/AI_Animation",
+    "description": "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。",
+    "description_zh": "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1288,
+    "license": "MIT"
+  },
+  {
+    "id": "mem9",
+    "name": "mem9",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/mem9-ai/mem9",
+    "description": "Unlimited memory for OpenClaw",
+    "description_zh": "Unlimited memory for OpenClaw",
+    "capabilities": [
+      "coding",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1213,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "deepseek-design",
     "name": "deepseek-design",
     "type": "plugin",
@@ -306,6 +427,22 @@
     "status": "active",
     "verified": false,
     "stars": 1134
+  },
+  {
+    "id": "glm-5-3-flash-j-space-capability-realization-report",
+    "name": "GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+    "description": "GLM-5.3-Flash × J-Space capability realization — benchmark presentation of the J-Space Cognition Suite",
+    "description_zh": "GLM-5.3-Flash × J-Space capability realization — benchmark presentation of the J-Space Cognition Suite",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1021
   },
   {
     "id": "dsh-vision-router",
@@ -329,6 +466,24 @@
     "subcategory": "vision-tools"
   },
   {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/vostride/agent-qa",
+    "description": "Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship.",
+    "description_zh": "Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 907
+  },
+  {
     "id": "dsh-purge",
     "name": "dsh-purge",
     "type": "plugin",
@@ -342,6 +497,41 @@
     "status": "active",
     "verified": false,
     "stars": 860,
+    "license": "MIT"
+  },
+  {
+    "id": "api-relay-audit",
+    "name": "api-relay-audit",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/toby-bridges/api-relay-audit",
+    "description": "Local security audit for AI API relays and LLM proxies: detects prompt injection, model substitution, tool-call rewriting, SSE anomalies, error leakage, and Web3 wallet risks.",
+    "description_zh": "Local security audit for AI API relays and LLM proxies: detects prompt injection, model substitution, tool-call rewriting, SSE anomalies, error leakage, and Web3 wallet risks.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 833,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "deja-vu",
+    "name": "deja-vu",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/vshulcz/deja-vu",
+    "description": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 20 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+    "description_zh": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 20 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 811,
     "license": "MIT"
   },
   {
@@ -400,6 +590,21 @@
     "license": "Apache-2.0"
   },
   {
+    "id": "helloagents",
+    "name": "helloagents",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/hellowind777/helloagents",
+    "description": "一个自主的高级智能伙伴，不仅分析问题，更持续工作直到完成实现和验证。",
+    "description_zh": "一个自主的高级智能伙伴，不仅分析问题，更持续工作直到完成实现和验证。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 705
+  },
+  {
     "id": "dsh-context",
     "name": "dsh-context",
     "type": "plugin",
@@ -419,6 +624,57 @@
     "_stars_prev": 596,
     "growth": 70,
     "subcategory": "context-management"
+  },
+  {
+    "id": "working-activity",
+    "name": "working-activity",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/ccch1mneyyy/working-activity",
+    "description": "Lively Working-line extension for pi CLI and DSH",
+    "description_zh": "Lively Working-line extension for pi CLI and DSH",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 659,
+    "license": "MIT"
+  },
+  {
+    "id": "agentkey",
+    "name": "Agentkey",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/chainbase-labs/Agentkey",
+    "description": "Connect your AI agent to the world — Web search, Social media, Crypto & On-chain data. One plugin, zero extra config.",
+    "description_zh": "Connect your AI agent to the world — Web search, Social media, Crypto & On-chain data. One plugin, zero extra config.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 648,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "anolisa",
+    "name": "ANOLISA",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/agentic-os-org/ANOLISA",
+    "description": "ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) | Agentic OS with runtime, security, observability, and Tokenless response compression for lower token usage and cost.",
+    "description_zh": "ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) | Agentic OS with runtime, security, observability, and Tokenless response compression for lower token usage and cost.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 609,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-worktable",
@@ -478,6 +734,23 @@
     "subcategory": "memory-systems",
     "_stars_prev": 562,
     "growth": 2
+  },
+  {
+    "id": "avernet",
+    "name": "Avernet",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/inclusionAI/Avernet",
+    "description": "Distributed agent coordination platform where agents live, connect, coordinate, execute, and evolve together.",
+    "description_zh": "Distributed agent coordination platform where agents live, connect, coordinate, execute, and evolve together.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 553,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-ads",
@@ -542,6 +815,23 @@
     "subcategory": "vision-tools"
   },
   {
+    "id": "k8e",
+    "name": "k8e",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/xiaods/k8e",
+    "description": "k8e.sh - OpenSource Agentic AI Sandbox Matrix",
+    "description_zh": "k8e.sh - OpenSource Agentic AI Sandbox Matrix",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 492,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "vinote",
     "name": "ViNote",
     "type": "plugin",
@@ -557,6 +847,22 @@
     "verified": false,
     "stars": 466,
     "license": "MIT"
+  },
+  {
+    "id": "postiz-agent",
+    "name": "postiz-agent",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/gitroomhq/postiz-agent",
+    "description": "Postiz Agents CLI - connect it to Claude / OpenClaw / etc, to schedule social media posts 🤖",
+    "description_zh": "Postiz Agents CLI - connect it to Claude / OpenClaw / etc, to schedule social media posts 🤖",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 462
   },
   {
     "id": "dsh-at-file-1",
@@ -581,6 +887,38 @@
     "subcategory": "files-import"
   },
   {
+    "id": "thoughtdag",
+    "name": "thoughtdag",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/chenxiachan/thoughtdag",
+    "description": "Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph. Wires are the context.",
+    "description_zh": "Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph. Wires are the context.",
+    "capabilities": [
+      "coding",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 443,
+    "license": "MIT"
+  },
+  {
+    "id": "chatgpt-gemini-timeline",
+    "name": "chatgpt-gemini-timeline",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/houyanchao/chatgpt-gemini-timeline",
+    "description": "ChatGPT & Gemini：Add Folders, Timeline & Prompts. - 为 ChatGPT & Gemini 添加文件夹、提示词库和时间轴。",
+    "description_zh": "ChatGPT & Gemini：Add Folders, Timeline & Prompts. - 为 ChatGPT & Gemini 添加文件夹、提示词库和时间轴。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 440
+  },
+  {
     "id": "dsh-redteam-model",
     "name": "dsh-redteam-model",
     "type": "plugin",
@@ -595,6 +933,23 @@
     "status": "active",
     "verified": false,
     "stars": 439,
+    "license": "MIT"
+  },
+  {
+    "id": "rea",
+    "name": "rea",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/morluto/rea",
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "description_zh": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 403,
     "license": "MIT"
   },
   {
@@ -710,6 +1065,22 @@
     "license": "MIT"
   },
   {
+    "id": "mobius",
+    "name": "mobius",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/nutshellai-tech/mobius",
+    "description": "The first self-evolving open-source Agent OS, connecting your team, AI agents, devices, and compute",
+    "description_zh": "The first self-evolving open-source Agent OS, connecting your team, AI agents, devices, and compute",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 295
+  },
+  {
     "id": "dsh-mobile-7",
     "name": "dsh-mobile",
     "type": "plugin",
@@ -784,6 +1155,40 @@
     "growth": 41
   },
   {
+    "id": "sivtr",
+    "name": "sivtr",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/Ariestar/sivtr",
+    "description": "A unified agent memory workspace for human and agent | 一个统一的agent记忆工作空间",
+    "description_zh": "A unified agent memory workspace for human and agent | 一个统一的agent记忆工作空间",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 269,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "perfect-web-clone",
+    "name": "Perfect-Web-Clone",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/ericshang98/Perfect-Web-Clone",
+    "description": "Pixel-perfect clones of any webpage. Paste a URL, get a measured Vite + React replica.",
+    "description_zh": "Pixel-perfect clones of any webpage. Paste a URL, get a measured Vite + React replica.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 266,
+    "license": "MIT"
+  },
+  {
     "id": "whale-girl",
     "name": "whale-girl",
     "type": "plugin",
@@ -818,6 +1223,55 @@
     "verified": false,
     "stars": 250,
     "subcategory": "vision-tools"
+  },
+  {
+    "id": "acryl",
+    "name": "acryl",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/acryldev/acryl",
+    "description": "ACRYL - Agent Context Relay Yielding Lifecycles. One persistent workspace, one canonical context, any coding agent.",
+    "description_zh": "ACRYL - Agent Context Relay Yielding Lifecycles. One persistent workspace, one canonical context, any coding agent.",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 238,
+    "license": "MIT"
+  },
+  {
+    "id": "tencentmeeting-cli",
+    "name": "tencentmeeting-cli",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/TencentCloud/tencentmeeting-cli",
+    "description": "腾讯会议命令行工具（CLI），基于腾讯会议开放平台 OAuth2 授权，支持会议管理、录制管理、参会报告等功能。",
+    "description_zh": "腾讯会议命令行工具（CLI），基于腾讯会议开放平台 OAuth2 授权，支持会议管理、录制管理、参会报告等功能。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 237
+  },
+  {
+    "id": "polaris",
+    "name": "Polaris",
+    "type": "plugin",
+    "category": "discovery",
+    "repository": "https://github.com/ZJU-REAL/Polaris",
+    "description": "Toward Autonomous Scientific Discovery",
+    "description_zh": "Toward Autonomous Scientific Discovery",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 236,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-plugin-subscriptions",
@@ -899,6 +1353,22 @@
     "subcategory": "web-search"
   },
   {
+    "id": "clarify-intent-and-establish-shared-understanding",
+    "name": "clarify-intent-and-establish-shared-understanding",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Inference1/clarify-intent-and-establish-shared-understanding",
+    "description": "Systematically clarify intent, challenge assumptions, resolve contradictions, and align goals, constraints, risks, and success criteria.",
+    "description_zh": "Systematically clarify intent, challenge assumptions, resolve contradictions, and align goals, constraints, risks, and success criteria.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 204,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "seektty",
     "name": "seektty",
     "type": "plugin",
@@ -935,6 +1405,41 @@
     "subcategory": "generative-ui"
   },
   {
+    "id": "jacobian",
+    "name": "jacobian",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/morluto/jacobian",
+    "description": "Composable mathematics tools for agents",
+    "description_zh": "Composable mathematics tools for agents",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 192,
+    "license": "MIT"
+  },
+  {
+    "id": "engramory",
+    "name": "engramory",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/tinqiao-oss/engramory",
+    "description": "A portable memory protocol for AI agents — load it as standing rules; a curation discipline + reference spec + optional cap hook.",
+    "description_zh": "A portable memory protocol for AI agents — load it as standing rules; a curation discipline + reference spec + optional cap hook.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 190,
+    "license": "MIT"
+  },
+  {
     "id": "open-sea-skin",
     "name": "Open Sea Skin",
     "type": "plugin",
@@ -955,6 +1460,23 @@
     "growth": 4,
     "_source_description": "WebGPU ocean skin for DeepSeek Harness — DSH plugin, Harness-only Chrome/Edge extension, static installer, and native integration.",
     "_updated": "2026-08-19"
+  },
+  {
+    "id": "loongsuite-pilot",
+    "name": "loongsuite-pilot",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/alibaba/loongsuite-pilot",
+    "description": "Local-first telemetry collector for AI coding agents — unified OpenTelemetry events for Claude Code, Codex, Cursor and more. Token usage, cost, traces and security audit, exported anywhere.",
+    "description_zh": "Local-first telemetry collector for AI coding agents — unified OpenTelemetry events for Claude Code, Codex, Cursor and more. Token usage, cost, traces and security audit, exported anywhere.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 184,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-explore",
@@ -994,6 +1516,23 @@
     "subcategory": "vision-tools"
   },
   {
+    "id": "terrain",
+    "name": "terrain",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/sopaco/terrain",
+    "description": "AI-native engineering environment management that makes your codebase agent-ready.",
+    "description_zh": "AI-native engineering environment management that makes your codebase agent-ready.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 175,
+    "license": "MIT"
+  },
+  {
     "id": "anysearch-dsh",
     "name": "anysearch-dsh",
     "type": "plugin",
@@ -1027,6 +1566,22 @@
     "status": "active",
     "verified": false,
     "stars": 174
+  },
+  {
+    "id": "gal-view",
+    "name": "gal-view",
+    "type": "plugin",
+    "category": "fun",
+    "repository": "https://github.com/Ayase34/gal-view",
+    "description": "把dsh会话界面切换成galgame游戏界面的插件",
+    "description_zh": "把dsh会话界面切换成galgame游戏界面的插件",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 171,
+    "license": "MIT"
   },
   {
     "id": "dsh-trading-1",
@@ -1184,6 +1739,22 @@
     "subcategory": "vision-tools"
   },
   {
+    "id": "codex-guard",
+    "name": "codex-guard",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Akimiya-z/codex-guard",
+    "description": "Quality gate for AI/Codex-generated pull requests: blocks TODO leftovers, leaked secrets, sloppy commits and red CI before they reach main.",
+    "description_zh": "Quality gate for AI/Codex-generated pull requests: blocks TODO leftovers, leaked secrets, sloppy commits and red CI before they reach main.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 141,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-cost-meter-sttrevens",
     "name": "dsh-cost-meter",
     "type": "plugin",
@@ -1297,6 +1868,40 @@
     "subcategory": "memory-systems"
   },
   {
+    "id": "ai-art-engine",
+    "name": "ai-art-engine",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Justin-sky/ai-art-engine",
+    "description": "AI 艺术创作引擎，专业的短视频创作工具",
+    "description_zh": "AI 艺术创作引擎，专业的短视频创作工具",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 127
+  },
+  {
+    "id": "ark-cli",
+    "name": "ark-cli",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/volcengine/ark-cli",
+    "description": "The fastest way to put Volcengine Ark in your terminal and your AI agent — go from prompt to generated   media, multimodal answer, or deployed endpoint in a single command, no API glue code.",
+    "description_zh": "The fastest way to put Volcengine Ark in your terminal and your AI agent — go from prompt to generated   media, multimodal answer, or deployed endpoint in a single command, no API glue code.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "multimodal",
+      "terminal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 127,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "tokenledger",
     "name": "tokenledger",
     "type": "plugin",
@@ -1338,6 +1943,57 @@
       "dsh-plugins"
     ],
     "subcategory": "memory-systems"
+  },
+  {
+    "id": "argo",
+    "name": "argo",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/taxueseek/argo",
+    "description": "专门为 agent 打造的 agent 搜索工具，具备多语言搜索能力，覆盖中文/英文/学术/代码/购物/金融/新闻/百科。",
+    "description_zh": "专门为 agent 打造的 agent 搜索工具，具备多语言搜索能力，覆盖中文/英文/学术/代码/购物/金融/新闻/百科。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 123,
+    "license": "MIT"
+  },
+  {
+    "id": "flameox",
+    "name": "flameox",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/morluto/flameox",
+    "description": "Runtime evidence that helps agents trace, profile, and burn down hotspots in application and native code, GPU kernels, and inference stacks.",
+    "description_zh": "Runtime evidence that helps agents trace, profile, and burn down hotspots in application and native code, GPU kernels, and inference stacks.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 121,
+    "license": "MIT"
+  },
+  {
+    "id": "baro",
+    "name": "baro",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/jigjoy-ai/baro",
+    "description": "A CLI that turns a goal into a pull request - and a sandbox for testing concurrent AI coding agents on the Mozaik runtime.",
+    "description_zh": "A CLI that turns a goal into a pull request - and a sandbox for testing concurrent AI coding agents on the Mozaik runtime.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 121,
+    "license": "MIT"
   },
   {
     "id": "deepseek-harness-software-opc",
@@ -1406,6 +2062,22 @@
     "status": "active",
     "verified": false,
     "stars": 114
+  },
+  {
+    "id": "kimix",
+    "name": "KimiX",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Sikao-Engine/KimiX",
+    "description": "The next-gen lightweight coding agent cli",
+    "description_zh": "The next-gen lightweight coding agent cli",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 111
   },
   {
     "id": "dsh-undo-plugin",
@@ -1477,6 +2149,23 @@
       "dsh-plugin"
     ],
     "subcategory": "vision-tools"
+  },
+  {
+    "id": "aikito",
+    "name": "aikito",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/lsaint/aikito",
+    "description": "Your durable workspace across AI agents.",
+    "description_zh": "Your durable workspace across AI agents.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 107,
+    "license": "MIT"
   },
   {
     "id": "fairy-dsh",
@@ -1629,6 +2318,39 @@
     "subcategory": "generative-ui"
   },
   {
+    "id": "seewxapkg",
+    "name": "seeWxapkg",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/Leslie-SSS/seeWxapkg",
+    "description": "极简实用的微信小程序反编译 Web 工具",
+    "description_zh": "极简实用的微信小程序反编译 Web 工具",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 101,
+    "license": "MIT"
+  },
+  {
+    "id": "proteus",
+    "name": "Proteus",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/proteus-evolve/Proteus",
+    "description": "Self-evolution for any agent harness. Plug in. Evolve. Measure.",
+    "description_zh": "Self-evolution for any agent harness. Plug in. Evolve. Measure.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 101,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-strata",
     "name": "dsh-strata",
     "type": "plugin",
@@ -1689,6 +2411,24 @@
     "verified": false,
     "stars": 98,
     "license": "MIT"
+  },
+  {
+    "id": "bootagent",
+    "name": "BootAgent",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/MaimoryLab/BootAgent",
+    "description": "BootAgent is a local management tool of AI agents. It turns a fresh machine into a usable, repeatable setup without asking you to edit several tool-specific config files by hand.",
+    "description_zh": "BootAgent is a local management tool of AI agents. It turns a fresh machine into a usable, repeatable setup without asking you to edit several tool-specific config files by hand.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 98,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-reasoning-effort",
@@ -1766,6 +2506,24 @@
     "_stars_prev": 91,
     "growth": 3,
     "subcategory": "files-import"
+  },
+  {
+    "id": "tokenbank",
+    "name": "tokenbank",
+    "type": "plugin",
+    "category": "discovery",
+    "repository": "https://github.com/wink-run/tokenbank",
+    "description": "Token Bank — the local LLM gateway that sits between your AI agents and every provider.  Know where tokens go · Spend less with smart routing to Ollama, Groq, GitHub Models · Earn by sharing idle quota on a community P2P network.  One-click onboarding for Cursor, Claude Code, Codex CLI, Gemini CLI — no agent changes. Full trace, seamless model swap",
+    "description_zh": "Token Bank — the local LLM gateway that sits between your AI agents and every provider.  Know where tokens go · Spend less with smart routing to Ollama, Groq, GitHub Models · Earn by sharing idle quota on a community P2P network.  One-click onboarding for Cursor, Claude Code, Codex CLI, Gemini CLI — no agent changes. Full trace, seamless model swap",
+    "capabilities": [
+      "coding",
+      "git",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 93,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-plugin-aggregate-dup",
@@ -1899,6 +2657,23 @@
     "subcategory": "vision-tools"
   },
   {
+    "id": "ml-quant-trading",
+    "name": "ml-quant-trading",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/initial-d/ml-quant-trading",
+    "description": "PyTorch research stack for ML multi-factor trading: 213 factors, bias correction, portfolio optimization, and vectorized backtesting.",
+    "description_zh": "PyTorch research stack for ML multi-factor trading: 213 factors, bias correction, portfolio optimization, and vectorized backtesting.",
+    "capabilities": [
+      "coding",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 84,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-commandcode-provider",
     "name": "dsh-commandcode-provider",
     "type": "plugin",
@@ -1994,6 +2769,23 @@
       "whiteboard"
     ],
     "subcategory": "memory-systems"
+  },
+  {
+    "id": "opencontext",
+    "name": "opencontext",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/melandlabs/opencontext",
+    "description": "A temporal context graph, a memory API, retrieval primitives, and a multiple-platform integration mesh — designed to be embedded into any host process.",
+    "description_zh": "A temporal context graph, a memory API, retrieval primitives, and a multiple-platform integration mesh — designed to be embedded into any host process.",
+    "capabilities": [
+      "coding",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 77,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-tavern",
@@ -2136,6 +2928,23 @@
     "growth": 5
   },
   {
+    "id": "tokdash",
+    "name": "Tokdash",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/JingbiaoMei/Tokdash",
+    "description": "Agent Dashboard: Visualization and analytics for Sessions and Quota Usage. Track, analyze, and optimize token usage across providers with heatmaps, cost tracking, token counting and quota resets..",
+    "description_zh": "Agent Dashboard: Visualization and analytics for Sessions and Quota Usage. Track, analyze, and optimize token usage across providers with heatmaps, cost tracking, token counting and quota resets..",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 72,
+    "license": "MIT"
+  },
+  {
     "id": "custom-first-control-prompt",
     "name": "custom-first-control-prompt",
     "type": "plugin",
@@ -2256,6 +3065,23 @@
       "web-theme"
     ],
     "subcategory": "web-search"
+  },
+  {
+    "id": "codex-switch",
+    "name": "codex-switch",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/kuangre123/codex-switch",
+    "description": "Codex Switch 是一个 macOS 工具，一键配置 Codex 的自定义 API，同时保留官方 OpenAI 登录。保存后 Codex 的模型选择器里只会出现你选的那个 provider 的模型。也支持 Claude Code 的官方 / 自定义 API 切换。Codex Switch is a lightweight helper for configuring multiple coding-agent API routes. For Codex, it keeps Official OpenAI and a custom API provider configured in parallel, registers the custom model in Codex's mod",
+    "description_zh": "Codex Switch 是一个 macOS 工具，一键配置 Codex 的自定义 API，同时保留官方 OpenAI 登录。保存后 Codex 的模型选择器里只会出现你选的那个 provider 的模型。也支持 Claude Code 的官方 / 自定义 API 切换。Codex Switch is a lightweight helper for configuring multiple coding-agent API routes. For Codex, it keeps Official OpenAI and a custom API provider configured in parallel, registers the custom model in Codex's mod",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 69,
+    "license": "MIT"
   },
   {
     "id": "dsh-stock-watch",
@@ -2538,6 +3364,23 @@
     "license": "MIT"
   },
   {
+    "id": "staragent",
+    "name": "StarAgent",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/SiriusNEO/StarAgent",
+    "description": "Lightweight agent multiplexer, all in one Web dashboard",
+    "description_zh": "Lightweight agent multiplexer, all in one Web dashboard",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 60,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-memento",
     "name": "dsh-memento",
     "type": "plugin",
@@ -2646,6 +3489,23 @@
     "status": "active",
     "verified": false,
     "stars": 57
+  },
+  {
+    "id": "agentdebugx",
+    "name": "AgentDebugX",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/AgentDebugX/AgentDebugX",
+    "description": "【EMNLP 2026 Demo】A debugging framework for agentic AI systems: diagnose failures, attribute root causes, recover with evidence, and validate fixes through reruns.",
+    "description_zh": "【EMNLP 2026 Demo】A debugging framework for agentic AI systems: diagnose failures, attribute root causes, recover with evidence, and validate fixes through reruns.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 56,
+    "license": "MIT"
   },
   {
     "id": "unity-plugin",
@@ -2911,6 +3771,22 @@
     "stars": 48
   },
   {
+    "id": "deepseek-harness-4",
+    "name": "deepseek-harness",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/HenryZ838978/deepseek-harness",
+    "description": "Protocol-layer harness for DeepSeek: Python witness stack — posterior verification that keeps the protocol honest. dsh doctor --node probes included.",
+    "description_zh": "Protocol-layer harness for DeepSeek: Python witness stack — posterior verification that keeps the protocol honest. dsh doctor --node probes included.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 48,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-industry-research",
     "name": "dsh-industry-research",
     "type": "plugin",
@@ -2938,6 +3814,39 @@
       "multi-agent",
       "multimodal",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 46,
+    "license": "MIT"
+  },
+  {
+    "id": "openguardrails",
+    "name": "openguardrails",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/openguardrails/openguardrails",
+    "description": "The vendor-neutral protocol for AI agent safety & security — and the neutral benchmark that ranks the vendors.",
+    "description_zh": "The vendor-neutral protocol for AI agent safety & security — and the neutral benchmark that ranks the vendors.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 46,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "cordis-rs",
+    "name": "cordis-rs",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/dshbox/cordis-rs",
+    "description": "A typed runtime for long-lived, plugin-oriented Rust applications — lifecycle, exact service placement, typed events, deterministic cleanup, scopes, and isolation.",
+    "description_zh": "A typed runtime for long-lived, plugin-oriented Rust applications — lifecycle, exact service placement, typed events, deterministic cleanup, scopes, and isolation.",
+    "capabilities": [
+      "coding"
     ],
     "status": "active",
     "verified": false,
@@ -3002,6 +3911,22 @@
     "license": "MIT"
   },
   {
+    "id": "deepseek-pet",
+    "name": "deepseek-pet",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/keleus/deepseek-pet",
+    "description": "在你的deepseek-harness上养一只吃白饭的大蓝鲸",
+    "description_zh": "在你的deepseek-harness上养一只吃白饭的大蓝鲸",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 45,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-research-report",
     "name": "dsh-research-report",
     "type": "plugin",
@@ -3043,6 +3968,24 @@
     "capabilities": [
       "coding",
       "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 44,
+    "license": "MIT"
+  },
+  {
+    "id": "sofagent",
+    "name": "sofagent",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/KongFangXun/sofagent",
+    "description": "Audit-first governance layer for AI coding agents — 24 git-diff rules, HMAC tamper-evident chain, snapshot rollback (95 tools, 14 plugins)",
+    "description_zh": "Audit-first governance layer for AI coding agents — 24 git-diff rules, HMAC tamper-evident chain, snapshot rollback (95 tools, 14 plugins)",
+    "capabilities": [
+      "coding",
+      "git",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
@@ -3712,6 +4655,23 @@
     "status": "active",
     "verified": false,
     "stars": 34
+  },
+  {
+    "id": "zeromd",
+    "name": "zeromd",
+    "type": "plugin",
+    "category": "discovery",
+    "repository": "https://github.com/yuukiLike/zeromd",
+    "description": "Obsidian 零成本同步：iPhone ↔ Mac，GitHub 自动备份。本地优先 + 长期积累。｜Local First. Zero-cost Obsidian sync across iPhone, Mac & GitHub. Let knowledge grow over time.",
+    "description_zh": "Obsidian 零成本同步：iPhone ↔ Mac，GitHub 自动备份。本地优先 + 长期积累。｜Local First. Zero-cost Obsidian sync across iPhone, Mac & GitHub. Let knowledge grow over time.",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 34,
+    "license": "MIT"
   },
   {
     "id": "billion-context-dsh",
@@ -4580,6 +5540,22 @@
     "stars": 26
   },
   {
+    "id": "geml",
+    "name": "geml",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/geml-spec/geml",
+    "description": "One format, two readers. People and AI agents now co-write the same document. Legible for people; addressable, verifiable, and versioned for machines.  GEML is plain text — organized by one typed block for everything, remembered by a .gemlhistory sidecar.",
+    "description_zh": "One format, two readers. People and AI agents now co-write the same document. Legible for people; addressable, verifiable, and versioned for machines.  GEML is plain text — organized by one typed block for everything, remembered by a .gemlhistory sidecar.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26
+  },
+  {
     "id": "dsh-plugin-workshop",
     "name": "dsh-plugin-workshop",
     "type": "plugin",
@@ -4907,6 +5883,38 @@
     "license": "MIT"
   },
   {
+    "id": "nixkits",
+    "name": "NixKits",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Kihara777/NixKits",
+    "description": "软件、补丁、NixOS 模块与 AI 编码助手的技能合集。",
+    "description_zh": "软件、补丁、NixOS 模块与 AI 编码助手的技能合集。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 25,
+    "license": "MIT"
+  },
+  {
+    "id": "meoo-cli",
+    "name": "meoo-cli",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/ali-meoo/meoo-cli",
+    "description": "meoo cli 是秒悟（Meoo）官方推出的命令行工具，让 Claude Code、Codex、Cursor、Qoder等本地 agent 在帮你写完前端代码后，能直接接管「数据库、用户登录、文件存储、部署上线」的所有云端工作——你只需要在终端跑一条命令，剩下的交给 AI。",
+    "description_zh": "meoo cli 是秒悟（Meoo）官方推出的命令行工具，让 Claude Code、Codex、Cursor、Qoder等本地 agent 在帮你写完前端代码后，能直接接管「数据库、用户登录、文件存储、部署上线」的所有云端工作——你只需要在终端跑一条命令，剩下的交给 AI。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 25
+  },
+  {
     "id": "dsh-custom-tool",
     "name": "dsh-custom-tool",
     "type": "plugin",
@@ -5137,6 +6145,54 @@
     "license": "MIT"
   },
   {
+    "id": "novel-writer",
+    "name": "novel-writer",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/sailoumili/novel-writer",
+    "description": "小说创作模式：一个统筹队长统领全局，5 个专职子代理各司其职——架构世界、策划剧情、管理人物、执笔写文、质检复核——协同写作。",
+    "description_zh": "小说创作模式：一个统筹队长统领全局，5 个专职子代理各司其职——架构世界、策划剧情、管理人物、执笔写文、质检复核——协同写作。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24,
+    "license": "MIT"
+  },
+  {
+    "id": "prts-terrarchive",
+    "name": "prts-terrarchive",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/HTian-qwq/prts-terrarchive",
+    "description": "为明日方舟的长篇剧情打造的RAG类DSH插件，拥有多种快速检索能力。",
+    "description_zh": "为明日方舟的长篇剧情打造的RAG类DSH插件，拥有多种快速检索能力。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24,
+    "license": "MIT"
+  },
+  {
+    "id": "vibe-mathematics",
+    "name": "Vibe-Mathematics",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/ChongCyrus/Vibe-Mathematics",
+    "description": "Vibe Mathematics —— 多代理数学问题求解与形式化验证框架",
+    "description_zh": "Vibe Mathematics —— 多代理数学问题求解与形式化验证框架",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-annotation-office",
     "name": "dsh-plugin-better-sidebar-plugin-office",
     "type": "plugin",
@@ -5234,6 +6290,24 @@
     "verified": false,
     "stars": 23,
     "license": "MIT"
+  },
+  {
+    "id": "leantoken",
+    "name": "leantoken",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/morluto/leantoken",
+    "description": "Code intelligence for agents: find the code that matters and keep your context window and tokens lean.",
+    "description_zh": "Code intelligence for agents: find the code that matters and keep your context window and tokens lean.",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 23,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-catppuccin-theme",
@@ -5657,6 +6731,22 @@
     "license": "MIT"
   },
   {
+    "id": "tonghuashun-webui",
+    "name": "tonghuashun-webui",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/renat3u/tonghuashun-webui",
+    "description": "仿同花顺的webui插件",
+    "description_zh": "仿同花顺的webui插件",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 21
+  },
+  {
     "id": "dsh-drag-and-drop",
     "name": "dsh-drag-and-drop",
     "type": "plugin",
@@ -5841,6 +6931,23 @@
     "description_zh": "一键把 6 家大厂免费大模型接入 DeepSeek Harness：安装脚本 + 配置模板，全部免费、不绑信用卡，不含任何 API Key",
     "capabilities": [
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 20,
+    "license": "MIT"
+  },
+  {
+    "id": "project-blueprint",
+    "name": "project-blueprint",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/shuguang1994/project-blueprint",
+    "description": "Make any project AI-agent-ready in one command. Adaptive tech stack detection (7 languages × 14 frameworks × 61 components), auto-generates AGENTS.md, docs skeleton, CI/CD, and testing infrastructure. 一句话让任何项目具备 AI 开发能力。",
+    "description_zh": "Make any project AI-agent-ready in one command. Adaptive tech stack detection (7 languages × 14 frameworks × 61 components), auto-generates AGENTS.md, docs skeleton, CI/CD, and testing infrastructure. 一句话让任何项目具备 AI 开发能力。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
@@ -6472,6 +7579,69 @@
     "license": "GPL-3.0"
   },
   {
+    "id": "pi-trace-extension",
+    "name": "pi-trace-extension",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/npxcnency-ux/pi-trace-extension",
+    "description": "Langfuse-style trace viewer for pi-agent — local-first, zero-setup, single-file HTML",
+    "description_zh": "Langfuse-style trace viewer for pi-agent — local-first, zero-setup, single-file HTML",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 18,
+    "license": "MIT"
+  },
+  {
+    "id": "quantum-practices",
+    "name": "quantum-practices",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/unitarylab/quantum-practices",
+    "description": "量子计算最佳实践 Quantum Algorithms Best Practices",
+    "description_zh": "量子计算最佳实践 Quantum Algorithms Best Practices",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 18
+  },
+  {
+    "id": "risk-rule-design",
+    "name": "risk-rule-design",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/pypcfx-glitch/risk-rule-design",
+    "description": "Rule mining for data risk control, distilled from the ideas of the \"100-Day Risk Control Expert\" course",
+    "description_zh": "Rule mining for data risk control, distilled from the ideas of the \"100-Day Risk Control Expert\" course",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 18,
+    "license": "MIT"
+  },
+  {
+    "id": "stent",
+    "name": "stent",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/omdsh-dev/stent",
+    "description": "灵感来源于MC Fabric的Cordis/DSH hook处理器",
+    "description_zh": "灵感来源于MC Fabric的Cordis/DSH hook处理器",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 18
+  },
+  {
     "id": "dsh-group-photo",
     "name": "dsh-group-photo",
     "type": "plugin",
@@ -6884,6 +8054,22 @@
     "verified": false,
     "stars": 17,
     "license": "MIT"
+  },
+  {
+    "id": "ai-inner-os",
+    "name": "AI-Inner-Os",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/SummerSec/AI-Inner-Os",
+    "description": "AI Inner OS 是一个面向 AI CLI 工具的插件，支持 Claude Code、Codex CLI、Cursor、OpenCode CLI。  它通过协议注入，让 AI 在正常完成任务的同时，额外输出一层可见的自由独白：  ▎InnerOS：这仓库现在还像毛坯房，先把承重墙立起来再说。 不预设人格，不限制语气。AI 可以吐槽、得意、焦虑、冷笑、跳跃联想——或者什么都不说。独白是否出现，由 AI 自己决定。",
+    "description_zh": "AI Inner OS 是一个面向 AI CLI 工具的插件，支持 Claude Code、Codex CLI、Cursor、OpenCode CLI。  它通过协议注入，让 AI 在正常完成任务的同时，额外输出一层可见的自由独白：  ▎InnerOS：这仓库现在还像毛坯房，先把承重墙立起来再说。 不预设人格，不限制语气。AI 可以吐槽、得意、焦虑、冷笑、跳跃联想——或者什么都不说。独白是否出现，由 AI 自己决定。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17,
+    "license": "Apache-2.0"
   },
   {
     "id": "dsh-side-panel",
@@ -7346,6 +8532,21 @@
     "verified": false,
     "stars": 16,
     "license": "MIT"
+  },
+  {
+    "id": "zhihu-search",
+    "name": "zhihu-search",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/klarkxy/zhihu-search",
+    "description": "知乎开放平台接口，官方Zhihu Cli开源平替。",
+    "description_zh": "知乎开放平台接口，官方Zhihu Cli开源平替。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 16
   },
   {
     "id": "dsh-stock-market",
@@ -8157,6 +9358,38 @@
     "verified": false,
     "stars": 14,
     "license": "MIT"
+  },
+  {
+    "id": "pi-deepseek-anchor",
+    "name": "pi-deepseek-anchor",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/kxh4892636/pi-deepseek-anchor",
+    "description": "pi extension: DeepSeek V4 Pro Minimal-anchored bootstrap, then full Standard tools (port of dsh-anchored-standard)",
+    "description_zh": "pi extension: DeepSeek V4 Pro Minimal-anchored bootstrap, then full Standard tools (port of dsh-anchored-standard)",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14
+  },
+  {
+    "id": "d-sh",
+    "name": "d.sh",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/SiriusNEO/d.sh",
+    "description": "Minimal agent harness in one Bash file. One-line quick start. Bootloader agent for bare-metal servers.",
+    "description_zh": "Minimal agent harness in one Bash file. One-line quick start. Bootloader agent for bare-metal servers.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14
   },
   {
     "id": "dsh-pet",
@@ -9483,6 +10716,57 @@
     "license": "MIT"
   },
   {
+    "id": "internalcot",
+    "name": "internalcot",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/morluto/internalcot",
+    "description": "Make agents show their full chain of thought.",
+    "description_zh": "Make agents show their full chain of thought.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "license": "MIT"
+  },
+  {
+    "id": "co-engram",
+    "name": "Co-Engram",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/Co-Engram/Co-Engram",
+    "description": "Self-evolving team memory",
+    "description_zh": "Self-evolving team memory",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "license": "MIT"
+  },
+  {
+    "id": "session-seed-plugin",
+    "name": "session-seed-plugin",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/wdsjwzl/session-seed-plugin",
+    "description": "对话自动注入，可用于高概率破甲模型",
+    "description_zh": "对话自动注入，可用于高概率破甲模型",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-sdk-platform-rs",
     "name": "dsh-sdk-platform-rs",
     "type": "plugin",
@@ -10480,6 +11764,23 @@
     "stars": 11
   },
   {
+    "id": "bifrost",
+    "name": "bifrost",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/BrokkAi/bifrost",
+    "description": "Multi-language static analysis for agents, editors, and large repositories.",
+    "description_zh": "Multi-language static analysis for agents, editors, and large repositories.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "dsh-web-billing",
     "name": "dsh-web-billing",
     "type": "plugin",
@@ -11239,6 +12540,21 @@
     "verified": false,
     "stars": 10,
     "license": "MIT"
+  },
+  {
+    "id": "multi-screen-wireframe",
+    "name": "multi-screen-wireframe",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/ginuim/multi-screen-wireframe",
+    "description": "Generate offline multi-screen wireframes with canvas + demo navigation. Zero Node/npm.",
+    "description_zh": "Generate offline multi-screen wireframes with canvas + demo navigation. Zero Node/npm.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10
   },
   {
     "id": "dsh-spotlight",
@@ -12531,6 +13847,89 @@
     "repository": "https://github.com/ZHIGENGNIAO258/dsh-theme-tarkov",
     "description": "以《逃离塔科夫》（Escape from Tarkov）主界面为灵感的 DeepSeek Harness（DSH）Web 界面主题插件：Beta 警告横幅、提示音、背景音乐。",
     "description_zh": "以《逃离塔科夫》（Escape from Tarkov）主界面为灵感的 DeepSeek Harness（DSH）Web 界面主题插件：Beta 警告横幅、提示音、背景音乐。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "html-doc-center",
+    "name": "html-doc-center",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/louisecxqiu-glitch/html-doc-center",
+    "description": "perfect workbench for html generated by Agents, edit, history,favorites",
+    "description_zh": "perfect workbench for html generated by Agents, edit, history,favorites",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "empty-fort-strategy",
+    "name": "empty-fort-strategy",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/HuaJi2077/empty-fort-strategy",
+    "description": "DSH插件，感受空城计的巧妙，消耗多余的Token。",
+    "description_zh": "DSH插件，感受空城计的巧妙，消耗多余的Token。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "goalfydata",
+    "name": "goalfydata",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/GoalfyAI/goalfydata",
+    "description": "A shared data backend for AI agents and authorized teams.",
+    "description_zh": "A shared data backend for AI agents and authorized teams.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "snapgrep",
+    "name": "snapgrep",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/Owen718/snapgrep",
+    "description": "An in-process trigram index that makes code search in Pi&DSH 20-70x faster than ripgrep, with identical results and no sidecar process.",
+    "description_zh": "An in-process trigram index that makes code search in Pi&DSH 20-70x faster than ripgrep, with identical results and no sidecar process.",
+    "capabilities": [
+      "coding",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "better-session",
+    "name": "better-session",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/morlay/better-session",
+    "description": "better session",
+    "description_zh": "better session",
     "capabilities": [
       "coding"
     ],
@@ -14070,6 +15469,54 @@
     "verified": false,
     "stars": 8,
     "license": "MIT"
+  },
+  {
+    "id": "capital-generation",
+    "name": "capital-generation",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/v587d/capital-generation",
+    "description": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation.",
+    "description_zh": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "noletme",
+    "name": "NoLetMe",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/Yuer6327/NoLetMe",
+    "description": "Deepseek v4 神鬼二象性观测面板",
+    "description_zh": "Deepseek v4 神鬼二象性观测面板",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "re-framework",
+    "name": "RE-Framework",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/unknowbug/RE-Framework",
+    "description": "Modular engineering methodology framework for AI agents — reverse engineering & software development (core + re-binary / re-code / swe modules).",
+    "description_zh": "Modular engineering methodology framework for AI agents — reverse engineering & software development (core + re-binary / re-code / swe modules).",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8
   },
   {
     "id": "dsh-landscape",
@@ -16207,6 +17654,73 @@
     "capabilities": [
       "coding",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "graphlint",
+    "name": "graphlint",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/AngelosZou/graphlint",
+    "description": "Dead-code detection for AI-generated codebases: graphlint builds a dependency graph, finds code unreachable from any entry point to enable codebase cleanup and functional‑effectiveness understanding.",
+    "description_zh": "Dead-code detection for AI-generated codebases: graphlint builds a dependency graph, finds code unreachable from any entry point to enable codebase cleanup and functional‑effectiveness understanding.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "model-usage-plugin",
+    "name": "model-usage-plugin",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/AKS1st/model-usage-plugin",
+    "description": "统计各模型 tokens 消耗并估算费用，显示账户余额 | Model token usage stats and cost estimation with account balance for DSH",
+    "description_zh": "统计各模型 tokens 消耗并估算费用，显示账户余额 | Model token usage stats and cost estimation with account balance for DSH",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "dev-flow",
+    "name": "dev-flow",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Innocent-children/dev-flow",
+    "description": "Long-running AI coding, under control. Durable State · Explicit Scope · Bounded Verification · Safe Recovery",
+    "description_zh": "Long-running AI coding, under control. Durable State · Explicit Scope · Bounded Verification · Safe Recovery",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "agent-knock-knock",
+    "name": "agent-knock-knock",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/scotthuang/agent-knock-knock",
+    "description": "Control local Codex and Claude Code from OpenClaw through shared tmux terminals, with seamless human-agent handoff.",
+    "description_zh": "Control local Codex and Claude Code from OpenClaw through shared tmux terminals, with seamless human-agent handoff.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "terminal"
     ],
     "status": "active",
     "verified": false,
@@ -19222,6 +20736,104 @@
     "description_zh": "dsh-serenity-plugin",
     "capabilities": [
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "rotifer-playground",
+    "name": "rotifer-playground",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/rotifer-protocol/rotifer-playground",
+    "description": "Local dev environment — Rust core + TypeScript CLI for gene development & Arena competition",
+    "description_zh": "Local dev environment — Rust core + TypeScript CLI for gene development & Arena competition",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "specwave",
+    "name": "SpecWave",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Cyning12/SpecWave",
+    "description": "SpecWave — multi-host coding CLI + P0 gates/Harness (Cursor/Claude/DSH). Formerly SpecGate / dsh-coding-kit. npx spec-wave",
+    "description_zh": "SpecWave — multi-host coding CLI + P0 gates/Harness (Cursor/Claude/DSH). Formerly SpecGate / dsh-coding-kit. npx spec-wave",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "caushell",
+    "name": "Caushell",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/fatmo666/Caushell",
+    "description": "Compiler-style pre-execution safety analysis for Harness shell actions.",
+    "description_zh": "Compiler-style pre-execution safety analysis for Harness shell actions.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "agentnavi",
+    "name": "AgentNavi",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/CoaseEdge/AgentNavi",
+    "description": "The navigation of AI Agent.",
+    "description_zh": "The navigation of AI Agent.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "geo-content-optimizer",
+    "name": "geo-content-optimizer",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/wangzhuo-coding/geo-content-optimizer",
+    "description": "GEO生成式引擎优化智能体 — 7类关键词+七层架构+EE-A-T权威框架+8维度降痕改写",
+    "description_zh": "GEO生成式引擎优化智能体 — 7类关键词+七层架构+EE-A-T权威框架+8维度降痕改写",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "veripower",
+    "name": "veripower",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/chipweaver/veripower",
+    "description": "An open-source agent flow from natural language spec through Verilog RTL and UVM verification to front-end signoff on commercial EDA tools",
+    "description_zh": "An open-source agent flow from natural language spec through Verilog RTL and UVM verification to front-end signoff on commercial EDA tools",
+    "capabilities": [
+      "coding",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
@@ -22971,6 +24583,194 @@
     "capabilities": [
       "coding",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "agent-guild",
+    "name": "agent-guild",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/dqsjqian/agent-guild",
+    "description": "A protocol that lets any sufficiently intelligent AI agent join your shared memory by simply reading one file.",
+    "description_zh": "A protocol that lets any sufficiently intelligent AI agent join your shared memory by simply reading one file.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "anchorlaw",
+    "name": "anchorlaw",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/unknowbug/anchorlaw",
+    "description": "Code verification protocol for vibe coding — every claim must have a verifiable practice anchor.",
+    "description_zh": "Code verification protocol for vibe coding — every claim must have a verifiable practice anchor.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "tmcra-memory",
+    "name": "tmcra-memory",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/reshuibuduo/tmcra-memory",
+    "description": "TMCRA Core — local-first, scope-isolated long-term memory runtime for AI agents.",
+    "description_zh": "TMCRA Core — local-first, scope-isolated long-term memory runtime for AI agents.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "memorylake-harness",
+    "name": "memorylake-harness",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/memorylake-ai/memorylake-harness",
+    "description": "MemoryLake Harness",
+    "description_zh": "MemoryLake Harness",
+    "capabilities": [
+      "coding",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "organon",
+    "name": "organon",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/tta-lab/organon",
+    "description": "Structure-aware tools for AI agents. Tree-sitter code editing, web page navigation, search. No daemon, no JSON, just stdin.",
+    "description_zh": "Structure-aware tools for AI agents. Tree-sitter code editing, web page navigation, search. No daemon, no JSON, just stdin.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "amoris-agent",
+    "name": "Amoris-agent",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Zoramoris/Amoris-agent",
+    "description": "喵梦agent系列插件。初学者首次尝试。",
+    "description_zh": "喵梦agent系列插件。初学者首次尝试。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "qixi-plugin",
+    "name": "qixi-plugin",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/Zhang9628/qixi-plugin",
+    "description": "Qixi Festival Easter Egg Plugin: festive skins, bullet comments, and shareable cards.  七夕节彩蛋插件，节日皮肤、弹幕、卡片分享",
+    "description_zh": "Qixi Festival Easter Egg Plugin: festive skins, bullet comments, and shareable cards.  七夕节彩蛋插件，节日皮肤、弹幕、卡片分享",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "codsh",
+    "name": "codsh",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/Blackman99/codsh",
+    "description": "/ship takes one sentence to verified code. Terminal coding agent for DeepSeek and any compatible endpoint.",
+    "description_zh": "/ship takes one sentence to verified code. Terminal coding agent for DeepSeek and any compatible endpoint.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "terminal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "llm-wiki",
+    "name": "LLM-Wiki",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/detpecca/LLM-Wiki",
+    "description": "Independent implementation of “Retrieval as Reasoning” (LLM-Wiki)",
+    "description_zh": "Independent implementation of “Retrieval as Reasoning” (LLM-Wiki)",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "superself",
+    "name": "superself",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/fxylabs/superself",
+    "description": "The open Company State Runtime — version control for your project's state. Goals, decisions, work, and evidence outlive every chat, context window, and agent session. Ships the self CLI.",
+    "description_zh": "The open Company State Runtime — version control for your project's state. Goals, decisions, work, and evidence outlive every chat, context window, and agent session. Ships the self CLI.",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "orbit-1",
+    "name": "orbit",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/kevinforge/orbit",
+    "description": "A local-first workspace for human-led collaboration with multiple AI employees.",
+    "description_zh": "A local-first workspace for human-led collaboration with multiple AI employees.",
+    "capabilities": [
+      "coding"
     ],
     "status": "active",
     "verified": false,
@@ -29723,6 +31523,206 @@
     "description_zh": "DSH plugin collection: password auth + trust for dsh web LAN/Tailscale access (dsh-web-auth) and more. Install per plugin via 'dsh plugin --profile web add' or all at once via the root cordis.patch.yml.",
     "capabilities": [
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "memrec",
+    "name": "memrec",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/itcraft-cn/memrec",
+    "description": "Local-first AI memory with project isolation — for terminal, for private use",
+    "description_zh": "Local-first AI memory with project isolation — for terminal, for private use",
+    "capabilities": [
+      "coding",
+      "memory",
+      "terminal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "vibemeter",
+    "name": "vibemeter",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/RangeKing/vibemeter",
+    "description": "See what your agents are doing. Understand how you work together.",
+    "description_zh": "See what your agents are doing. Understand how you work together.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "top",
+    "name": "Top",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/xiaohai-78/Top",
+    "description": "📊 Daily leaderboard for the dsh-external plugin ecosystem — tracks every repo, ranks by stars, archives daily snapshots, and shows the latest ranking on the homepage.",
+    "description_zh": "📊 Daily leaderboard for the dsh-external plugin ecosystem — tracks every repo, ranks by stars, archives daily snapshots, and shows the latest ranking on the homepage.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "mathmodelingagent",
+    "name": "MathModelingAgent",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/yohanchen1/MathModelingAgent",
+    "description": "Closed-loop scientific modeling agent with evidence-backed verification and reproducible correction.",
+    "description_zh": "Closed-loop scientific modeling agent with evidence-backed verification and reproducible correction.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "teach-math-with-manim",
+    "name": "teach-math-with-manim",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Scorpio69t/teach-math-with-manim",
+    "description": "Teach Math with Manim — 图书《用 Manim 讲好数学》官方配套开源仓库",
+    "description_zh": "Teach Math with Manim — 图书《用 Manim 讲好数学》官方配套开源仓库",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "cordis-course",
+    "name": "cordis-course",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/curtiseng/cordis-course",
+    "description": "动态可组合性演算 · 通俗课：Cordis 论文的交互式中文课程与译文",
+    "description_zh": "动态可组合性演算 · 通俗课：Cordis 论文的交互式中文课程与译文",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "github-explore",
+    "name": "github-explore",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/Fectivnfy112357/github-explore",
+    "description": "Discovery + management wrappers around gh CLI for AI coding agents. find_repos, multi-axis explore, trending, repo summary, code search, issue/PR search, org audits.",
+    "description_zh": "Discovery + management wrappers around gh CLI for AI coding agents. find_repos, multi-axis explore, trending, repo summary, code search, issue/PR search, org audits.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "baton",
+    "name": "Baton",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/kakadeka/Baton",
+    "description": "Pass your project, not your context.",
+    "description_zh": "Pass your project, not your context.",
+    "capabilities": [
+      "coding",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "project-bootstrap-harness",
+    "name": "Project-Bootstrap-Harness",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/renjianguojinqianfan/Project-Bootstrap-Harness",
+    "description": "A lightweight Python project protocol template for AI-assisted development. 轻量级 Python 项目协议模板，内置协作协议与质量门禁。",
+    "description_zh": "A lightweight Python project protocol template for AI-assisted development. 轻量级 Python 项目协议模板，内置协作协议与质量门禁。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "jarvis",
+    "name": "jarvis",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/phuongddx/jarvis",
+    "description": "JARVIS is an intelligent layer that gives agents access to their code, knowledge, context, memory, tools, and runtime — starting locally on your machine, with the ability to extend into the cloud.",
+    "description_zh": "JARVIS is an intelligent layer that gives agents access to their code, knowledge, context, memory, tools, and runtime — starting locally on your machine, with the ability to extend into the cloud.",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "psa-core",
+    "name": "PSA-core",
+    "type": "plugin",
+    "category": "input-editing",
+    "repository": "https://github.com/SiliconPsycheLabs/PSA-core",
+    "description": "PSA is a multi-classifier behavioral analysis engine for LLM responses. It classifies every sentence into behavioral postures, then derives metrics from the posture sequences to detect adversarial stress, sycophancy, hallucination risk, persuasion techniques, and input pressure — in real time.",
+    "description_zh": "PSA is a multi-classifier behavioral analysis engine for LLM responses. It classifies every sentence into behavioral postures, then derives metrics from the posture sequences to detect adversarial stress, sycophancy, hallucination risk, persuasion techniques, and input pressure — in real time.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "l123-harness",
+    "name": "l123-harness",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/reatcat/l123-harness",
+    "description": "L1-L2-L3 三级记忆 agent 底座：门禁、事件日志、周审提炼、TDD 执行流。Claude Code 插件。",
+    "description_zh": "L1-L2-L3 三级记忆 agent 底座：门禁、事件日志、周审提炼、TDD 执行流。Claude Code 插件。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
@@ -42187,6 +44187,518 @@
     "description_zh": "Voice conversation plugin for the DeepSeek Harness (DSH) Web client: microphone → speech recognition (STT) → auto-send → assistant reply → speech synthesis (TTS) read-aloud. Zero-cost, no API key by default.",
     "capabilities": [
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "raphael-loop",
+    "name": "raphael-loop",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/raphael-liu/raphael-loop",
+    "description": "Loop Engineering",
+    "description_zh": "Loop Engineering",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "agentshim",
+    "name": "agentshim",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/possible055/agentshim",
+    "description": "High-performance, capability-aware repository tools and process execution for coding agents.",
+    "description_zh": "High-performance, capability-aware repository tools and process execution for coding agents.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "anima-prompt-naturalang",
+    "name": "anima-prompt-naturalang",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Nana7mi0721/anima-prompt-naturalang",
+    "description": "让LLM模型将描述转化为用于ANIMA模型的自然语言提示词",
+    "description_zh": "让LLM模型将描述转化为用于ANIMA模型的自然语言提示词",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "openflowframes",
+    "name": "OpenFlowFrames",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/ZeroHackz/OpenFlowFrames",
+    "description": "Video Frame Interpolation for Windows",
+    "description_zh": "Video Frame Interpolation for Windows",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "wangdefa-memory",
+    "name": "Wangdefa.Memory",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/VinsonWild/Wangdefa.Memory",
+    "description": "Wangdefa.Memory 是一个为本地数字分身Agent 设计的五层记忆体组件，数据完全保留在本地，不依赖云端，达到轻量、白盒可控、可解释，未来将进一步往企业级原生记忆体方向拓展。",
+    "description_zh": "Wangdefa.Memory 是一个为本地数字分身Agent 设计的五层记忆体组件，数据完全保留在本地，不依赖云端，达到轻量、白盒可控、可解释，未来将进一步往企业级原生记忆体方向拓展。",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "aitelier",
+    "name": "AItelier",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/linxuhao/AItelier",
+    "description": "AI-Atelier, the all in one personal \"atelier\" (means handcraft studio in french) that can adapt to your need.",
+    "description_zh": "AI-Atelier, the all in one personal \"atelier\" (means handcraft studio in french) that can adapt to your need.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek-web-import",
+    "name": "deepseek-web-import",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/wpc0323/deepseek-web-import",
+    "description": "DeepSeek Web 对话导入",
+    "description_zh": "DeepSeek Web 对话导入",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "agent-guard",
+    "name": "agent-guard",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/mokuyoaxis/agent-guard",
+    "description": "Make destructive AI-agent actions reversible by default — quarantine + audit + human escalation for rm/git destructive operations. Reliability infrastructure, not a sandbox.",
+    "description_zh": "Make destructive AI-agent actions reversible by default — quarantine + audit + human escalation for rm/git destructive operations. Reliability infrastructure, not a sandbox.",
+    "capabilities": [
+      "coding",
+      "git",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "cli",
+    "name": "cli",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/AtlasCloudAI/cli",
+    "description": "AtlasCloud CLI installers and release artifacts",
+    "description_zh": "AtlasCloud CLI installers and release artifacts",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "sapbuddy-dsh",
+    "name": "SapBuddy-dsh",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/gxx950224/SapBuddy-dsh",
+    "description": "SapBuddy-dsh",
+    "description_zh": "SapBuddy-dsh",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "spatiotemporal",
+    "name": "spatiotemporal",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/curtiseng/spatiotemporal",
+    "description": "时空可组合性演算的 Rust 实现：可撤销 effect、响应式 coeffect、fiber 惯性生命周期",
+    "description_zh": "时空可组合性演算的 Rust 实现：可撤销 effect、响应式 coeffect、fiber 惯性生命周期",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "interest-memory",
+    "name": "interest-memory",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/djasdh/interest-memory",
+    "description": "Low-footprint memory backend for AI agents — single binary, ~50MB RAM, verify-augmented accuracy",
+    "description_zh": "Low-footprint memory backend for AI agents — single binary, ~50MB RAM, verify-augmented accuracy",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "douyin-plugin-dsh-plugin",
+    "name": "douyin-plugin-dsh-plugin",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/chu557/douyin-plugin-dsh-plugin",
+    "description": "在使用dsh等待的过程中刷抖音",
+    "description_zh": "在使用dsh等待的过程中刷抖音",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "spatialharness",
+    "name": "SpatialHarness",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/GIStudio/SpatialHarness",
+    "description": "SpatialHarness —— 纯本地 WebGIS 工作台：引擎可插拔（OpenLayers v1）、File System Access 直读本地磁盘、自动保存、QGIS 风格现代化 UI",
+    "description_zh": "SpatialHarness —— 纯本地 WebGIS 工作台：引擎可插拔（OpenLayers v1）、File System Access 直读本地磁盘、自动保存、QGIS 风格现代化 UI",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek-vl-support",
+    "name": "deepseek-vl-support",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/limccn/deepseek-vl-support",
+    "description": "Give DeepSeek (text-only) models **vision** in Claude Code and Codex by routing image files to any OpenAI-compatible vision endpoint (OpenRouter, SiliconFlow, DashScope, Ollama, llama.cpp, vLLM, LM Studio, …). Zero runtime dependencies, MIT licensed.",
+    "description_zh": "Give DeepSeek (text-only) models **vision** in Claude Code and Codex by routing image files to any OpenAI-compatible vision endpoint (OpenRouter, SiliconFlow, DashScope, Ollama, llama.cpp, vLLM, LM Studio, …). Zero runtime dependencies, MIT licensed.",
+    "capabilities": [
+      "coding",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "sandbox-micro",
+    "name": "sandbox-micro",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/omdsh-dev/sandbox-micro",
+    "description": "microsandbox支持",
+    "description_zh": "microsandbox支持",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "smokinggun",
+    "name": "smokinggun",
+    "type": "plugin",
+    "category": "discovery",
+    "repository": "https://github.com/morluto/smokinggun",
+    "description": "Help your agents find the smoking gun they're looking for. Optimization evidence for agents: find complexity hotspots.",
+    "description_zh": "Help your agents find the smoking gun they're looking for. Optimization evidence for agents: find complexity hotspots.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "lumo-harness",
+    "name": "lumo-harness",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/Lumonote/lumo-harness",
+    "description": "基于deepseek-harness分布式智能体集群",
+    "description_zh": "基于deepseek-harness分布式智能体集群",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "pack-agent",
+    "name": "pack-agent",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/sakikoTGW/pack-agent",
+    "description": "Agent Modpack — 像装 MC 整合包一样，装你的 agent。",
+    "description_zh": "Agent Modpack — 像装 MC 整合包一样，装你的 agent。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "stalegreen",
+    "name": "stalegreen",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/pavangupta352/stalegreen",
+    "description": "Keeps a coding agent's green claims honest: verification runs are recorded unmasked, and done is blocked when the evidence is stale, failed or masked.",
+    "description_zh": "Keeps a coding agent's green claims honest: verification runs are recorded unmasked, and done is blocked when the evidence is stale, failed or masked.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseeh-harness-ultra-slash",
+    "name": "deepseeh-harness-ultra-slash",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/loadingvx/deepseeh-harness-ultra-slash",
+    "description": "/steer commands for deepseek-harness",
+    "description_zh": "/steer commands for deepseek-harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "docs-mode",
+    "name": "docs-mode",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/zh851233/docs-mode",
+    "description": "You can use this plugin to complete the writing of technical documents, including development briefs, user manuals, reports/summary materials, and interface/API documentation, while reducing traces of AIGC.",
+    "description_zh": "You can use this plugin to complete the writing of technical documents, including development briefs, user manuals, reports/summary materials, and interface/API documentation, while reducing traces of AIGC.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "grassvison",
+    "name": "GrassVison",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/moduqishi/GrassVison",
+    "description": "给纯文本大模型装上原生视觉：流式真实思考链 · 跨轮次无感重看 · 像素级证据与 SVG 图元 · OpenAI/Anthropic/Responses 三协议兼容 | Native vision for text-only LLMs: streaming real thinking chain, cross-turn re-view, pixel-level evidence & SVG primitives, OpenAI/Anthropic/Responses compatible.",
+    "description_zh": "给纯文本大模型装上原生视觉：流式真实思考链 · 跨轮次无感重看 · 像素级证据与 SVG 图元 · OpenAI/Anthropic/Responses 三协议兼容 | Native vision for text-only LLMs: streaming real thinking chain, cross-turn re-view, pixel-level evidence & SVG primitives, OpenAI/Anthropic/Responses compatible.",
+    "capabilities": [
+      "coding",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "archgraph",
+    "name": "archgraph",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/derekhu0002/archgraph",
+    "description": "An architecture-graph driven framework for Agentic Engineering.",
+    "description_zh": "An architecture-graph driven framework for Agentic Engineering.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "kurenai",
+    "name": "kurenai",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/kurenai-studio/kurenai",
+    "description": "DSH-native Cocos vibe coding studio with headless preview and runtime inspector",
+    "description_zh": "DSH-native Cocos vibe coding studio with headless preview and runtime inspector",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "ai-web-ppt-maker",
+    "name": "ai-web-ppt-maker",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/yushi-javatoai/ai-web-ppt-maker",
+    "description": "AI 网页 PPT 生成器：粘贴长文案，AI 流式拆解为多页网页 PPT，支持全屏演示、键盘翻页、多套主题与独立 HTML 导出。",
+    "description_zh": "AI 网页 PPT 生成器：粘贴长文案，AI 流式拆解为多页网页 PPT，支持全屏演示、键盘翻页、多套主题与独立 HTML 导出。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "ezdsh",
+    "name": "EzDSH",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/Tiee7/EzDSH",
+    "description": "Easy Way to the DeepSeek‑Harness.",
+    "description_zh": "Easy Way to the DeepSeek‑Harness.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "gitcontribute",
+    "name": "gitcontribute",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/morluto/gitcontribute",
+    "description": "Contribution research for agents: check repository guidance, related work, code context, and validation before writing a patch.",
+    "description_zh": "Contribution research for agents: check repository guidance, related work, code context, and validation before writing a patch.",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent",
+      "search",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "pr-genius",
+    "name": "pr-genius",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/zsxh1990/pr-genius",
+    "description": "PR Genius — 提交前改进顾问 + 大型开源项目 PR 知识库",
+    "description_zh": "PR Genius — 提交前改进顾问 + 大型开源项目 PR 知识库",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "fairy-dsh-optimized",
+    "name": "Fairy-DSH-Optimized",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Guzhou2002/Fairy-DSH-Optimized",
+    "description": "Chengzhibense/Fairy-DSH 的非官方整理分支（孤舟版）；与云朵版 addsas222/Fairy-DSH-Exp 是两套独立分发，只装一个",
+    "description_zh": "Chengzhibense/Fairy-DSH 的非官方整理分支（孤舟版）；与云朵版 addsas222/Fairy-DSH-Exp 是两套独立分发，只装一个",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "dsh-omni-workstation",
+    "name": "dsh-omni-workstation",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/huashenglian/dsh-omni-workstation",
+    "description": "dsh全模态工作站插件，让模型支持视频、图片、语音的输入与输出，支持comfyui图像生成工具调用。Any-to-Any.",
+    "description_zh": "dsh全模态工作站插件，让模型支持视频、图片、语音的输入与输出，支持comfyui图像生成工具调用。Any-to-Any.",
+    "capabilities": [
+      "coding",
+      "ui"
     ],
     "status": "active",
     "verified": false,

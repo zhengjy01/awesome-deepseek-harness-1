@@ -57,6 +57,41 @@
     "growth": 75
   },
   {
+    "id": "openstory",
+    "name": "OpenStory",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/ZJU-LLMs/OpenStory",
+    "description": "An LLM-powered multi-agent framework for simulating interactive, evolving story worlds.",
+    "description_zh": "An LLM-powered multi-agent framework for simulating interactive, evolving story worlds.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 416,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "tingly-box",
+    "name": "tingly-box",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/tingly-dev/tingly-box",
+    "description": "Your Intelligence, Orchestrated. Every builder. Every team. Every agent. For Everyone.",
+    "description_zh": "Your Intelligence, Orchestrated. Every builder. Every team. Every agent. For Everyone.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 348,
+    "license": "MPL-2.0"
+  },
+  {
     "id": "dsh-univer-office",
     "name": "dsh-univer-office",
     "type": "agent",
@@ -91,6 +126,24 @@
     "_updated": "2026-08-21",
     "_stars_prev": 162,
     "growth": 7
+  },
+  {
+    "id": "consensus-pipeline",
+    "name": "consensus-pipeline",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/fangqian616/consensus-pipeline",
+    "description": "Multi-agent department framework for long-form complex tasks, fighting AI hallucination, validated on academic research. 共识管线：多智能体部门长线任务解决框架，对抗AI幻觉，以学术研究为验证场景。",
+    "description_zh": "Multi-agent department framework for long-form complex tasks, fighting AI hallucination, validated on academic research. 共识管线：多智能体部门长线任务解决框架，对抗AI幻觉，以学术研究为验证场景。",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 124,
+    "license": "MIT"
   },
   {
     "id": "dsh-auto-review-2",
@@ -304,6 +357,22 @@
     "verified": false,
     "stars": 25,
     "license": "MIT"
+  },
+  {
+    "id": "distill",
+    "name": "distill",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/LoserFox/distill",
+    "description": "自动对话蒸馏：后台 subagent 反省 + 技能 create/update",
+    "description_zh": "自动对话蒸馏：后台 subagent 反省 + 技能 create/update",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 25
   },
   {
     "id": "kixparadigm",
@@ -863,6 +932,23 @@
       "dsh",
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "ai-company-framework",
+    "name": "ai-company-framework",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/yyyy231209/ai-company-framework",
+    "description": "Company Is a Word. 一句话开一家AI公司 - open-source multi-agent orchestration framework for non-developers. 小白5分钟拥有自己的AI公司，可DIY任意行业、调教子Agent、无限家公司，支持飞书遥控。MIT",
+    "description_zh": "Company Is a Word. 一句话开一家AI公司 - open-source multi-agent orchestration framework for non-developers. 小白5分钟拥有自己的AI公司，可DIY任意行业、调教子Agent、无限家公司，支持飞书遥控。MIT",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
   },
   {
     "id": "dsh-a2a-1",
@@ -1742,6 +1828,40 @@
     "repository": "https://github.com/Jonah-Wu23/dsh-agy-safe",
     "description": "DeepSeek Harness plugin: connect logged-in Antigravity CLI (agy) as chat and subagent model provider",
     "description_zh": "DeepSeek Harness plugin: connect logged-in Antigravity CLI (agy) as chat and subagent model provider",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "knotline",
+    "name": "knotline",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/MrMaii/knotline",
+    "description": "把 Agent 从对话框搬到一张图上——连线即执行 / Orchestrate AI agents by drawing lines",
+    "description_zh": "把 Agent 从对话框搬到一张图上——连线即执行 / Orchestrate AI agents by drawing lines",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "openspec-agents",
+    "name": "openspec-agents",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/ifrankwang/openspec-agents",
+    "description": "OpenSpec 流程的 Agent Team：面向实施阶段的多 Agent 工作流编排。",
+    "description_zh": "OpenSpec 流程的 Agent Team：面向实施阶段的多 Agent 工作流编排。",
     "capabilities": [
       "coding",
       "multi-agent"

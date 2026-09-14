@@ -151,6 +151,92 @@
     "license": "Apache-2.0"
   },
   {
+    "id": "treg",
+    "name": "treg",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/superdesigndev/treg",
+    "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+    "description_zh": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1400
+  },
+  {
+    "id": "dsh-im",
+    "name": "dsh-im",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/xmanrui/dsh-im",
+    "description": "通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).",
+    "description_zh": "通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1306,
+    "license": "MIT"
+  },
+  {
+    "id": "browser4",
+    "name": "Browser4",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/platonai/Browser4",
+    "description": "Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.",
+    "description_zh": "Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1132,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "cloudbase-ai-toolkit",
+    "name": "CloudBase-AI-Toolkit",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
+    "description": "Backend for AI coding agents on CloudBase — database, auth, functions via Plugin, Skills & MCP.",
+    "description_zh": "Backend for AI coding agents on CloudBase — database, auth, functions via Plugin, Skills & MCP.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1106,
+    "license": "MIT"
+  },
+  {
+    "id": "picgo-core",
+    "name": "PicGo-Core",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/PicGo/PicGo-Core",
+    "description": ":zap:The ultimate image uploading engine. Both CLI & API supports.",
+    "description_zh": ":zap:The ultimate image uploading engine. Both CLI & API supports.",
+    "capabilities": [
+      "coding",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 985,
+    "license": "MIT"
+  },
+  {
     "id": "coding-tools-mcp",
     "name": "Coding Tools MCP",
     "type": "integration",
@@ -171,6 +257,24 @@
     "growth": 5
   },
   {
+    "id": "hol-guard",
+    "name": "hol-guard",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/hashgraph-online/hol-guard",
+    "description": "Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.",
+    "description_zh": "Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 604,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "ccteam",
     "name": "ccteam",
     "type": "integration",
@@ -187,6 +291,24 @@
     "verified": false,
     "stars": 538,
     "license": "MIT"
+  },
+  {
+    "id": "de-anthropocentric-research-engine",
+    "name": "de-anthropocentric-research-engine",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine",
+    "description": "900+ pure-markdown skills for autonomous AI research, organized as 9 freely-composable packages over a 4-layer hierarchy (Campaign → Strategy → Tactic → SOP). Non-linear orchestration with backtracking, 6 MCP integrations. The AI is the researcher — you set the direction.",
+    "description_zh": "900+ pure-markdown skills for autonomous AI research, organized as 9 freely-composable packages over a 4-layer hierarchy (Campaign → Strategy → Tactic → SOP). Non-linear orchestration with backtracking, 6 MCP integrations. The AI is the researcher — you set the direction.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 470,
+    "license": "Apache-2.0"
   },
   {
     "id": "memtrace-public",
@@ -211,6 +333,24 @@
     "growth": 1
   },
   {
+    "id": "phi",
+    "name": "phi",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/pulseaiclub/phi",
+    "description": "a coding agent, rpc plugin, sub-agents, hashline edits, and mcp",
+    "description_zh": "a coding agent, rpc plugin, sub-agents, hashline edits, and mcp",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 397,
+    "license": "MIT"
+  },
+  {
     "id": "watch-skill",
     "name": "watch-skill",
     "type": "integration",
@@ -229,6 +369,23 @@
     "verified": false,
     "stars": 374,
     "license": "MIT"
+  },
+  {
+    "id": "harmony-next-skills",
+    "name": "harmony-next.skills",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/linhay/harmony-next.skills",
+    "description": "🚀 Expert guidance for HarmonyOS NEXT (API 12+) development. Covers IDE operations, performance tuning, architecture (HAP/HAR/HSP), and automation testing.",
+    "description_zh": "🚀 Expert guidance for HarmonyOS NEXT (API 12+) development. Covers IDE operations, performance tuning, architecture (HAP/HAR/HSP), and automation testing.",
+    "capabilities": [
+      "coding",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 347
   },
   {
     "id": "dsh-ios",
@@ -258,6 +415,24 @@
       "ios",
       "ios-simulator"
     ]
+  },
+  {
+    "id": "mcp-for-stata",
+    "name": "mcp-for-stata",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/SepineTam/mcp-for-stata",
+    "description": "A MCP server for integrating Stata into your agent loop with a safety-first design.",
+    "description_zh": "A MCP server for integrating Stata into your agent loop with a safety-first design.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 259,
+    "license": "AGPL-3.0"
   },
   {
     "id": "nature-academic-search",
@@ -444,6 +619,22 @@
     "growth": 7
   },
   {
+    "id": "a-share-ai",
+    "name": "A-share-Ai",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/hyqibot/A-share-Ai",
+    "description": "幻银量化A股阿法狗AlphaHYQi，100%由ai自主驱动的实盘交易机器。接入自产龙虾iClaw，手机端一句话控制四大模型同时干活。获取方法：前往https://hyqibot.com/card-shop.html 购服务卡即可获得软件，详情README.md。  A股Ai炒股大赛历史排行（模拟基金）：https://hyqibot.github.io/A-share-Ai/reports/report.html   A股Ai炒股大赛历史排行（全市场）：https://hyqibot.github.io/A-share-Ai/reportsall/report.html    实时播报：https://hyqibot.github.io/A-share-Ai",
+    "description_zh": "幻银量化A股阿法狗AlphaHYQi，100%由ai自主驱动的实盘交易机器。接入自产龙虾iClaw，手机端一句话控制四大模型同时干活。获取方法：前往https://hyqibot.com/card-shop.html 购服务卡即可获得软件，详情README.md。  A股Ai炒股大赛历史排行（模拟基金）：https://hyqibot.github.io/A-share-Ai/reports/report.html   A股Ai炒股大赛历史排行（全市场）：https://hyqibot.github.io/A-share-Ai/reportsall/report.html    实时播报：https://hyqibot.github.io/A-share-Ai",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 127
+  },
+  {
     "id": "dsh-crew-1",
     "name": "dsh-crew",
     "type": "integration",
@@ -557,6 +748,25 @@
     "license": "Apache-2.0"
   },
   {
+    "id": "causal-memory",
+    "name": "causal-memory",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/JingxuanC/causal-memory",
+    "description": "Causal memory layer for AI agents — MCP server that records decision→outcome relationships. Survives compaction.",
+    "description_zh": "Causal memory layer for AI agents — MCP server that records decision→outcome relationships. Survives compaction.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 78,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "agent-bridge",
     "name": "Agent-Bridge",
     "type": "integration",
@@ -572,6 +782,22 @@
     "status": "active",
     "verified": false,
     "stars": 73,
+    "license": "MIT"
+  },
+  {
+    "id": "local-shell-mcp",
+    "name": "local-shell-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/fwerkor/local-shell-mcp",
+    "description": "Enables LLM to use a cli environment.",
+    "description_zh": "Enables LLM to use a cli environment.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 72,
     "license": "MIT"
   },
   {
@@ -594,6 +820,78 @@
     "growth": 2
   },
   {
+    "id": "launch-wechat-miniprogram",
+    "name": "launch-wechat-miniprogram",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/niuhuoshan/launch-wechat-miniprogram",
+    "description": "面向完全新手的微信小程序 Agent Skill，从需求确认、原生 UI 和高保真原型，到 AppID、备案、开发测试、腾讯云后台、体验版、提审、发布及版本更新。",
+    "description_zh": "面向完全新手的微信小程序 Agent Skill，从需求确认、原生 UI 和高保真原型，到 AppID、备案、开发测试、腾讯云后台、体验版、提审、发布及版本更新。",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 59,
+    "license": "MIT"
+  },
+  {
+    "id": "illusion-agent",
+    "name": "illusion-agent",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/YunTaiHua/illusion-agent",
+    "description": "Illusion-Agent: Where fantasy meets functionality — an AI agent platform for terminal, browser, any model, any OS.",
+    "description_zh": "Illusion-Agent: Where fantasy meets functionality — an AI agent platform for terminal, browser, any model, any OS.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent",
+      "terminal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 58,
+    "license": "MIT"
+  },
+  {
+    "id": "caliper",
+    "name": "caliper",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/edonadei/caliper",
+    "description": "Run your real agent with and without your skills, MCPs, and rules. See which ones actually help, and what they cost in tokens. Supports Claude Code, Codex, Pi, and Hermes.",
+    "description_zh": "Run your real agent with and without your skills, MCPs, and rules. See which ones actually help, and what they cost in tokens. Supports Claude Code, Codex, Pi, and Hermes.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 50,
+    "license": "MIT"
+  },
+  {
+    "id": "browser-bridge",
+    "name": "browser-bridge",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/hanelalo/browser-bridge",
+    "description": "让你的agent真的像你一样操控你的浏览器窗口",
+    "description_zh": "让你的agent真的像你一样操控你的浏览器窗口",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 50,
+    "license": "MIT"
+  },
+  {
     "id": "opencues",
     "name": "opencues",
     "type": "integration",
@@ -604,6 +902,25 @@
     "capabilities": [
       "browser",
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 48,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "huaweicloud-devkit",
+    "name": "huaweicloud-devkit",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/huaweicloud/huaweicloud-devkit",
+    "description": "Official Huawei Cloud plugin for AI agents — skills, MCP tools, safety guardrails, and cloud sandbox to help AI agents build, deploy, and operate on Huawei Cloud securely.",
+    "description_zh": "Official Huawei Cloud plugin for AI agents — skills, MCP tools, safety guardrails, and cloud sandbox to help AI agents build, deploy, and operate on Huawei Cloud securely.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "ui"
     ],
     "status": "active",
     "verified": false,
@@ -663,6 +980,23 @@
     "verified": false,
     "stars": 47,
     "license": "GPL-3.0"
+  },
+  {
+    "id": "dsh-im-gateway-2",
+    "name": "dsh-im-gateway",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/zhuiyueya/dsh-im-gateway",
+    "description": "把 dsh agent 接入微信、飞书等 20+ 聊天平台的聚合网关插件 | Aggregate IM gateway for DeepSeek Harness (dsh): connect your agents to WeChat, Feishu, Telegram, Discord & 20+ chat platforms",
+    "description_zh": "把 dsh agent 接入微信、飞书等 20+ 聊天平台的聚合网关插件 | Aggregate IM gateway for DeepSeek Harness (dsh): connect your agents to WeChat, Feishu, Telegram, Discord & 20+ chat platforms",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 47,
+    "license": "MIT"
   },
   {
     "id": "dsh-wsl-workspace",
@@ -780,6 +1114,22 @@
     ]
   },
   {
+    "id": "instant-games-open-mcp",
+    "name": "instant-games-open-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/taptap/instant-games-open-mcp",
+    "description": "TapTap 小游戏开放能力 mcp",
+    "description_zh": "TapTap 小游戏开放能力 mcp",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 34
+  },
+  {
     "id": "agent-team",
     "name": "agent-team",
     "type": "integration",
@@ -841,6 +1191,40 @@
     ]
   },
   {
+    "id": "cnki-mcp",
+    "name": "cnki-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/SepineTam/cnki-mcp",
+    "description": "An MCP server for reach CNKI.",
+    "description_zh": "An MCP server for reach CNKI.",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 32,
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "mnemosyne",
+    "name": "mnemosyne",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/FrankHu-HK/mnemosyne",
+    "description": "Mnemosyne OS 7.0.0 — zero-dependency, local-first AI memory system (MCP / API / CLI / Python). MIT.",
+    "description_zh": "Mnemosyne OS 7.0.0 — zero-dependency, local-first AI memory system (MCP / API / CLI / Python). MIT.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 31
+  },
+  {
     "id": "dsh-lark-link",
     "name": "dsh-lark-link",
     "type": "integration",
@@ -874,6 +1258,23 @@
     "verified": false,
     "stars": 29,
     "license": "Apache-2.0"
+  },
+  {
+    "id": "everything-kiro",
+    "name": "everything-kiro",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/iamaanahmad/everything-kiro",
+    "description": "The complete collection of Kiro IDE configs, agents, skills, hooks, and MCP integrations for maximum productivity.",
+    "description_zh": "The complete collection of Kiro IDE configs, agents, skills, hooks, and MCP integrations for maximum productivity.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 29
   },
   {
     "id": "deepseek-harness-docker-2",
@@ -1172,6 +1573,27 @@
     "stars": 22
   },
   {
+    "id": "aginxbrowser",
+    "name": "aginxbrowser",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/yinnho/aginxbrowser",
+    "description": "The browser built for AI agents — fetch live pages as markdown, render JS/SPAs with built-in V8, take screenshots without Chromium, meta-search 5 engines, and drive interactive login sessions. One Rust binary, stealth TLS fingerprints, MCP native for Claude Code & Cursor. Headless browser alternative to Puppeteer/Playwright.",
+    "description_zh": "The browser built for AI agents — fetch live pages as markdown, render JS/SPAs with built-in V8, take screenshots without Chromium, meta-search 5 engines, and drive interactive login sessions. One Rust binary, stealth TLS fingerprints, MCP native for Claude Code & Cursor. Headless browser alternative to Puppeteer/Playwright.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "mcp",
+      "multi-agent",
+      "search",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 22,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "dsh-pilot",
     "name": "dsh-pilot",
     "type": "integration",
@@ -1196,6 +1618,22 @@
       "deepseek-harness",
       "dsh-plugin"
     ]
+  },
+  {
+    "id": "deepspider",
+    "name": "deepspider",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/ma-pony/deepspider",
+    "description": "AI 原生智能爬虫与 JavaScript 逆向工程平台，基于 DSH、Patchright/CDP 与独立语义运行时，从浏览器证据恢复参数生成逻辑并交付可验证 Solver。 | AI-native web scraping and JavaScript reverse-engineering platform powered by DSH, Patchright/CDP, and an independent semantic runtime—from browser evidence to recovered parameter-generation logic and verifiable Solvers.",
+    "description_zh": "AI 原生智能爬虫与 JavaScript 逆向工程平台，基于 DSH、Patchright/CDP 与独立语义运行时，从浏览器证据恢复参数生成逻辑并交付可验证 Solver。 | AI-native web scraping and JavaScript reverse-engineering platform powered by DSH, Patchright/CDP, and an independent semantic runtime—from browser evidence to recovered parameter-generation logic and verifiable Solvers.",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 20
   },
   {
     "id": "dsh-harness-one",
@@ -1481,6 +1919,23 @@
     "capabilities": [
       "coding",
       "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 15,
+    "license": "MIT"
+  },
+  {
+    "id": "news-agent",
+    "name": "news-agent",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/huawolf/news-agent",
+    "description": "AI-powered personal news aggregator with LLM scoring, Web console, and push notifications to Feishu/Discord.",
+    "description_zh": "AI-powered personal news aggregator with LLM scoring, Web console, and push notifications to Feishu/Discord.",
+    "capabilities": [
+      "coding",
+      "search"
     ],
     "status": "active",
     "verified": false,
@@ -1851,6 +2306,42 @@
     "description_zh": "Guide for development with DeepSeek Harness. Building plugin for DeepSeek Harness Project.",
     "capabilities": [
       "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 13,
+    "license": "MIT"
+  },
+  {
+    "id": "aflare",
+    "name": "aflare",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/alib8b8/aflare",
+    "description": "Local-first automation Agent & deterministic workflow engine — the secure control layer between AI and your data. Data stays local. Connect your own LLM / files / notes / databases via Connector API. ReAct reasoning · DAG/WAL/Saga/idempotent execution · MCP · offline-capable.",
+    "description_zh": "Local-first automation Agent & deterministic workflow engine — the secure control layer between AI and your data. Data stays local. Connect your own LLM / files / notes / databases via Connector API. ReAct reasoning · DAG/WAL/Saga/idempotent execution · MCP · offline-capable.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 13
+  },
+  {
+    "id": "multisim-mcp",
+    "name": "multisim-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/yxy050208/multisim-mcp",
+    "description": "Unofficial MCP server for AI-driven NI Multisim circuit generation, simulation, data export, and reports",
+    "description_zh": "Unofficial MCP server for AI-driven NI Multisim circuit generation, simulation, data export, and reports",
+    "capabilities": [
+      "coding",
+      "mcp",
       "ui"
     ],
     "status": "active",
@@ -2263,6 +2754,25 @@
     "license": "MIT"
   },
   {
+    "id": "vocaloid-mcp",
+    "name": "vocaloid-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/N0zoM1z0/vocaloid-mcp",
+    "description": "An agent-native MCP for composing, tuning, rendering, mixing, and auditing native VOCALOID3/4 projects — built just for fun.",
+    "description_zh": "An agent-native MCP for composing, tuning, rendering, mixing, and auditing native VOCALOID3/4 projects — built just for fun.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-mcp-manager-dup",
     "name": "dsh-mcp-manager",
     "type": "integration",
@@ -2394,6 +2904,25 @@
     "capabilities": [
       "coding",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10,
+    "license": "MIT"
+  },
+  {
+    "id": "clawtouch-mcp",
+    "name": "clawtouch-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/tinqiao-oss/clawtouch-mcp",
+    "description": "ClawTouch MCP server — exposes a real USB-HID keyboard/mouse (Raspberry Pi Pico 2) as Model Context Protocol tools for any LLM agent. MIT.",
+    "description_zh": "ClawTouch MCP server — exposes a real USB-HID keyboard/mouse (Raspberry Pi Pico 2) as Model Context Protocol tools for any LLM agent. MIT.",
+    "capabilities": [
+      "coding",
+      "context",
+      "mcp",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
@@ -2644,6 +3173,43 @@
       "context",
       "mcp",
       "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "ff-toolkit",
+    "name": "ff-toolkit",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/inthepond/ff-toolkit",
+    "description": "FFmpeg toolkit with CLI, MCP server, and AI tool schemas",
+    "description_zh": "FFmpeg toolkit with CLI, MCP server, and AI tool schemas",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
+    "id": "evoflux",
+    "name": "evoflux",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/evoelsewhere/evoflux",
+    "description": "Evoflux is an open-source, local-first workspace where AI agents build software, conduct deep research, automate browser tasks, and collaborate in parallel. Connect any model, keep control of your workspace and data, and take complex work from idea to completion—all in one place.",
+    "description_zh": "Evoflux is an open-source, local-first workspace where AI agents build software, conduct deep research, automate browser tasks, and collaborate in parallel. Connect any model, keep control of your workspace and data, and take complex work from idea to completion—all in one place.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent",
+      "search",
+      "ui"
     ],
     "status": "active",
     "verified": false,
@@ -3027,6 +3593,60 @@
     "license": "Apache-2.0"
   },
   {
+    "id": "papi",
+    "name": "papi",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/getpapi/papi",
+    "description": "Your AI starts every session from zero. Your project stays on course. Structured plan, build and review cycles for any MCP-capable AI coding tool.",
+    "description_zh": "Your AI starts every session from zero. Your project stays on course. Structured plan, build and review cycles for any MCP-capable AI coding tool.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "mcp-server",
+    "name": "mcp-server",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/AtlasCloudAI/mcp-server",
+    "description": "MCP server for Atlas Cloud - AI API aggregation platform for image/video generation and LLM",
+    "description_zh": "MCP server for Atlas Cloud - AI API aggregation platform for image/video generation and LLM",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8
+  },
+  {
+    "id": "querit-plugins",
+    "name": "querit-plugins",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/querit-ai/querit-plugins",
+    "description": "Official Querit integrations for AI agents: real-time, cited web search and page fetch for Pi, DSH, OpenCode, Claude Code, n8n, Zapier, and Browserbase.",
+    "description_zh": "Official Querit integrations for AI agents: real-time, cited web search and page fetch for Pi, DSH, OpenCode, Claude Code, n8n, Zapier, and Browserbase.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8
+  },
+  {
     "id": "telegram",
     "name": "telegram",
     "type": "integration",
@@ -3389,6 +4009,76 @@
     "capabilities": [
       "coding",
       "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "ser2mcp",
+    "name": "ser2mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/woooooooooolf/ser2mcp",
+    "description": "UART serial port MCP server: expose local serial ports to AI assistants as standard MCP tools（串口转 MCP 服务器，以最适合 AI 的方式提供串口读写支持）",
+    "description_zh": "UART serial port MCP server: expose local serial ports to AI assistants as standard MCP tools（串口转 MCP 服务器，以最适合 AI 的方式提供串口读写支持）",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "skill",
+    "name": "skill",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/riffkit/skill",
+    "description": "Official Riffkit skill — riff a winning TikTok into your own short video from your AI agent (Claude Code, Cursor) or the browser. Riff the formula, not the video.",
+    "description_zh": "Official Riffkit skill — riff a winning TikTok into your own short video from your AI agent (Claude Code, Cursor) or the browser. Riff the formula, not the video.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "license": "MIT"
+  },
+  {
+    "id": "molibot",
+    "name": "molibot",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/gusibi/molibot",
+    "description": "A memory-first personal AI Agent that grows with your work.开源、开箱即用的 AI Agent。",
+    "description_zh": "A memory-first personal AI Agent that grows with your work.开源、开箱即用的 AI Agent。",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7
+  },
+  {
+    "id": "mcp-sentinel",
+    "name": "mcp-sentinel",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/GCS-ZHN/mcp-sentinel",
+    "description": "Harness agent plugin that acts as a sentinel between the AI agent and MCP servers — polling long-running tasks so token-costly status loops never enter the LLM inference path",
+    "description_zh": "Harness agent plugin that acts as a sentinel between the AI agent and MCP servers — polling long-running tasks so token-costly status loops never enter the LLM inference path",
+    "capabilities": [
+      "coding",
+      "mcp",
       "multi-agent"
     ],
     "status": "active",
@@ -3994,6 +4684,95 @@
     "description_zh": "DSH(DeepSeek Harness) Web 消息推送插件：多渠道推送(Server酱/PushPlus/Bark/钉钉/企微/Telegram/飞书/Webhook等)，设置界面提供「推送插件」入口，可被其他插件调用(pushNotifier 服务 / /push/api 接口)",
     "capabilities": [
       "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "tuning-engines-cli",
+    "name": "tuning-engines-cli",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/cerebrixos-org/tuning-engines-cli",
+    "description": "CLI & MCP server for Tuning Engines — fine-tune LLMs on code repositories",
+    "description_zh": "CLI & MCP server for Tuning Engines — fine-tune LLMs on code repositories",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "chrome-faithful",
+    "name": "chrome-faithful",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/bpc-oss/chrome-faithful",
+    "description": "Faithful control of your real, logged-in Chrome profiles: MCP server + MV3 extension + authenticated localhost bridge. No copied profiles, no debug profile, no remote-debugging port, no Edge.",
+    "description_zh": "Faithful control of your real, logged-in Chrome profiles: MCP server + MV3 extension + authenticated localhost bridge. No copied profiles, no debug profile, no remote-debugging port, no Edge.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "agent-memory-bridge",
+    "name": "Agent-Memory-Bridge",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/zzhang82/Agent-Memory-Bridge",
+    "description": "Persistent engineering memory for coding agents over MCP.",
+    "description_zh": "Persistent engineering memory for coding agents over MCP.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "memory",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "succinix",
+    "name": "Succinix",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/CJackHwang/Succinix",
+    "description": "Succinix — browser-native Linux (real Node + Unix userland inside WebContainer)",
+    "description_zh": "Succinix — browser-native Linux (real Node + Unix userland inside WebContainer)",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "license": "MIT"
+  },
+  {
+    "id": "browser-mcp",
+    "name": "browser-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/ywleeo/browser-mcp",
+    "description": "Local MCP server for reading and interacting with web pages through real Chrome.",
+    "description_zh": "Local MCP server for reading and interacting with web pages through real Chrome.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "mcp"
     ],
     "status": "active",
     "verified": false,
@@ -4724,6 +5503,58 @@
     "verified": false,
     "stars": 5,
     "license": "MIT"
+  },
+  {
+    "id": "claude-vision-mcp",
+    "name": "claude-vision-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/EDMOK/claude-vision-mcp",
+    "description": "MCP server empowering text-only LLMs with image analysis via any OpenAI-compatible vision API",
+    "description_zh": "MCP server empowering text-only LLMs with image analysis via any OpenAI-compatible vision API",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-messager",
+    "name": "dsh-messager",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/ly6170/dsh-messager",
+    "description": "适用于Deepseek Harness的消息提醒信使，可使用飞书、企业微信、钉钉、Telegram、Discord进行通知推送",
+    "description_zh": "适用于Deepseek Harness的消息提醒信使，可使用飞书、企业微信、钉钉、Telegram、Discord进行通知推送",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "jarvis-index",
+    "name": "jarvis-index",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/jarvis-intelligence/jarvis-index",
+    "description": "Public distribution surface for jarvis — local-first code intelligence MCP server (SCIP navigation + Zoekt search). Installer, Claude Code / Codex / Cursor plugins, and prebuilt binaries.",
+    "description_zh": "Public distribution surface for jarvis — local-first code intelligence MCP server (SCIP navigation + Zoekt search). Installer, Claude Code / Codex / Cursor plugins, and prebuilt binaries.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "search",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
   },
   {
     "id": "picgo-dsh-plugin",
@@ -6204,6 +7035,147 @@
     "capabilities": [
       "coding",
       "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "apaper-plugin",
+    "name": "apaper-plugin",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/ai4paper/apaper-plugin",
+    "description": "Claude Code plugin for academic paper authoring: bundles writing/figure/PDF skills with the apaper-mcp server.",
+    "description_zh": "Claude Code plugin for academic paper authoring: bundles writing/figure/PDF skills with the apaper-mcp server.",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "codegraph",
+    "name": "codegraph",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/JohnXu22786/codegraph",
+    "description": "Code knowledge graph plugin for agent harnesses (dsh): indexes symbols, call sites and imports into SQLite, answers call/dependency questions via CLI or stdio MCP tool server",
+    "description_zh": "Code knowledge graph plugin for agent harnesses (dsh): indexes symbols, call sites and imports into SQLite, answers call/dependency questions via CLI or stdio MCP tool server",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "ybkk-aios",
+    "name": "ybkk-AIOS",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/01men/ybkk-AIOS",
+    "description": "榕器 · 企业 AI 资源统一管理平台 —— dsh/cordis 插件化（IAM/OIDC/MCP/Skill 市场/Agent/审计/用量计量/模型网关/流程编排），私有化年费 + 治理包，对外只呈现用量透明与内部成本穿透",
+    "description_zh": "榕器 · 企业 AI 资源统一管理平台 —— dsh/cordis 插件化（IAM/OIDC/MCP/Skill 市场/Agent/审计/用量计量/模型网关/流程编排），私有化年费 + 治理包，对外只呈现用量透明与内部成本穿透",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "aifp-mcp",
+    "name": "aifp-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/wjabanjj/aifp-mcp",
+    "description": "AiFP 记忆感知系统｜MCP 服务，一套记忆全 AI 共享。面向中文的 Agent 感知记忆，支持叙事链、语义纠错、感知链图扩散。兼容 DeepSeek‑Harness、Claude Code、Cursor、Codex等全部 MCP 客户端，数据完全本地存储。",
+    "description_zh": "AiFP 记忆感知系统｜MCP 服务，一套记忆全 AI 共享。面向中文的 Agent 感知记忆，支持叙事链、语义纠错、感知链图扩散。兼容 DeepSeek‑Harness、Claude Code、Cursor、Codex等全部 MCP 客户端，数据完全本地存储。",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "wxpilot",
+    "name": "wxpilot",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/wuliLiuyue/wxpilot",
+    "description": "wxpilot — A CLI for automating WeChat Mini Programs, built for AI Agents. Lets an Agent drive the WeChat DevTools like a browser — page navigation, element interaction, state reading, network capture & mocking.  面向 AI Agent 的微信小程序自动化 CLI 让 Agent 像操作浏览器一样操作微信开发者工具——页面导航、元素交互、状态读取、网络抓包与 mock。",
+    "description_zh": "wxpilot — A CLI for automating WeChat Mini Programs, built for AI Agents. Lets an Agent drive the WeChat DevTools like a browser — page navigation, element interaction, state reading, network capture & mocking.  面向 AI Agent 的微信小程序自动化 CLI 让 Agent 像操作浏览器一样操作微信开发者工具——页面导航、元素交互、状态读取、网络抓包与 mock。",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "ast-mcp-server",
+    "name": "ast-mcp-server",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/yailPeralta/ast-mcp-server",
+    "description": "Correctness-oriented MCP server and batch CLI for compact structural reads and reviewed TypeScript/JavaScript edits.",
+    "description_zh": "Correctness-oriented MCP server and batch CLI for compact structural reads and reviewed TypeScript/JavaScript edits.",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "ISC"
+  },
+  {
+    "id": "dsh-message-gateway",
+    "name": "dsh-message-gateway",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/a792883583/dsh-message-gateway",
+    "description": "Universal message-platform gateway for the DSH web GUI: WeCom AI bot / Telegram / Discord / QQ / Email bridges with per-chat sessions, streaming replies, and auto context compression",
+    "description_zh": "Universal message-platform gateway for the DSH web GUI: WeCom AI bot / Telegram / Discord / QQ / Email bridges with per-chat sessions, streaming replies, and auto context compression",
+    "capabilities": [
+      "coding",
+      "context",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "plaindeck",
+    "name": "PlainDeck",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/Mappedinfo/PlainDeck",
+    "description": "Local-first, Git-native visual slide editor with plain JSON sources.",
+    "description_zh": "Local-first, Git-native visual slide editor with plain JSON sources.",
+    "capabilities": [
+      "coding",
+      "git"
     ],
     "status": "active",
     "verified": false,
@@ -8406,6 +9378,112 @@
     "verified": false,
     "stars": 3,
     "license": "Apache-2.0"
+  },
+  {
+    "id": "hermes-to-dsh",
+    "name": "Hermes-to-DSH",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/beimianism/Hermes-to-DSH",
+    "description": "浏览本机 Hermes 的 技能 / MCP 服务 / 对话历史,并把选中的技能与 MCP 配置注入到当前 agent。",
+    "description_zh": "浏览本机 Hermes 的 技能 / MCP 服务 / 对话历史,并把选中的技能与 MCP 配置注入到当前 agent。",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "goal-acceptance",
+    "name": "goal-acceptance",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/cckyros/goal-acceptance",
+    "description": "Acceptance-criteria-driven goal completion for autonomous agents — core library, MCP server, and Cordis plugin",
+    "description_zh": "Acceptance-criteria-driven goal completion for autonomous agents — core library, MCP server, and Cordis plugin",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-discord",
+    "name": "dsh-discord",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/addozhang/dsh-discord",
+    "description": "Discord-first adapter for DeepSeek Harness — sessions, streaming, approvals and controls from a Discord guild.",
+    "description_zh": "Discord-first adapter for DeepSeek Harness — sessions, streaming, approvals and controls from a Discord guild.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "agent-dag-workflow",
+    "name": "agent-dag-workflow",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/GM-HZ/agent-dag-workflow",
+    "description": "Host-neutral durable DAG workflows for Agents: CLI-native access, fixed MCP gateway, on-demand Skills, triggers, replay, and visual Canvas.",
+    "description_zh": "Host-neutral durable DAG workflows for Agents: CLI-native access, fixed MCP gateway, on-demand Skills, triggers, replay, and visual Canvas.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "roblox-devforum-mcp",
+    "name": "roblox-devforum-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/EL4CTEO/roblox-devforum-mcp",
+    "description": "Give your AI coding agent the Roblox DevForum and official creator docs — check if a bug is already known, read the accepted answer, and verify APIs before writing Luau.",
+    "description_zh": "Give your AI coding agent the Roblox DevForum and official creator docs — check if a bug is already known, read the accepted answer, and verify APIs before writing Luau.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "personal-mcp",
+    "name": "Personal_MCP",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/BingoAgentTouch/Personal_MCP",
+    "description": "这是一个用来存放个人搭建的MCP服务的仓库",
+    "description_zh": "这是一个用来存放个人搭建的MCP服务的仓库",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "AGPL-3.0"
   },
   {
     "id": "dsh-github-integration",

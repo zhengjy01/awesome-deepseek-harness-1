@@ -1,5 +1,25 @@
 [
   {
+    "id": "agent-vision-toolkit",
+    "name": "agent-vision-toolkit",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/Anionex/agent-vision-toolkit",
+    "description": "为纯文本模型\"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode",
+    "description_zh": "为纯文本模型\"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "multimodal",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1202,
+    "license": "MIT"
+  },
+  {
     "id": "tongflow",
     "name": "tongflow",
     "type": "workflow",
@@ -21,6 +41,24 @@
     "growth": 16
   },
   {
+    "id": "wegent",
+    "name": "Wegent",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/wecode-ai/Wegent",
+    "description": "Plan, build, and deliver with an open-source, self-hostable AI workspace for coding, collaboration, and automation.",
+    "description_zh": "Plan, build, and deliver with an open-source, self-hostable AI workspace for coding, collaboration, and automation.",
+    "capabilities": [
+      "coding",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 848,
+    "license": "Apache-2.0"
+  },
+  {
     "id": "dsh-agent-team-gui",
     "name": "dsh-agent-team-gui",
     "type": "workflow",
@@ -36,6 +74,24 @@
     "status": "active",
     "verified": false,
     "stars": 159
+  },
+  {
+    "id": "odai",
+    "name": "odai",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/orziz/odai",
+    "description": "AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付。Governance framework for evidence-driven planning, orchestration, and verified delivery.",
+    "description_zh": "AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付。Governance framework for evidence-driven planning, orchestration, and verified delivery.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 111,
+    "license": "MIT"
   },
   {
     "id": "dsh-workflow-dup",
@@ -93,6 +149,23 @@
     "status": "active",
     "verified": false,
     "stars": 89
+  },
+  {
+    "id": "prismflowagent",
+    "name": "PrismFlowAgent",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/justlovemaki/PrismFlowAgent",
+    "description": "全栈资讯处理与 AI Agent 系统。它能够自动化地从全球多源渠道抓取高质量资讯，利用顶级大语言模型进行深度总结，并将其分发至多种终端",
+    "description_zh": "全栈资讯处理与 AI Agent 系统。它能够自动化地从全球多源渠道抓取高质量资讯，利用顶级大语言模型进行深度总结，并将其分发至多种终端",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 88,
+    "license": "GPL-3.0"
   },
   {
     "id": "dsh-plugin-agent-workflow",
@@ -262,6 +335,23 @@
     "growth": 1
   },
   {
+    "id": "deep-read-summarize",
+    "name": "deep-read-summarize",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/PensiveFei/deep-read-summarize",
+    "description": "Deep reading & summarization workflow for books/papers/videos/web — plugin parsers, MapReduce deep-read, JSON Schema output, Obsidian-ready (DSH)",
+    "description_zh": "Deep reading & summarization workflow for books/papers/videos/web — plugin parsers, MapReduce deep-read, JSON Schema output, Obsidian-ready (DSH)",
+    "capabilities": [
+      "coding",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 28,
+    "license": "MIT"
+  },
+  {
     "id": "blender",
     "name": "blender",
     "type": "workflow",
@@ -295,6 +385,25 @@
     "verified": false,
     "stars": 26,
     "license": "MIT"
+  },
+  {
+    "id": "grove",
+    "name": "grove",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/alxshelepenok/grove",
+    "description": "A formal workflow protocol that keeps AI coding agents on track through machine-enforced invariants, verified evidence, and structured context. Designed to keep deep, long-running projects coherent across sessions, agents, and months.",
+    "description_zh": "A formal workflow protocol that keeps AI coding agents on track through machine-enforced invariants, verified evidence, and structured context. Designed to keep deep, long-running projects coherent across sessions, agents, and months.",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 23,
+    "license": "AGPL-3.0"
   },
   {
     "id": "oh-my-knowledge",
@@ -465,6 +574,24 @@
     "repository": "https://github.com/KCNyu/clawock",
     "description": "AI argues. Code settles. The losses stay on the page. A real HK + US brokerage account run by agents that must debate every call, settled by code the model never touches. Install the same decision workflow into your own agent: OpenClaw, Claude Code, Codex, or DeepSeek Harness.",
     "description_zh": "AI argues. Code settles. The losses stay on the page. A real HK + US brokerage account run by agents that must debate every call, settled by code the model never touches. Install the same decision workflow into your own agent: OpenClaw, Claude Code, Codex, or DeepSeek Harness.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "license": "MIT"
+  },
+  {
+    "id": "cobsidian",
+    "name": "Cobsidian",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/Totoro-qaq/Cobsidian",
+    "description": "Agent-agnostic workflow skill for maintaining Obsidian knowledge bases",
+    "description_zh": "Agent-agnostic workflow skill for maintaining Obsidian knowledge bases",
     "capabilities": [
       "coding",
       "multi-agent",
@@ -695,6 +822,25 @@
     "license": "MIT"
   },
   {
+    "id": "shidi-skill",
+    "name": "shidi-skill",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/IcyCreamDAS/shidi-skill",
+    "description": "AI4S 科研 Agent 技能 | AI-for-Science research workflow skill for coding agents: literature review · experiment design · figures · paper reading — files out, cross-verified, zero deps | 文献调研/实验方案/作图/精读，交付文件+交叉验证，零依赖，MIT",
+    "description_zh": "AI4S 科研 Agent 技能 | AI-for-Science research workflow skill for coding agents: literature review · experiment design · figures · paper reading — files out, cross-verified, zero deps | 文献调研/实验方案/作图/精读，交付文件+交叉验证，零依赖，MIT",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "search",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9,
+    "license": "MIT"
+  },
+  {
     "id": "deepseek-harness-for-vs-code-1",
     "name": "deepseek-harness-for-vs-code",
     "type": "workflow",
@@ -803,6 +949,22 @@
     "capabilities": [
       "coding",
       "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "license": "MIT"
+  },
+  {
+    "id": "probhub-skill",
+    "name": "ProbHub-skill",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/greenthree/ProbHub-skill",
+    "description": "算法竞赛出题自动化skill（个人出题习惯），支持完善题面、构造数据、组卷用typ编译pdf和生成domjudge题目包",
+    "description_zh": "算法竞赛出题自动化skill（个人出题习惯），支持完善题面、构造数据、组卷用typ编译pdf和生成domjudge题目包",
+    "capabilities": [
+      "coding"
     ],
     "status": "active",
     "verified": false,
@@ -1358,6 +1520,40 @@
     "license": "MIT"
   },
   {
+    "id": "grill-me-sleek",
+    "name": "grill-me-sleek",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/jukanntenn/grill-me-sleek",
+    "description": "Stress-test your plan before vibe coding. The AI asks you questions to build a shared understanding — you answer in a sleek web UI.",
+    "description_zh": "Stress-test your plan before vibe coding. The AI asks you questions to build a shared understanding — you answer in a sleek web UI.",
+    "capabilities": [
+      "coding",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "license": "MIT"
+  },
+  {
+    "id": "recowork",
+    "name": "recowork",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/recoluan/recowork",
+    "description": "Give your AI a workflow.",
+    "description_zh": "Give your AI a workflow.",
+    "capabilities": [
+      "coding",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
     "id": "dsh-prime-agent",
     "name": "dsh-prime-agent",
     "type": "workflow",
@@ -1777,6 +1973,43 @@
     "status": "active",
     "verified": false,
     "stars": 4
+  },
+  {
+    "id": "specworkflow",
+    "name": "SpecWorkflow",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/MoonCoder-HAPPY/SpecWorkflow",
+    "description": "Workflow skill pack for DSH: requirements, specs, implementation, review, repair, bugs, and research",
+    "description_zh": "Workflow skill pack for DSH: requirements, specs, implementation, review, repair, bugs, and research",
+    "capabilities": [
+      "coding",
+      "search",
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
+    "id": "get-fable",
+    "name": "get-fable",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/imMamdouhaboammar/get-fable",
+    "description": "Make the model you already use work more like a frontier model with better planning, persistent context, skills, hooks, failure handling, and verification",
+    "description_zh": "Make the model you already use work more like a frontier model with better planning, persistent context, skills, hooks, failure handling, and verification",
+    "capabilities": [
+      "coding",
+      "context",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
   },
   {
     "id": "dsh-agent-orchestration",
@@ -2371,6 +2604,90 @@
     "status": "active",
     "verified": false,
     "stars": 3
+  },
+  {
+    "id": "paper-plane-x",
+    "name": "paper_plane_x",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/WindLX/paper_plane_x",
+    "description": "Paper Plane X 是一个面向科研阅读、论文处理和综述写作的本地优先工作台。它把 PDF 解析、结构化论文抽取、事实核查、项目文件、文献检索和外部 Agent 工具串成一条可复用的研究流水线。",
+    "description_zh": "Paper Plane X 是一个面向科研阅读、论文处理和综述写作的本地优先工作台。它把 PDF 解析、结构化论文抽取、事实核查、项目文件、文献检索和外部 Agent 工具串成一条可复用的研究流水线。",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "dr-agent-skills",
+    "name": "dr-agent-skills",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/Leeaoyin/dr-agent-skills",
+    "description": "Structured, reusable skill modules for AI coding agents — covering engineering workflows, reliability evaluation, and production readiness.",
+    "description_zh": "Structured, reusable skill modules for AI coding agents — covering engineering workflows, reliability evaluation, and production readiness.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "auto-pwa",
+    "name": "auto-pwa",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/BHXiang/auto-pwa",
+    "description": "AI驱动的分波分析自动化。",
+    "description_zh": "AI驱动的分波分析自动化。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "owndsh",
+    "name": "owndsh",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/boe1900/owndsh",
+    "description": "The Self-Hosted Control Plane for DeepSeek-Harness",
+    "description_zh": "The Self-Hosted Control Plane for DeepSeek-Harness",
+    "capabilities": [
+      "coding",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "offpeak",
+    "name": "OffPeak",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/christophersmith2737-commits/OffPeak",
+    "description": "针对 DeepSeek V4‑Flash / V4‑Pro 高峰涨价时段的成本管控 Agent 插件。高峰时段自动弹窗提醒计费上涨，支持立即执行 / 定时调度，定时面板自动屏蔽高价时段，自动过滤已过期时间，到达预约时间自动重放用户指令，规避跨时段涨价损耗。",
+    "description_zh": "针对 DeepSeek V4‑Flash / V4‑Pro 高峰涨价时段的成本管控 Agent 插件。高峰时段自动弹窗提醒计费上涨，支持立即执行 / 定时调度，定时面板自动屏蔽高价时段，自动过滤已过期时间，到达预约时间自动重放用户指令，规避跨时段涨价损耗。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
   },
   {
     "id": "dsh-plugin-verified-search",

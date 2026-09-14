@@ -220,6 +220,24 @@
     "license": "Apache-2.0"
   },
   {
+    "id": "awesome-ai-pedia",
+    "name": "Awesome-AI-Pedia",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia",
+    "description": "AI skills大全 mcp ai知识库 Agent 全维度 AI 资源百科，DSH插件 收录大模型、智能 Agent、RAG 检索增强、多模态、MLOps、AI 应用工具、AI面试集、Vibe coding 大全、零基础学习路线，持续更新前沿 AI 开源项目，开发者一站式 AI 导航库",
+    "description_zh": "AI skills大全 mcp ai知识库 Agent 全维度 AI 资源百科，DSH插件 收录大模型、智能 Agent、RAG 检索增强、多模态、MLOps、AI 应用工具、AI面试集、Vibe coding 大全、零基础学习路线，持续更新前沿 AI 开源项目，开发者一站式 AI 导航库",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 373,
+    "license": "MIT"
+  },
+  {
     "id": "awesome-dsh-plugin-bruc3van-1",
     "name": "awesome-dsh-plugin (bruc3van)",
     "type": "awesome-list",
@@ -297,6 +315,23 @@
     "growth": 7
   },
   {
+    "id": "marketingdashboard",
+    "name": "marketingdashboard",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/theBigGavin/marketingdashboard",
+    "description": "面向金融与产业研究的一屏式实时行情大屏：A股/港股/美股指数、大宗商品、美债收益率、板块热点、主力资金流、7×24 快讯、产业链自选股、AI 大模型 Token 追踪。A real-time market research cockpit on a single screen: CN/HK/US indices, commodities, treasury yields, sector hotspots, capital flows, 7×24 news, industry-chain watchlists and AI token usage trends.",
+    "description_zh": "面向金融与产业研究的一屏式实时行情大屏：A股/港股/美股指数、大宗商品、美债收益率、板块热点、主力资金流、7×24 快讯、产业链自选股、AI 大模型 Token 追踪。A real-time market research cockpit on a single screen: CN/HK/US indices, commodities, treasury yields, sector hotspots, capital flows, 7×24 news, industry-chain watchlists and AI token usage trends.",
+    "capabilities": [
+      "coding",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 171,
+    "license": "MIT"
+  },
+  {
     "id": "notes",
     "name": "notes (zhaoolee)",
     "type": "awesome-list",
@@ -368,6 +403,23 @@
     "status": "active",
     "verified": false,
     "stars": 105
+  },
+  {
+    "id": "ru-marketplace-mcp",
+    "name": "ru-marketplace-mcp",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
+    "description": "Одиннадцать маркетплейсов и недвижимость Циан как MCP-серверы: Wildberries, Ozon, Яндекс Маркет, Детский мир, Авито, AliExpress, Taobao, Мегамаркет, Lamoda, DNS, Ситилинк, Циан. Плюс сравнение цен по всем товарным источникам одним вызовом. Только чтение, ключи не нужны.",
+    "description_zh": "Одиннадцать маркетплейсов и недвижимость Циан как MCP-серверы: Wildberries, Ozon, Яндекс Маркет, Детский мир, Авито, AliExpress, Taobao, Мегамаркет, Lamoda, DNS, Ситилинк, Циан. Плюс сравнение цен по всем товарным источникам одним вызовом. Только чтение, ключи не нужны.",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 100,
+    "license": "MIT"
   },
   {
     "id": "awesome-dsh-plugin-beancookie-1",
@@ -445,6 +497,25 @@
     "_updated": "2026-08-21",
     "_stars_prev": 66,
     "growth": 2
+  },
+  {
+    "id": "agent-context-editor",
+    "name": "agent-context-editor",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/jermaine123123/agent-context-editor",
+    "description": "Cross-agent plugin for manually excluding and editing AI conversation context, with search, filtering, hide/restore, undo, and original Session preservation.",
+    "description_zh": "Cross-agent plugin for manually excluding and editing AI conversation context, with search, filtering, hide/restore, undo, and original Session preservation.",
+    "capabilities": [
+      "coding",
+      "context",
+      "multi-agent",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 61,
+    "license": "MIT"
   },
   {
     "id": "dsh-meow-memory",
@@ -655,6 +726,23 @@
       "dsh-plugin",
       "edit"
     ]
+  },
+  {
+    "id": "marketing-mindset",
+    "name": "marketing-mindset",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/axelfreeman/marketing-mindset",
+    "description": "The marketing OS for AI agents — think like a marketer first, get tactics as the output.",
+    "description_zh": "The marketing OS for AI agents — think like a marketer first, get tactics as the output.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 36,
+    "license": "MIT"
   },
   {
     "id": "awesome-deepseek-harness-plugins-web-casa-1",
@@ -882,6 +970,24 @@
     "license": "MIT"
   },
   {
+    "id": "awesome-security-agent-harnesses",
+    "name": "awesome-security-agent-harnesses",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Ed-Marcavage/awesome-security-agent-harnesses",
+    "description": "AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxes, security MCP servers, benchmarks, and evals.",
+    "description_zh": "AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxes, security MCP servers, benchmarks, and evals.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 20,
+    "license": "CC0-1.0"
+  },
+  {
     "id": "dsh-archived-chats",
     "name": "dsh-archived-chats",
     "type": "awesome-list",
@@ -926,6 +1032,22 @@
     "_updated": "2026-08-21",
     "_stars_prev": 16,
     "growth": 1
+  },
+  {
+    "id": "stock-analysis-plugin",
+    "name": "stock-analysis-plugin",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Weaxs/stock-analysis-plugin",
+    "description": "Multi-market stock analysis, screening & backtesting plugin for AI agents — 39 tools + 20 strategy skills across A/HK/US/JP/KR/TW markets, works with Pi Agent, Hermes, OpenClaw & dsh",
+    "description_zh": "Multi-market stock analysis, screening & backtesting plugin for AI agents — 39 tools + 20 strategy skills across A/HK/US/JP/KR/TW markets, works with Pi Agent, Hermes, OpenClaw & dsh",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17
   },
   {
     "id": "dsh-plugin-hub-bf2",
@@ -2485,6 +2607,24 @@
     "stars": 4
   },
   {
+    "id": "ariaagent",
+    "name": "AriaAgent",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/dqsjqian/AriaAgent",
+    "description": "Industrial-grade C++20 Agent Tooling Framework GUI — provider-agnostic LLM agent with true SSE streaming, tool registry, approval gate. Built on Aria (C++20 MVVM).",
+    "description_zh": "Industrial-grade C++20 Agent Tooling Framework GUI — provider-agnostic LLM agent with true SSE streaming, tool registry, approval gate. Built on Aria (C++20 MVVM).",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-plugins-lwmxiaobei-1",
     "name": "dsh-plugins",
     "type": "awesome-list",
@@ -3249,6 +3389,24 @@
     "capabilities": [
       "coding",
       "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "license": "MIT"
+  },
+  {
+    "id": "bigplan",
+    "name": "BigPlan",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/kobenfang/BigPlan",
+    "description": "📋 BigPlan AI产品调研 - 市场/技术/供应链分析，三套产品规格方案 | Product research, market analysis",
+    "description_zh": "📋 BigPlan AI产品调研 - 市场/技术/供应链分析，三套产品规格方案 | Product research, market analysis",
+    "capabilities": [
+      "coding",
+      "search",
+      "workflow"
     ],
     "status": "active",
     "verified": false,
